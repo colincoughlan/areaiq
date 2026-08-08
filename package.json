@@ -1,0 +1,39 @@
+{
+  "name": "areaiq",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ingest:acs": "tsx scripts/ingest-acs.ts",
+    "ingest:permits": "tsx scripts/ingest-permits.ts",
+    "ingest:schools": "tsx scripts/ingest-schools.ts",
+    "ingest:amenities": "tsx scripts/ingest-amenities.ts",
+    "build:regions": "tsx scripts/build-regions.ts",
+    "ingest:regions": "tsx scripts/ingest-regions-data.ts",
+    "ingest:outcomes": "tsx scripts/ingest-school-outcomes.ts",
+    "ingest:market": "tsx scripts/ingest-market.ts",
+    "ingest:trends": "tsx scripts/ingest-trends.ts"
+  },
+  "dependencies": {
+    "mapbox-gl": "^3.5.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
+  }
+}

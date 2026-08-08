@@ -1,0 +1,534 @@
+{
+  "generatedAt": "2026-08-07",
+  "areas": {
+    "highland-park": {
+      "source": "© OpenStreetMap contributors (Overpass API)",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "summary": {
+        "park": {
+          "count": 30,
+          "examples": [
+            {
+              "name": "Highland Park Recreation Center",
+              "distanceMiles": 0.3
+            },
+            {
+              "name": "Tierra de la Culebra Park",
+              "distanceMiles": 0.3
+            },
+            {
+              "name": "Arroyo Seco Park",
+              "distanceMiles": 0.5
+            }
+          ]
+        },
+        "library": {
+          "count": 5,
+          "examples": [
+            {
+              "name": "Arroyo Seco Regional Branch Los Angeles Public Library",
+              "distanceMiles": 0.4
+            },
+            {
+              "name": "Braun Research Library",
+              "distanceMiles": 1.1
+            },
+            {
+              "name": "Mary Norton Clapp Library",
+              "distanceMiles": 1.5
+            }
+          ]
+        },
+        "food": {
+          "count": 111,
+          "examples": [
+            {
+              "name": "Mason's Dumpling Shop",
+              "distanceMiles": 0
+            },
+            {
+              "name": "For the Win",
+              "distanceMiles": 0
+            },
+            {
+              "name": "Subway",
+              "distanceMiles": 0
+            }
+          ]
+        },
+        "pharmacy": {
+          "count": 2,
+          "examples": [
+            {
+              "name": "Rite Aid",
+              "distanceMiles": 0.6
+            },
+            {
+              "name": "CVS Pharmacy",
+              "distanceMiles": 1.8
+            }
+          ]
+        },
+        "grocery": {
+          "count": 14,
+          "examples": [
+            {
+              "name": "Cookbook",
+              "distanceMiles": 0.1
+            },
+            {
+              "name": "Smart & Final",
+              "distanceMiles": 0.3
+            },
+            {
+              "name": "Grocery Outlet",
+              "distanceMiles": 0.3
+            }
+          ]
+        },
+        "transit": {
+          "count": 4,
+          "examples": [
+            {
+              "name": "Highland Park",
+              "distanceMiles": 0
+            },
+            {
+              "name": "Southwest Museum",
+              "distanceMiles": 1.2
+            },
+            {
+              "name": "Rose Hill Transit Center",
+              "distanceMiles": 1.7
+            }
+          ]
+        },
+        "fitness": {
+          "count": 6,
+          "examples": [
+            {
+              "name": "Body Dada",
+              "distanceMiles": 0.1
+            },
+            {
+              "name": "Highland Park Crossfit",
+              "distanceMiles": 0.1
+            },
+            {
+              "name": "Kinship Yoga",
+              "distanceMiles": 0.2
+            }
+          ]
+        },
+        "healthcare": {
+          "count": 3,
+          "examples": [
+            {
+              "name": "Comprehensive Community Health Centers",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Emmons Wellness Center",
+              "distanceMiles": 1.5
+            },
+            {
+              "name": "Urgent Care",
+              "distanceMiles": 1.9
+            }
+          ]
+        }
+      }
+    },
+    "eastvale": {
+      "source": "© OpenStreetMap contributors (Overpass API)",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "summary": {
+        "park": {
+          "count": 49,
+          "examples": [
+            {
+              "name": "Harada Heritage Park",
+              "distanceMiles": 0.4
+            },
+            {
+              "name": "Moon River Park",
+              "distanceMiles": 0.5
+            },
+            {
+              "name": "Delaware Greenbelt",
+              "distanceMiles": 0.6
+            }
+          ]
+        },
+        "library": {
+          "count": 1,
+          "examples": [
+            {
+              "name": "Norco Branch Riverside City and County Public Library",
+              "distanceMiles": 1.7
+            }
+          ]
+        },
+        "food": {
+          "count": 51,
+          "examples": [
+            {
+              "name": "Pizza Nora",
+              "distanceMiles": 0.3
+            },
+            {
+              "name": "Heroes Restaurant & Brewhouse - Eastvale",
+              "distanceMiles": 0.6
+            },
+            {
+              "name": "Starbucks",
+              "distanceMiles": 0.6
+            }
+          ]
+        },
+        "grocery": {
+          "count": 8,
+          "examples": [
+            {
+              "name": "Ralphs",
+              "distanceMiles": 0.8
+            },
+            {
+              "name": "Vons",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Smart & Final Extra!",
+              "distanceMiles": 1.1
+            }
+          ]
+        },
+        "pharmacy": {
+          "count": 3,
+          "examples": [
+            {
+              "name": "Albertsons",
+              "distanceMiles": 1.6
+            },
+            {
+              "name": "CVS Pharmacy",
+              "distanceMiles": 1.7
+            },
+            {
+              "name": "Rite Aid",
+              "distanceMiles": 1.8
+            }
+          ]
+        },
+        "healthcare": {
+          "count": 4,
+          "examples": [
+            {
+              "name": "Care for Womens Medical Group - Eastvale",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Cucamonga Valley Medical Group - Eastvale",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Eastvale Urgent Care",
+              "distanceMiles": 1
+            }
+          ]
+        },
+        "childcare": {
+          "count": 1,
+          "examples": [
+            {
+              "name": "Little Steps Montessori Preschool",
+              "distanceMiles": 1.6
+            }
+          ]
+        },
+        "fitness": {
+          "count": 1,
+          "examples": [
+            {
+              "name": "Fitness 19",
+              "distanceMiles": 1.1
+            }
+          ]
+        }
+      }
+    },
+    "fontana-southridge": {
+      "source": "© OpenStreetMap contributors (Overpass API)",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "summary": {
+        "food": {
+          "count": 80,
+          "examples": [
+            {
+              "name": "Freddy's",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Reino 44",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Bakers Drive Thru",
+              "distanceMiles": 1.1
+            }
+          ]
+        },
+        "healthcare": {
+          "count": 6,
+          "examples": [
+            {
+              "name": "Metropolitan Industrial Medical Clinic",
+              "distanceMiles": 1.2
+            },
+            {
+              "name": "Kaiser Fontana Medical Offices 7",
+              "distanceMiles": 1.9
+            },
+            {
+              "name": "Kaiser Permanente Palm Court 2",
+              "distanceMiles": 2
+            }
+          ]
+        },
+        "library": {
+          "count": 1,
+          "examples": [
+            {
+              "name": "Kaiser Branch Library",
+              "distanceMiles": 1.8
+            }
+          ]
+        },
+        "transit": {
+          "count": 3,
+          "examples": [
+            {
+              "name": "Fontana - El Corre Caminos",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Fontana- Futuranet;Fontana - Tufesa;Fontana Agency- Limousine Express",
+              "distanceMiles": 1.7
+            },
+            {
+              "name": "Santiago Express - Fontana",
+              "distanceMiles": 1.7
+            }
+          ]
+        },
+        "pharmacy": {
+          "count": 1,
+          "examples": [
+            {
+              "name": "Pharmacy - Surgical Services",
+              "distanceMiles": 2
+            }
+          ]
+        },
+        "park": {
+          "count": 12,
+          "examples": [
+            {
+              "name": "Catawba Park",
+              "distanceMiles": 0.8
+            },
+            {
+              "name": "Village Park",
+              "distanceMiles": 1
+            },
+            {
+              "name": "South Fontana Sports Park",
+              "distanceMiles": 1.1
+            }
+          ]
+        },
+        "fitness": {
+          "count": 2,
+          "examples": [
+            {
+              "name": "24 Hour Fitness",
+              "distanceMiles": 1.9
+            }
+          ]
+        },
+        "grocery": {
+          "count": 7,
+          "examples": [
+            {
+              "name": "Cardenas",
+              "distanceMiles": 1.6
+            },
+            {
+              "name": "Stater Bros. Markets",
+              "distanceMiles": 1.7
+            },
+            {
+              "name": "Cardenas",
+              "distanceMiles": 1.7
+            }
+          ]
+        }
+      }
+    },
+    "claremont": {
+      "source": "© OpenStreetMap contributors (Overpass API)",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "summary": {
+        "food": {
+          "count": 140,
+          "examples": [
+            {
+              "name": "Walter's",
+              "distanceMiles": 0.1
+            },
+            {
+              "name": "Pizza 'N' Such",
+              "distanceMiles": 0.1
+            },
+            {
+              "name": "Tocaja",
+              "distanceMiles": 0.1
+            }
+          ]
+        },
+        "transit": {
+          "count": 9,
+          "examples": [
+            {
+              "name": "Claremont",
+              "distanceMiles": 0.3
+            },
+            {
+              "name": "Claremont",
+              "distanceMiles": 0.3
+            },
+            {
+              "name": "Claremont Transit Center",
+              "distanceMiles": 0.4
+            }
+          ]
+        },
+        "fitness": {
+          "count": 10,
+          "examples": [
+            {
+              "name": "Fitness 19",
+              "distanceMiles": 0.5
+            },
+            {
+              "name": "Blossoming Lotus",
+              "distanceMiles": 0.8
+            },
+            {
+              "name": "One Gen",
+              "distanceMiles": 0.8
+            }
+          ]
+        },
+        "pharmacy": {
+          "count": 4,
+          "examples": [
+            {
+              "name": "Claremont Pharmacy",
+              "distanceMiles": 0.5
+            },
+            {
+              "name": "Walgreens",
+              "distanceMiles": 1.2
+            },
+            {
+              "name": "CVS Pharmacy",
+              "distanceMiles": 1.3
+            }
+          ]
+        },
+        "healthcare": {
+          "count": 10,
+          "examples": [
+            {
+              "name": "Foothills Infectious Disease Medical Group",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Claremont Medical Center",
+              "distanceMiles": 1.1
+            },
+            {
+              "name": "Casa Colina",
+              "distanceMiles": 1.5
+            }
+          ]
+        },
+        "grocery": {
+          "count": 7,
+          "examples": [
+            {
+              "name": "Trader Joe's",
+              "distanceMiles": 0.7
+            },
+            {
+              "name": "Sprouts Farmers Market",
+              "distanceMiles": 1
+            },
+            {
+              "name": "Stater Bros.",
+              "distanceMiles": 1.2
+            }
+          ]
+        },
+        "park": {
+          "count": 27,
+          "examples": [
+            {
+              "name": "Mallows Park",
+              "distanceMiles": 0.2
+            },
+            {
+              "name": "Shelton Park",
+              "distanceMiles": 0.2
+            },
+            {
+              "name": "Stanley Quad",
+              "distanceMiles": 0.3
+            }
+          ]
+        },
+        "library": {
+          "count": 5,
+          "examples": [
+            {
+              "name": "Claremont Helen Renwick Library",
+              "distanceMiles": 0.2
+            },
+            {
+              "name": "Honnold Library",
+              "distanceMiles": 0.6
+            },
+            {
+              "name": "Mudd Library",
+              "distanceMiles": 0.6
+            }
+          ]
+        },
+        "childcare": {
+          "count": 1,
+          "examples": [
+            {
+              "name": "Kiddie Academy",
+              "distanceMiles": 1.1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

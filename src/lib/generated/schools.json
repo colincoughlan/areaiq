@@ -1,0 +1,417 @@
+{
+  "generatedAt": "2026-08-07",
+  "areas": {
+    "highland-park": {
+      "source": "CA Dept. of Education school directory",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "schools": [
+        {
+          "cdsCode": "19647330101618",
+          "name": "Richard Riordan Primary Center",
+          "district": "Los Angeles Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-5",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.3,
+          "lat": 34.110779,
+          "lng": -118.19645
+        },
+        {
+          "cdsCode": "19647336018212",
+          "name": "Monte Vista Street Elementary",
+          "district": "Los Angeles Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-5",
+          "charter": false,
+          "magnet": true,
+          "distanceMiles": 0.4,
+          "lat": 34.110018,
+          "lng": -118.19813
+        },
+        {
+          "cdsCode": "19647331933043",
+          "name": "Benjamin Franklin Senior High",
+          "district": "Los Angeles Unified",
+          "socType": "K-12 Schools",
+          "grades": "6-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.5,
+          "lat": 34.115417,
+          "lng": -118.19906
+        },
+        {
+          "cdsCode": "19647336016216",
+          "name": "Bushnell Way Elementary",
+          "district": "Los Angeles Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-5",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.6,
+          "lat": 34.102276,
+          "lng": -118.18891
+        },
+        {
+          "cdsCode": "19647331931393",
+          "name": "Highland Park Continuation",
+          "district": "Los Angeles Unified",
+          "socType": "Continuation High Schools",
+          "grades": "9-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.7,
+          "lat": 34.117293,
+          "lng": -118.20125
+        },
+        {
+          "cdsCode": "19647336017230",
+          "name": "Garvanza Elementary School Technology and Leadership Magnet",
+          "district": "Los Angeles Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-5",
+          "charter": false,
+          "magnet": true,
+          "distanceMiles": 0.7,
+          "lat": 34.11728,
+          "lng": -118.1826
+        },
+        {
+          "cdsCode": "19647336020069",
+          "name": "Yorkdale Elementary",
+          "district": "Los Angeles Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-5",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.7,
+          "lat": 34.120717,
+          "lng": -118.19454
+        },
+        {
+          "cdsCode": "19647336015713",
+          "name": "Aldama Elementary",
+          "district": "Los Angeles Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-5",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.8,
+          "lat": 34.110127,
+          "lng": -118.206
+        }
+      ]
+    },
+    "eastvale": {
+      "source": "CA Dept. of Education school directory",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "schools": [
+        {
+          "cdsCode": "33670330110643",
+          "name": "Eastvale Elementary",
+          "district": "Corona-Norco Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.3,
+          "lat": 33.959088,
+          "lng": -117.5677
+        },
+        {
+          "cdsCode": "33670330110635",
+          "name": "River Heights Intermediate",
+          "district": "Corona-Norco Unified",
+          "socType": "Intermediate/Middle Schools",
+          "grades": "7-8",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.4,
+          "lat": 33.957824,
+          "lng": -117.56707
+        },
+        {
+          "cdsCode": "33670330105809",
+          "name": "Harada Elementary",
+          "district": "Corona-Norco Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.5,
+          "lat": 33.970669,
+          "lng": -117.56488
+        },
+        {
+          "cdsCode": "33670330110627",
+          "name": "Eleanor Roosevelt High",
+          "district": "Corona-Norco Unified",
+          "socType": "High Schools",
+          "grades": "9-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.7,
+          "lat": 33.954072,
+          "lng": -117.56779
+        },
+        {
+          "cdsCode": "33670330113654",
+          "name": "Rosa Parks Elementary",
+          "district": "Corona-Norco Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.2,
+          "lat": 33.9665,
+          "lng": -117.5842
+        },
+        {
+          "cdsCode": "33670330119321",
+          "name": "Louis VanderMolen Fundamental Elementary",
+          "district": "Corona-Norco Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.2,
+          "lat": 33.96589,
+          "lng": -117.54348
+        },
+        {
+          "cdsCode": "33670330123828",
+          "name": "Dr. Augustine Ramirez Intermediate",
+          "district": "Corona-Norco Unified",
+          "socType": "Junior High Schools",
+          "grades": "7-8",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.2,
+          "lat": 33.964888,
+          "lng": -117.58448
+        },
+        {
+          "cdsCode": "33670330100974",
+          "name": "Clara Barton Elementary",
+          "district": "Corona-Norco Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.5,
+          "lat": 33.952476,
+          "lng": -117.58731
+        }
+      ]
+    },
+    "fontana-southridge": {
+      "source": "CA Dept. of Education school directory",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "schools": [
+        {
+          "cdsCode": "36677100120758",
+          "name": "Jurupa Hills High",
+          "district": "Fontana Unified",
+          "socType": "High Schools",
+          "grades": "9-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.8,
+          "lat": 34.060065,
+          "lng": -117.44873
+        },
+        {
+          "cdsCode": "36676866108831",
+          "name": "Jurupa Vista Elementary",
+          "district": "Colton Joint Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1,
+          "lat": 34.043309,
+          "lng": -117.45859
+        },
+        {
+          "cdsCode": "36677103630019",
+          "name": "Eric Birch High (Continuation)",
+          "district": "Fontana Unified",
+          "socType": "Continuation High Schools",
+          "grades": "10-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1,
+          "lat": 34.05871,
+          "lng": -117.44506
+        },
+        {
+          "cdsCode": "36676866113633",
+          "name": "Michael D'Arcy Elementary",
+          "district": "Colton Joint Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.1,
+          "lat": 34.042118,
+          "lng": -117.46678
+        },
+        {
+          "cdsCode": "36677106035869",
+          "name": "Poplar Elementary",
+          "district": "Fontana Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.1,
+          "lat": 34.073499,
+          "lng": -117.46238
+        },
+        {
+          "cdsCode": "36677106113351",
+          "name": "Harry S. Truman Middle",
+          "district": "Fontana Unified",
+          "socType": "Intermediate/Middle Schools",
+          "grades": "6-8",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.4,
+          "lat": 34.074907,
+          "lng": -117.45056
+        },
+        {
+          "cdsCode": "36677106068761",
+          "name": "Cypress Elementary",
+          "district": "Fontana Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-5",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.7,
+          "lat": 34.076382,
+          "lng": -117.44432
+        },
+        {
+          "cdsCode": "36677103630902",
+          "name": "Henry J. Kaiser High",
+          "district": "Fontana Unified",
+          "socType": "High Schools",
+          "grades": "9-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.8,
+          "lat": 34.050797,
+          "lng": -117.49326
+        }
+      ]
+    },
+    "claremont": {
+      "source": "CA Dept. of Education school directory",
+      "retrievedAt": "2026-08-07",
+      "radiusMiles": 2,
+      "schools": [
+        {
+          "cdsCode": "19643946012199",
+          "name": "Oakmont Elementary",
+          "district": "Claremont Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.4,
+          "lat": 34.092287,
+          "lng": -117.71423
+        },
+        {
+          "cdsCode": "19643946012215",
+          "name": "Sycamore Elementary",
+          "district": "Claremont Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.4,
+          "lat": 34.101708,
+          "lng": -117.71716
+        },
+        {
+          "cdsCode": "19643946057541",
+          "name": "El Roble Intermediate",
+          "district": "Claremont Unified",
+          "socType": "Intermediate/Middle Schools",
+          "grades": "7-8",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.6,
+          "lat": 34.100466,
+          "lng": -117.72909
+        },
+        {
+          "cdsCode": "19643946012223",
+          "name": "Vista del Valle Elementary",
+          "district": "Claremont Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.7,
+          "lat": 34.086728,
+          "lng": -117.72182
+        },
+        {
+          "cdsCode": "19643946012181",
+          "name": "Mountain View Elementary",
+          "district": "Claremont Unified",
+          "socType": "Elementary Schools",
+          "grades": "K-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 0.9,
+          "lat": 34.105364,
+          "lng": -117.73137
+        },
+        {
+          "cdsCode": "19643941931807",
+          "name": "San Antonio High (Continuation)",
+          "district": "Claremont Unified",
+          "socType": "Continuation High Schools",
+          "grades": "10-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1,
+          "lat": 34.083226,
+          "lng": -117.71552
+        },
+        {
+          "cdsCode": "19643941931823",
+          "name": "Claremont High",
+          "district": "Claremont Unified",
+          "socType": "High Schools",
+          "grades": "9-12",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.1,
+          "lat": 34.112944,
+          "lng": -117.72041
+        },
+        {
+          "cdsCode": "36678196036370",
+          "name": "Moreno Elementary",
+          "district": "Ontario-Montclair",
+          "socType": "Elementary Schools",
+          "grades": "P-6",
+          "charter": false,
+          "magnet": false,
+          "distanceMiles": 1.2,
+          "lat": 34.08869,
+          "lng": -117.70027
+        }
+      ]
+    }
+  }
+}

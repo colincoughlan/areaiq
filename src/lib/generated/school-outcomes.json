@@ -1,0 +1,1575 @@
+{
+ "generatedAt": "2026-08-07",
+ "source": "CA Dept. of Education ACGR 2023-24",
+ "academicYear": "2023-24",
+ "stateGradRate": 86.4,
+ "stateUcCsuRate": 51.9,
+ "schools": {
+  "19647331933043": {
+   "cdsCode": "19647331933043",
+   "cohort": 320,
+   "gradRate": 96.3,
+   "ucCsuRate": 74
+  },
+  "19647331931393": {
+   "cdsCode": "19647331931393",
+   "cohort": 37,
+   "gradRate": 27,
+   "ucCsuRate": 0
+  },
+  "33670330110627": {
+   "cdsCode": "33670330110627",
+   "cohort": 1097,
+   "gradRate": 98.4,
+   "ucCsuRate": 65.4
+  },
+  "36677100120758": {
+   "cdsCode": "36677100120758",
+   "cohort": 403,
+   "gradRate": 92.6,
+   "ucCsuRate": 67.8
+  },
+  "36677103630019": {
+   "cdsCode": "36677103630019",
+   "cohort": 155,
+   "gradRate": 82.6,
+   "ucCsuRate": 0
+  },
+  "36677103630902": {
+   "cdsCode": "36677103630902",
+   "cohort": 458,
+   "gradRate": 95.9,
+   "ucCsuRate": 59.5
+  },
+  "19643941931807": {
+   "cdsCode": "19643941931807",
+   "cohort": 34,
+   "gradRate": 88.2,
+   "ucCsuRate": 0
+  },
+  "19643941931823": {
+   "cdsCode": "19643941931823",
+   "cohort": 582,
+   "gradRate": 98.3,
+   "ucCsuRate": 67
+  },
+  "19753091995786": {
+   "cdsCode": "19753091995786",
+   "cohort": 105,
+   "gradRate": 99,
+   "ucCsuRate": 14.4
+  },
+  "36675870128462": {
+   "cdsCode": "36675870128462",
+   "cohort": 98,
+   "gradRate": 37.8,
+   "ucCsuRate": 0
+  },
+  "19646831930080": {
+   "cdsCode": "19646831930080",
+   "cohort": 437,
+   "gradRate": 95,
+   "ucCsuRate": 65.1
+  },
+  "19757131930163": {
+   "cdsCode": "19757131930163",
+   "cohort": 562,
+   "gradRate": 92.5,
+   "ucCsuRate": 60.6
+  },
+  "30666213030046": {
+   "cdsCode": "30666213030046",
+   "cohort": 548,
+   "gradRate": 96.4,
+   "ucCsuRate": 75.9
+  },
+  "19642611930288": {
+   "cdsCode": "19642611930288",
+   "cohort": 774,
+   "gradRate": 97.3,
+   "ucCsuRate": 67.3
+  },
+  "19647251930411": {
+   "cdsCode": "19647251930411",
+   "cohort": 49,
+   "gradRate": 81.6,
+   "ucCsuRate": 32.5
+  },
+  "19645191932680": {
+   "cdsCode": "19645191932680",
+   "cohort": 321,
+   "gradRate": 90.7,
+   "ucCsuRate": 39.9
+  },
+  "19642951930700": {
+   "cdsCode": "19642951930700",
+   "cohort": 216,
+   "gradRate": 97.7,
+   "ucCsuRate": 35.5
+  },
+  "19642791930528": {
+   "cdsCode": "19642791930528",
+   "cohort": 395,
+   "gradRate": 83.3,
+   "ucCsuRate": 43.2
+  },
+  "36738583630076": {
+   "cdsCode": "36738583630076",
+   "cohort": 14,
+   "gradRate": 85.7,
+   "ucCsuRate": 0
+  },
+  "19642871938166": {
+   "cdsCode": "19642871938166",
+   "cohort": 449,
+   "gradRate": 94.2,
+   "ucCsuRate": 50.8
+  },
+  "33669853330222": {
+   "cdsCode": "33669853330222",
+   "cohort": 50,
+   "gradRate": 72,
+   "ucCsuRate": 0
+  },
+  "36678270137224": {
+   "cdsCode": "36678270137224",
+   "cohort": 154,
+   "gradRate": 73.4,
+   "ucCsuRate": 0
+  },
+  "19647330109462": {
+   "cdsCode": "19647330109462",
+   "cohort": 173,
+   "gradRate": 84.4,
+   "ucCsuRate": 47.9
+  },
+  "19647331930866": {
+   "cdsCode": "19647331930866",
+   "cohort": 554,
+   "gradRate": 92.1,
+   "ucCsuRate": 65.9
+  },
+  "19648081930825": {
+   "cdsCode": "19648081930825",
+   "cohort": 509,
+   "gradRate": 84.3,
+   "ucCsuRate": 21.4
+  },
+  "19643031938190": {
+   "cdsCode": "19643031938190",
+   "cohort": 93,
+   "gradRate": 60.2,
+   "ucCsuRate": 0
+  },
+  "19643031930775": {
+   "cdsCode": "19643031930775",
+   "cohort": 370,
+   "gradRate": 93.8,
+   "ucCsuRate": 36.9
+  },
+  "33670580114504": {
+   "cdsCode": "33670580114504",
+   "cohort": 90,
+   "gradRate": 88.9,
+   "ucCsuRate": 0
+  },
+  "36676373630290": {
+   "cdsCode": "36676373630290",
+   "cohort": 30,
+   "gradRate": 93.3,
+   "ucCsuRate": 0
+  },
+  "36676373631066": {
+   "cdsCode": "36676373631066",
+   "cohort": 159,
+   "gradRate": 91.8,
+   "ucCsuRate": 21.9
+  },
+  "36676863636131": {
+   "cdsCode": "36676863636131",
+   "cohort": 125,
+   "gradRate": 75.2,
+   "ucCsuRate": 0
+  },
+  "36676863631322": {
+   "cdsCode": "36676863631322",
+   "cohort": 464,
+   "gradRate": 88.4,
+   "ucCsuRate": 37.1
+  },
+  "19644690128736": {
+   "cdsCode": "19644690128736",
+   "cohort": 85,
+   "gradRate": 37.6,
+   "ucCsuRate": 43.8
+  },
+  "19644690134858": {
+   "cdsCode": "19644690134858",
+   "cohort": 255,
+   "gradRate": 99.2,
+   "ucCsuRate": 81.8
+  },
+  "19644691932482": {
+   "cdsCode": "19644691932482",
+   "cohort": 167,
+   "gradRate": 97,
+   "ucCsuRate": 40.7
+  },
+  "30664493030624": {
+   "cdsCode": "30664493030624",
+   "cohort": 41,
+   "gradRate": 90.2,
+   "ucCsuRate": 0
+  },
+  "30664493030640": {
+   "cdsCode": "30664493030640",
+   "cohort": 419,
+   "gradRate": 95,
+   "ucCsuRate": 63.1
+  },
+  "19643371933332": {
+   "cdsCode": "19643371933332",
+   "cohort": 72,
+   "gradRate": 97.2,
+   "ucCsuRate": 0
+  },
+  "19643371931187": {
+   "cdsCode": "19643371931187",
+   "cohort": 580,
+   "gradRate": 96.9,
+   "ucCsuRate": 50.5
+  },
+  "19101990115030": {
+   "cdsCode": "19101990115030",
+   "cohort": 48,
+   "gradRate": 93.8,
+   "ucCsuRate": 75.6
+  },
+  "56737595633748": {
+   "cdsCode": "56737595633748",
+   "cohort": 570,
+   "gradRate": 95.6,
+   "ucCsuRate": 65
+  },
+  "19651360117234": {
+   "cdsCode": "19651360117234",
+   "cohort": 42,
+   "gradRate": 97.6,
+   "ucCsuRate": 53.7
+  },
+  "33671733331121": {
+   "cdsCode": "33671733331121",
+   "cohort": 245,
+   "gradRate": 84.9,
+   "ucCsuRate": 0
+  },
+  "19642121930056": {
+   "cdsCode": "19642121930056",
+   "cohort": 557,
+   "gradRate": 97.8,
+   "ucCsuRate": 72.3
+  },
+  "19643781931666": {
+   "cdsCode": "19643781931666",
+   "cohort": 306,
+   "gradRate": 96.7,
+   "ucCsuRate": 50
+  },
+  "19643781930312": {
+   "cdsCode": "19643781930312",
+   "cohort": 46,
+   "gradRate": 87,
+   "ucCsuRate": 0
+  },
+  "33669933330479": {
+   "cdsCode": "33669933330479",
+   "cohort": 703,
+   "gradRate": 95,
+   "ucCsuRate": 47.9
+  },
+  "36676783631017": {
+   "cdsCode": "36676783631017",
+   "cohort": 645,
+   "gradRate": 97.1,
+   "ucCsuRate": 63.1
+  },
+  "19642791931765": {
+   "cdsCode": "19642791931765",
+   "cohort": 88,
+   "gradRate": 93.2,
+   "ucCsuRate": 0
+  },
+  "19644361931617": {
+   "cdsCode": "19644361931617",
+   "cohort": 66,
+   "gradRate": 86.4,
+   "ucCsuRate": 0
+  },
+  "36678270137182": {
+   "cdsCode": "36678270137182",
+   "cohort": 219,
+   "gradRate": 66.2,
+   "ucCsuRate": 0
+  },
+  "36676863632742": {
+   "cdsCode": "36676863632742",
+   "cohort": 396,
+   "gradRate": 88.9,
+   "ucCsuRate": 33.2
+  },
+  "19648081938927": {
+   "cdsCode": "19648081938927",
+   "cohort": 192,
+   "gradRate": 76,
+   "ucCsuRate": 0
+  },
+  "19734371931963": {
+   "cdsCode": "19734371931963",
+   "cohort": 282,
+   "gradRate": 95.4,
+   "ucCsuRate": 60.6
+  },
+  "19734370115725": {
+   "cdsCode": "19734370115725",
+   "cohort": 51,
+   "gradRate": 86.3,
+   "ucCsuRate": 100
+  },
+  "33103300137869": {
+   "cdsCode": "33103300137869",
+   "cohort": 35,
+   "gradRate": 91.4,
+   "ucCsuRate": 6.3
+  },
+  "33670333330586": {
+   "cdsCode": "33670333330586",
+   "cohort": 271,
+   "gradRate": 90.4,
+   "ucCsuRate": 0
+  },
+  "30665973031853": {
+   "cdsCode": "30665973031853",
+   "cohort": 278,
+   "gradRate": 93.5,
+   "ucCsuRate": 39.6
+  },
+  "30665973032000": {
+   "cdsCode": "30665973032000",
+   "cohort": 258,
+   "gradRate": 87.6,
+   "ucCsuRate": 54
+  },
+  "30664643030756": {
+   "cdsCode": "30664643030756",
+   "cohort": 538,
+   "gradRate": 95.2,
+   "ucCsuRate": 71.7
+  },
+  "19647336016885": {
+   "cdsCode": "19647336016885",
+   "cohort": 143,
+   "gradRate": 90.9,
+   "ucCsuRate": 43.8
+  },
+  "19644441932656": {
+   "cdsCode": "19644441932656",
+   "cohort": 25,
+   "gradRate": 12,
+   "ucCsuRate": 66.7
+  },
+  "19644441932201": {
+   "cdsCode": "19644441932201",
+   "cohort": 532,
+   "gradRate": 97.9,
+   "ucCsuRate": 70.1
+  },
+  "30664313030616": {
+   "cdsCode": "30664313030616",
+   "cohort": 193,
+   "gradRate": 99,
+   "ucCsuRate": 99.5
+  },
+  "30664313030038": {
+   "cdsCode": "30664313030038",
+   "cohort": 632,
+   "gradRate": 96.4,
+   "ucCsuRate": 80.8
+  },
+  "30664643038569": {
+   "cdsCode": "30664643038569",
+   "cohort": 480,
+   "gradRate": 94,
+   "ucCsuRate": 57.6
+  },
+  "19643521933951": {
+   "cdsCode": "19643521933951",
+   "cohort": 390,
+   "gradRate": 87.7,
+   "ucCsuRate": 44.2
+  },
+  "19768690128728": {
+   "cdsCode": "19768690128728",
+   "cohort": 65,
+   "gradRate": 83.1,
+   "ucCsuRate": 85.2
+  },
+  "19643520128488": {
+   "cdsCode": "19643520128488",
+   "cohort": 235,
+   "gradRate": 8.5,
+   "ucCsuRate": 100
+  },
+  "33671733330818": {
+   "cdsCode": "33671733330818",
+   "cohort": 382,
+   "gradRate": 85.6,
+   "ucCsuRate": 40.4
+  },
+  "33670580118885": {
+   "cdsCode": "33670580118885",
+   "cohort": 416,
+   "gradRate": 93,
+   "ucCsuRate": 73.4
+  },
+  "19642461995398": {
+   "cdsCode": "19642461995398",
+   "cohort": 730,
+   "gradRate": 91.1,
+   "ucCsuRate": 37.9
+  },
+  "19734601932862": {
+   "cdsCode": "19734601932862",
+   "cohort": 643,
+   "gradRate": 97.2,
+   "ucCsuRate": 74.9
+  },
+  "19644511932441": {
+   "cdsCode": "19644511932441",
+   "cohort": 965,
+   "gradRate": 97.5,
+   "ucCsuRate": 58.3
+  },
+  "19644511939164": {
+   "cdsCode": "19644511939164",
+   "cohort": 781,
+   "gradRate": 95.3,
+   "ucCsuRate": 58.6
+  },
+  "19644691936079": {
+   "cdsCode": "19644691936079",
+   "cohort": 45,
+   "gradRate": 88.9,
+   "ucCsuRate": 0
+  },
+  "33670823332673": {
+   "cdsCode": "33670823332673",
+   "cohort": 566,
+   "gradRate": 94.7,
+   "ucCsuRate": 54.1
+  },
+  "19647331931989": {
+   "cdsCode": "19647331931989",
+   "cohort": 39,
+   "gradRate": 41,
+   "ucCsuRate": 6.3
+  },
+  "19648810113464": {
+   "cdsCode": "19648810113464",
+   "cohort": 34,
+   "gradRate": 85.3,
+   "ucCsuRate": 0
+  },
+  "19648811936806": {
+   "cdsCode": "19648811936806",
+   "cohort": 101,
+   "gradRate": 70.3,
+   "ucCsuRate": 2.8
+  },
+  "19644690139535": {
+   "cdsCode": "19644690139535",
+   "cohort": 1349,
+   "gradRate": 22.5,
+   "ucCsuRate": 35.6
+  },
+  "19650521938679": {
+   "cdsCode": "19650521938679",
+   "cohort": 437,
+   "gradRate": 97.9,
+   "ucCsuRate": 64.3
+  },
+  "33670333330701": {
+   "cdsCode": "33670333330701",
+   "cohort": 770,
+   "gradRate": 97.4,
+   "ucCsuRate": 69.5
+  },
+  "33670333330446": {
+   "cdsCode": "33670333330446",
+   "cohort": 738,
+   "gradRate": 98.2,
+   "ucCsuRate": 55.9
+  },
+  "19645191932664": {
+   "cdsCode": "19645191932664",
+   "cohort": 338,
+   "gradRate": 88.2,
+   "ucCsuRate": 36.2
+  },
+  "56725465634761": {
+   "cdsCode": "56725465634761",
+   "cohort": 534,
+   "gradRate": 92.3,
+   "ucCsuRate": 34.9
+  },
+  "19645351932763": {
+   "cdsCode": "19645351932763",
+   "cohort": 321,
+   "gradRate": 100,
+   "ucCsuRate": 79.1
+  },
+  "19645351930353": {
+   "cdsCode": "19645351930353",
+   "cohort": 24,
+   "gradRate": 87.5,
+   "ucCsuRate": 14.3
+  },
+  "33669770125732": {
+   "cdsCode": "33669770125732",
+   "cohort": 458,
+   "gradRate": 96.9,
+   "ucCsuRate": 58.6
+  },
+  "56724545630173": {
+   "cdsCode": "56724545630173",
+   "cohort": 39,
+   "gradRate": 84.6,
+   "ucCsuRate": 0
+  },
+  "56724545632021": {
+   "cdsCode": "56724545632021",
+   "cohort": 242,
+   "gradRate": 95,
+   "ucCsuRate": 47
+  },
+  "19647330106849": {
+   "cdsCode": "19647330106849",
+   "cohort": 142,
+   "gradRate": 97.9,
+   "ucCsuRate": 93.5
+  },
+  "19647330137091": {
+   "cdsCode": "19647330137091",
+   "cohort": 68,
+   "gradRate": 97.1,
+   "ucCsuRate": 84.8
+  },
+  "30665483038551": {
+   "cdsCode": "30665483038551",
+   "cohort": 197,
+   "gradRate": 54.3,
+   "ucCsuRate": 0.9
+  },
+  "30665483032158": {
+   "cdsCode": "30665483032158",
+   "cohort": 756,
+   "gradRate": 93.3,
+   "ucCsuRate": 64.1
+  },
+  "33751923330917": {
+   "cdsCode": "33751923330917",
+   "cohort": 64,
+   "gradRate": 100,
+   "ucCsuRate": 96.9
+  },
+  "30665143032505": {
+   "cdsCode": "30665143032505",
+   "cohort": 446,
+   "gradRate": 95.1,
+   "ucCsuRate": 46.2
+  },
+  "19645681934082": {
+   "cdsCode": "19645681934082",
+   "cohort": 354,
+   "gradRate": 96,
+   "ucCsuRate": 39.4
+  },
+  "19645761933597": {
+   "cdsCode": "19645761933597",
+   "cohort": 559,
+   "gradRate": 97.7,
+   "ucCsuRate": 64.5
+  },
+  "36676860125500": {
+   "cdsCode": "36676860125500",
+   "cohort": 430,
+   "gradRate": 89.1,
+   "ucCsuRate": 35.2
+  },
+  "19734451935246": {
+   "cdsCode": "19734451935246",
+   "cohort": 416,
+   "gradRate": 95,
+   "ucCsuRate": 44.1
+  },
+  "19651360138727": {
+   "cdsCode": "19651360138727",
+   "cohort": 330,
+   "gradRate": 97,
+   "ucCsuRate": 58.1
+  },
+  "19645920100354": {
+   "cdsCode": "19645920100354",
+   "cohort": 121,
+   "gradRate": 95.9,
+   "ucCsuRate": 84.5
+  },
+  "33670823330537": {
+   "cdsCode": "33670823330537",
+   "cohort": 388,
+   "gradRate": 91.8,
+   "ucCsuRate": 54.5
+  },
+  "19753331935808": {
+   "cdsCode": "19753331935808",
+   "cohort": 625,
+   "gradRate": 99.4,
+   "ucCsuRate": 80.7
+  },
+  "36750443630746": {
+   "cdsCode": "36750443630746",
+   "cohort": 479,
+   "gradRate": 97.5,
+   "ucCsuRate": 50.5
+  },
+  "19647331932623": {
+   "cdsCode": "19647331932623",
+   "cohort": 878,
+   "gradRate": 91.3,
+   "ucCsuRate": 53.4
+  },
+  "33669773337128": {
+   "cdsCode": "33669773337128",
+   "cohort": 123,
+   "gradRate": 83.7,
+   "ucCsuRate": 1.9
+  },
+  "33672070113191": {
+   "cdsCode": "33672070113191",
+   "cohort": 575,
+   "gradRate": 94.8,
+   "ucCsuRate": 46.6
+  },
+  "19647331930551": {
+   "cdsCode": "19647331930551",
+   "cohort": 94,
+   "gradRate": 23.4,
+   "ucCsuRate": 13.6
+  },
+  "19734451939925": {
+   "cdsCode": "19734451939925",
+   "cohort": 177,
+   "gradRate": 93.8,
+   "ucCsuRate": 35.5
+  },
+  "19734451934801": {
+   "cdsCode": "19734451934801",
+   "cohort": 206,
+   "gradRate": 96.1,
+   "ucCsuRate": 43.4
+  },
+  "19643520128496": {
+   "cdsCode": "19643520128496",
+   "cohort": 144,
+   "gradRate": 10.4,
+   "ucCsuRate": 73.3
+  },
+  "19646341996586": {
+   "cdsCode": "19646341996586",
+   "cohort": 155,
+   "gradRate": 96.8,
+   "ucCsuRate": 89.3
+  },
+  "19642871936384": {
+   "cdsCode": "19642871936384",
+   "cohort": 147,
+   "gradRate": 76.9,
+   "ucCsuRate": 0.9
+  },
+  "33670900114157": {
+   "cdsCode": "33670900114157",
+   "cohort": 584,
+   "gradRate": 96.6,
+   "ucCsuRate": 54.3
+  },
+  "19646591934611": {
+   "cdsCode": "19646591934611",
+   "cohort": 355,
+   "gradRate": 98.6,
+   "ucCsuRate": 89.1
+  },
+  "19645681932144": {
+   "cdsCode": "19645681932144",
+   "cohort": 593,
+   "gradRate": 98,
+   "ucCsuRate": 70.1
+  },
+  "30665143033362": {
+   "cdsCode": "30665143033362",
+   "cohort": 483,
+   "gradRate": 97.1,
+   "ucCsuRate": 53.1
+  },
+  "19648401934728": {
+   "cdsCode": "19648401934728",
+   "cohort": 406,
+   "gradRate": 96.3,
+   "ucCsuRate": 48.6
+  },
+  "30664313033115": {
+   "cdsCode": "30664313033115",
+   "cohort": 502,
+   "gradRate": 97.8,
+   "ucCsuRate": 63.1
+  },
+  "19643291931088": {
+   "cdsCode": "19643291931088",
+   "cohort": 441,
+   "gradRate": 96.6,
+   "ucCsuRate": 69.2
+  },
+  "30665553033206": {
+   "cdsCode": "30665553033206",
+   "cohort": 252,
+   "gradRate": 99.6,
+   "ucCsuRate": 79.7
+  },
+  "30736353030244": {
+   "cdsCode": "30736353030244",
+   "cohort": 358,
+   "gradRate": 97.2,
+   "ucCsuRate": 56.3
+  },
+  "33751763330115": {
+   "cdsCode": "33751763330115",
+   "cohort": 329,
+   "gradRate": 92.1,
+   "ucCsuRate": 0.3
+  },
+  "33751763330487": {
+   "cdsCode": "33751763330487",
+   "cohort": 471,
+   "gradRate": 95.3,
+   "ucCsuRate": 53
+  },
+  "30736353030392": {
+   "cdsCode": "30736353030392",
+   "cohort": 642,
+   "gradRate": 96.6,
+   "ucCsuRate": 55.5
+  },
+  "33751760107920": {
+   "cdsCode": "33751760107920",
+   "cohort": 359,
+   "gradRate": 92.5,
+   "ucCsuRate": 31.9
+  },
+  "33671573331014": {
+   "cdsCode": "33671573331014",
+   "cohort": 130,
+   "gradRate": 100,
+   "ucCsuRate": 64.6
+  },
+  "19647251934678": {
+   "cdsCode": "19647251934678",
+   "cohort": 659,
+   "gradRate": 91.4,
+   "ucCsuRate": 47.5
+  },
+  "19642461995844": {
+   "cdsCode": "19642461995844",
+   "cohort": 641,
+   "gradRate": 84.7,
+   "ucCsuRate": 33.7
+  },
+  "19642461996537": {
+   "cdsCode": "19642461996537",
+   "cohort": 222,
+   "gradRate": 14.9,
+   "ucCsuRate": 6.1
+  },
+  "19646911996438": {
+   "cdsCode": "19646911996438",
+   "cohort": 119,
+   "gradRate": 97.5,
+   "ucCsuRate": 95.7
+  },
+  "19643521934926": {
+   "cdsCode": "19643521934926",
+   "cohort": 447,
+   "gradRate": 91.1,
+   "ucCsuRate": 48.9
+  },
+  "19647090100602": {
+   "cdsCode": "19647090100602",
+   "cohort": 142,
+   "gradRate": 99.3,
+   "ucCsuRate": 80.1
+  },
+  "36678433630928": {
+   "cdsCode": "36678433630928",
+   "cohort": 29,
+   "gradRate": 93.1,
+   "ucCsuRate": 81.5
+  },
+  "19647330127787": {
+   "cdsCode": "19647330127787",
+   "cohort": 81,
+   "gradRate": 96.3,
+   "ucCsuRate": 59
+  },
+  "19647331931518": {
+   "cdsCode": "19647331931518",
+   "cohort": 35,
+   "gradRate": 51.4,
+   "ucCsuRate": 11.1
+  },
+  "30739243033917": {
+   "cdsCode": "30739243033917",
+   "cohort": 799,
+   "gradRate": 96.4,
+   "ucCsuRate": 79.4
+  },
+  "19647741935436": {
+   "cdsCode": "19647741935436",
+   "cohort": 485,
+   "gradRate": 88,
+   "ucCsuRate": 62.1
+  },
+  "19647331930783": {
+   "cdsCode": "19647331930783",
+   "cohort": 39,
+   "gradRate": 94.9,
+   "ucCsuRate": 18.9
+  },
+  "19647331939040": {
+   "cdsCode": "19647331939040",
+   "cohort": 502,
+   "gradRate": 93.4,
+   "ucCsuRate": 76.1
+  },
+  "19647901935899": {
+   "cdsCode": "19647901935899",
+   "cohort": 22,
+   "gradRate": 95.5,
+   "ucCsuRate": 0
+  },
+  "19647901996404": {
+   "cdsCode": "19647901996404",
+   "cohort": 25,
+   "gradRate": 96,
+   "ucCsuRate": 16.7
+  },
+  "56725205634076": {
+   "cdsCode": "56725205634076",
+   "cohort": 158,
+   "gradRate": 93.7,
+   "ucCsuRate": 58.8
+  },
+  "56725205631817": {
+   "cdsCode": "56725205631817",
+   "cohort": 37,
+   "gradRate": 78.4,
+   "ucCsuRate": 0
+  },
+  "33671160109843": {
+   "cdsCode": "33671160109843",
+   "cohort": 129,
+   "gradRate": 99.2,
+   "ucCsuRate": 42.2
+  },
+  "33672073330727": {
+   "cdsCode": "33672073330727",
+   "cohort": 620,
+   "gradRate": 97.3,
+   "ucCsuRate": 59
+  },
+  "36678433630779": {
+   "cdsCode": "36678433630779",
+   "cohort": 462,
+   "gradRate": 89.8,
+   "ucCsuRate": 50.6
+  },
+  "36676523633906": {
+   "cdsCode": "36676523633906",
+   "cohort": 660,
+   "gradRate": 91.1,
+   "ucCsuRate": 64.4
+  },
+  "19648081935998": {
+   "cdsCode": "19648081935998",
+   "cohort": 528,
+   "gradRate": 79.2,
+   "ucCsuRate": 29.2
+  },
+  "19648080124552": {
+   "cdsCode": "19648080124552",
+   "cohort": 113,
+   "gradRate": 95.6,
+   "ucCsuRate": 60.2
+  },
+  "36679340110064": {
+   "cdsCode": "36679340110064",
+   "cohort": 171,
+   "gradRate": 99.4,
+   "ucCsuRate": 98.2
+  },
+  "33752000118794": {
+   "cdsCode": "33752000118794",
+   "cohort": 586,
+   "gradRate": 98.1,
+   "ucCsuRate": 67.1
+  },
+  "36678763630993": {
+   "cdsCode": "36678763630993",
+   "cohort": 84,
+   "gradRate": 53.6,
+   "ucCsuRate": 0
+  },
+  "36678013630266": {
+   "cdsCode": "36678013630266",
+   "cohort": 13,
+   "gradRate": 100,
+   "ucCsuRate": 0
+  },
+  "36678013634169": {
+   "cdsCode": "36678013634169",
+   "cohort": 46,
+   "gradRate": 100,
+   "ucCsuRate": 17.4
+  },
+  "33670333334232": {
+   "cdsCode": "33670333334232",
+   "cohort": 497,
+   "gradRate": 96.4,
+   "ucCsuRate": 49.5
+  },
+  "19645191930320": {
+   "cdsCode": "19645191930320",
+   "cohort": 444,
+   "gradRate": 92.1,
+   "ucCsuRate": 46.5
+  },
+  "30736433032109": {
+   "cdsCode": "30736433032109",
+   "cohort": 562,
+   "gradRate": 98,
+   "ucCsuRate": 71.5
+  },
+  "19648401936467": {
+   "cdsCode": "19648401936467",
+   "cohort": 469,
+   "gradRate": 95.9,
+   "ucCsuRate": 52.7
+  },
+  "36750440119115": {
+   "cdsCode": "36750440119115",
+   "cohort": 610,
+   "gradRate": 97.2,
+   "ucCsuRate": 50.1
+  },
+  "36750440115444": {
+   "cdsCode": "36750440115444",
+   "cohort": 113,
+   "gradRate": 73.5,
+   "ucCsuRate": 0
+  },
+  "36750440107516": {
+   "cdsCode": "36750440107516",
+   "cohort": 36,
+   "gradRate": 94.4,
+   "ucCsuRate": 2.9
+  },
+  "56738745630132": {
+   "cdsCode": "56738745630132",
+   "cohort": 327,
+   "gradRate": 98.5,
+   "ucCsuRate": 79.2
+  },
+  "56738745630199": {
+   "cdsCode": "56738745630199",
+   "cohort": 13,
+   "gradRate": 76.9,
+   "ucCsuRate": 0
+  },
+  "30666213035748": {
+   "cdsCode": "30666213035748",
+   "cohort": 128,
+   "gradRate": 68.8,
+   "ucCsuRate": 0
+  },
+  "30666213035409": {
+   "cdsCode": "30666213035409",
+   "cohort": 389,
+   "gradRate": 95.4,
+   "ucCsuRate": 39.9
+  },
+  "33670583330388": {
+   "cdsCode": "33670583330388",
+   "cohort": 489,
+   "gradRate": 96.9,
+   "ucCsuRate": 69.8
+  },
+  "33671733335130": {
+   "cdsCode": "33671733335130",
+   "cohort": 365,
+   "gradRate": 92.9,
+   "ucCsuRate": 63.7
+  },
+  "19642461996644": {
+   "cdsCode": "19642461996644",
+   "cohort": 239,
+   "gradRate": 32.6,
+   "ucCsuRate": 0
+  },
+  "19642461936624": {
+   "cdsCode": "19642461936624",
+   "cohort": 662,
+   "gradRate": 77.2,
+   "ucCsuRate": 35.2
+  },
+  "19648651996552": {
+   "cdsCode": "19648651996552",
+   "cohort": 365,
+   "gradRate": 99.5,
+   "ucCsuRate": 82.6
+  },
+  "33672070101170": {
+   "cdsCode": "33672070101170",
+   "cohort": 115,
+   "gradRate": 99.1,
+   "ucCsuRate": 100
+  },
+  "33672073335973": {
+   "cdsCode": "33672073335973",
+   "cohort": 460,
+   "gradRate": 89.3,
+   "ucCsuRate": 33.6
+  },
+  "19645271932698": {
+   "cdsCode": "19645271932698",
+   "cohort": 128,
+   "gradRate": 87.5,
+   "ucCsuRate": 0
+  },
+  "19645271932706": {
+   "cdsCode": "19645271932706",
+   "cohort": 493,
+   "gradRate": 96.8,
+   "ucCsuRate": 48.6
+  },
+  "30666473031929": {
+   "cdsCode": "30666473031929",
+   "cohort": 494,
+   "gradRate": 97.8,
+   "ucCsuRate": 67.5
+  },
+  "19649071996693": {
+   "cdsCode": "19649071996693",
+   "cohort": 76,
+   "gradRate": 96.1,
+   "ucCsuRate": 75.3
+  },
+  "19649071936772": {
+   "cdsCode": "19649071936772",
+   "cohort": 133,
+   "gradRate": 80.5,
+   "ucCsuRate": 1.9
+  },
+  "19642460126003": {
+   "cdsCode": "19642460126003",
+   "cohort": 38,
+   "gradRate": 97.4,
+   "ucCsuRate": 59.5
+  },
+  "19642461937051": {
+   "cdsCode": "19642461937051",
+   "cohort": 817,
+   "gradRate": 90.5,
+   "ucCsuRate": 44
+  },
+  "36676523630571": {
+   "cdsCode": "36676523630571",
+   "cohort": 874,
+   "gradRate": 94.2,
+   "ucCsuRate": 75.9
+  },
+  "36678433635042": {
+   "cdsCode": "36678433635042",
+   "cohort": 527,
+   "gradRate": 92.8,
+   "ucCsuRate": 61.8
+  },
+  "36678503633005": {
+   "cdsCode": "36678503633005",
+   "cohort": 514,
+   "gradRate": 93.6,
+   "ucCsuRate": 55.5
+  },
+  "33672153330677": {
+   "cdsCode": "33672153330677",
+   "cohort": 230,
+   "gradRate": 73,
+   "ucCsuRate": 0
+  },
+  "19648651933308": {
+   "cdsCode": "19648651933308",
+   "cohort": 34,
+   "gradRate": 97.1,
+   "ucCsuRate": 0
+  },
+  "19645191995661": {
+   "cdsCode": "19645191995661",
+   "cohort": 364,
+   "gradRate": 88.5,
+   "ucCsuRate": 52.5
+  },
+  "19734521937564": {
+   "cdsCode": "19734521937564",
+   "cohort": 512,
+   "gradRate": 93.6,
+   "ucCsuRate": 50.9
+  },
+  "36678763635844": {
+   "cdsCode": "36678763635844",
+   "cohort": 314,
+   "gradRate": 92.7,
+   "ucCsuRate": 39.5
+  },
+  "56724705630363": {
+   "cdsCode": "56724705630363",
+   "cohort": 22,
+   "gradRate": 86.4,
+   "ucCsuRate": 0
+  },
+  "56726525630272": {
+   "cdsCode": "56726525630272",
+   "cohort": 123,
+   "gradRate": 85.4,
+   "ucCsuRate": 1
+  },
+  "30664643036001": {
+   "cdsCode": "30664643036001",
+   "cohort": 683,
+   "gradRate": 96.3,
+   "ucCsuRate": 60.8
+  },
+  "19643291937598": {
+   "cdsCode": "19643291937598",
+   "cohort": 47,
+   "gradRate": 91.5,
+   "ucCsuRate": 2.3
+  },
+  "19643291937739": {
+   "cdsCode": "19643291937739",
+   "cohort": 325,
+   "gradRate": 96.9,
+   "ucCsuRate": 58.4
+  },
+  "19647330124388": {
+   "cdsCode": "19647330124388",
+   "cohort": 114,
+   "gradRate": 97.4,
+   "ucCsuRate": 91
+  },
+  "19647330124396": {
+   "cdsCode": "19647330124396",
+   "cohort": 107,
+   "gradRate": 92.5,
+   "ucCsuRate": 78.8
+  },
+  "19752911996081": {
+   "cdsCode": "19752911996081",
+   "cohort": 29,
+   "gradRate": 79.3,
+   "ucCsuRate": 0
+  },
+  "19757131937697": {
+   "cdsCode": "19757131937697",
+   "cohort": 466,
+   "gradRate": 94,
+   "ucCsuRate": 61.4
+  },
+  "19752911996016": {
+   "cdsCode": "19752911996016",
+   "cohort": 114,
+   "gradRate": 28.9,
+   "ucCsuRate": 48.5
+  },
+  "19752911995810": {
+   "cdsCode": "19752911995810",
+   "cohort": 375,
+   "gradRate": 95.2,
+   "ucCsuRate": 66.9
+  },
+  "33672493331006": {
+   "cdsCode": "33672493331006",
+   "cohort": 54,
+   "gradRate": 96.3,
+   "ucCsuRate": 21.2
+  },
+  "30664646120356": {
+   "cdsCode": "30664646120356",
+   "cohort": 83,
+   "gradRate": 43.4,
+   "ucCsuRate": 50
+  },
+  "30664643035987": {
+   "cdsCode": "30664643035987",
+   "cohort": 69,
+   "gradRate": 98.6,
+   "ucCsuRate": 0
+  },
+  "19649641937754": {
+   "cdsCode": "19649641937754",
+   "cohort": 200,
+   "gradRate": 98.5,
+   "ucCsuRate": 66.5
+  },
+  "19648810118075": {
+   "cdsCode": "19648810118075",
+   "cohort": 80,
+   "gradRate": 31.3,
+   "ucCsuRate": 0
+  },
+  "19651361934421": {
+   "cdsCode": "19651361934421",
+   "cohort": 194,
+   "gradRate": 79.9,
+   "ucCsuRate": 0.6
+  },
+  "19651360102459": {
+   "cdsCode": "19651360102459",
+   "cohort": 474,
+   "gradRate": 94.7,
+   "ucCsuRate": 44.1
+  },
+  "56768285635776": {
+   "cdsCode": "56768285635776",
+   "cohort": 416,
+   "gradRate": 93.8,
+   "ucCsuRate": 44.6
+  },
+  "56768285636170": {
+   "cdsCode": "56768285636170",
+   "cohort": 66,
+   "gradRate": 86.4,
+   "ucCsuRate": 0
+  },
+  "56739405633250": {
+   "cdsCode": "56739405633250",
+   "cohort": 457,
+   "gradRate": 95.4,
+   "ucCsuRate": 44.3
+  },
+  "56726035636188": {
+   "cdsCode": "56726035636188",
+   "cohort": 492,
+   "gradRate": 94.1,
+   "ucCsuRate": 51.6
+  },
+  "36678923636487": {
+   "cdsCode": "36678923636487",
+   "cohort": 19,
+   "gradRate": 84.2,
+   "ucCsuRate": 37.5
+  },
+  "36677360130948": {
+   "cdsCode": "36677360130948",
+   "cohort": 29,
+   "gradRate": 86.2,
+   "ucCsuRate": 4
+  },
+  "36677360116723": {
+   "cdsCode": "36677360116723",
+   "cohort": 58,
+   "gradRate": 98.3,
+   "ucCsuRate": 15.8
+  },
+  "56726035634993": {
+   "cdsCode": "56726035634993",
+   "cohort": 70,
+   "gradRate": 62.9,
+   "ucCsuRate": 0
+  },
+  "56725460131698": {
+   "cdsCode": "56725460131698",
+   "cohort": 197,
+   "gradRate": 99.5,
+   "ucCsuRate": 65.3
+  },
+  "19650291938455": {
+   "cdsCode": "19650291938455",
+   "cohort": 333,
+   "gradRate": 98.2,
+   "ucCsuRate": 80.1
+  },
+  "19734521930106": {
+   "cdsCode": "19734521930106",
+   "cohort": 74,
+   "gradRate": 70.3,
+   "ucCsuRate": 0
+  },
+  "19651281931302": {
+   "cdsCode": "19651281931302",
+   "cohort": 607,
+   "gradRate": 97.7,
+   "ucCsuRate": 66.3
+  },
+  "36679340137638": {
+   "cdsCode": "36679340137638",
+   "cohort": 61,
+   "gradRate": 96.7,
+   "ucCsuRate": 39
+  },
+  "36103633630761": {
+   "cdsCode": "36103633630761",
+   "cohort": 398,
+   "gradRate": 87.2,
+   "ucCsuRate": 29.1
+  },
+  "30665223035706": {
+   "cdsCode": "30665223035706",
+   "cohort": 414,
+   "gradRate": 91.3,
+   "ucCsuRate": 46.3
+  },
+  "19651360102475": {
+   "cdsCode": "19651360102475",
+   "cohort": 493,
+   "gradRate": 98.8,
+   "ucCsuRate": 76.2
+  },
+  "19642461995406": {
+   "cdsCode": "19642461995406",
+   "cohort": 403,
+   "gradRate": 76.4,
+   "ucCsuRate": 23.4
+  },
+  "33103300138602": {
+   "cdsCode": "33103300138602",
+   "cohort": 74,
+   "gradRate": 87.8,
+   "ucCsuRate": 27.7
+  },
+  "33751923330370": {
+   "cdsCode": "33751923330370",
+   "cohort": 622,
+   "gradRate": 96,
+   "ucCsuRate": 76.5
+  },
+  "19650521995745": {
+   "cdsCode": "19650521995745",
+   "cohort": 35,
+   "gradRate": 85.7,
+   "ucCsuRate": 0
+  },
+  "33736763330032": {
+   "cdsCode": "33736763330032",
+   "cohort": 161,
+   "gradRate": 53.4,
+   "ucCsuRate": 0
+  },
+  "30736433032919": {
+   "cdsCode": "30736433032919",
+   "cohort": 88,
+   "gradRate": 81.8,
+   "ucCsuRate": 1.4
+  },
+  "30736433037553": {
+   "cdsCode": "30736433037553",
+   "cohort": 515,
+   "gradRate": 96.5,
+   "ucCsuRate": 52.9
+  },
+  "36677773636743": {
+   "cdsCode": "36677773636743",
+   "cohort": 163,
+   "gradRate": 77.9,
+   "ucCsuRate": 25.2
+  },
+  "36750693637584": {
+   "cdsCode": "36750693637584",
+   "cohort": 687,
+   "gradRate": 95.3,
+   "ucCsuRate": 60
+  },
+  "19647330122721": {
+   "cdsCode": "19647330122721",
+   "cohort": 77,
+   "gradRate": 96.1,
+   "ucCsuRate": 87.8
+  },
+  "19647331934157": {
+   "cdsCode": "19647331934157",
+   "cohort": 345,
+   "gradRate": 91,
+   "ucCsuRate": 66.6
+  },
+  "19647330101196": {
+   "cdsCode": "19647330101196",
+   "cohort": 80,
+   "gradRate": 91.3,
+   "ucCsuRate": 100
+  },
+  "30666213038098": {
+   "cdsCode": "30666213038098",
+   "cohort": 522,
+   "gradRate": 97.7,
+   "ucCsuRate": 50.4
+  },
+  "19644361936418": {
+   "cdsCode": "19644361936418",
+   "cohort": 314,
+   "gradRate": 95.5,
+   "ucCsuRate": 69.7
+  },
+  "33736763330990": {
+   "cdsCode": "33736763330990",
+   "cohort": 598,
+   "gradRate": 90.5,
+   "ucCsuRate": 40.1
+  },
+  "19734601939149": {
+   "cdsCode": "19734601939149",
+   "cohort": 545,
+   "gradRate": 96.9,
+   "ucCsuRate": 61
+  },
+  "19647330124941": {
+   "cdsCode": "19647330124941",
+   "cohort": 137,
+   "gradRate": 97.1,
+   "ucCsuRate": 100
+  },
+  "19647330112508": {
+   "cdsCode": "19647330112508",
+   "cohort": 109,
+   "gradRate": 92.7,
+   "ucCsuRate": 83.2
+  },
+  "19647330102434": {
+   "cdsCode": "19647330102434",
+   "cohort": 142,
+   "gradRate": 95.1,
+   "ucCsuRate": 93.3
+  },
+  "19647331931955": {
+   "cdsCode": "19647331931955",
+   "cohort": 40,
+   "gradRate": 30,
+   "ucCsuRate": 16.7
+  },
+  "19650941938513": {
+   "cdsCode": "19650941938513",
+   "cohort": 47,
+   "gradRate": 85.1,
+   "ucCsuRate": 0
+  },
+  "19650941939537": {
+   "cdsCode": "19650941939537",
+   "cohort": 490,
+   "gradRate": 98.4,
+   "ucCsuRate": 44.4
+  },
+  "19647330108928": {
+   "cdsCode": "19647330108928",
+   "cohort": 128,
+   "gradRate": 91.4,
+   "ucCsuRate": 100
+  },
+  "19647331932920": {
+   "cdsCode": "19647331932920",
+   "cohort": 418,
+   "gradRate": 94,
+   "ucCsuRate": 64.6
+  },
+  "19647331931856": {
+   "cdsCode": "19647331931856",
+   "cohort": 36,
+   "gradRate": 77.8,
+   "ucCsuRate": 7.1
+  },
+  "19642951936491": {
+   "cdsCode": "19642951936491",
+   "cohort": 25,
+   "gradRate": 96,
+   "ucCsuRate": 0
+  },
+  "19734370137984": {
+   "cdsCode": "19734370137984",
+   "cohort": 39,
+   "gradRate": 87.2,
+   "ucCsuRate": 100
+  },
+  "19651281936889": {
+   "cdsCode": "19651281936889",
+   "cohort": 268,
+   "gradRate": 98.1,
+   "ucCsuRate": 69.6
+  },
+  "56105610122713": {
+   "cdsCode": "56105610122713",
+   "cohort": 30,
+   "gradRate": 86.7,
+   "ucCsuRate": 30.8
+  },
+  "56737595630116": {
+   "cdsCode": "56737595630116",
+   "cohort": 540,
+   "gradRate": 97.6,
+   "ucCsuRate": 67
+  },
+  "30665483038445": {
+   "cdsCode": "30665483038445",
+   "cohort": 627,
+   "gradRate": 93,
+   "ucCsuRate": 55.7
+  },
+  "19647331939305": {
+   "cdsCode": "19647331939305",
+   "cohort": 177,
+   "gradRate": 85.3,
+   "ucCsuRate": 62.9
+  },
+  "19647330129627": {
+   "cdsCode": "19647330129627",
+   "cohort": 97,
+   "gradRate": 89.7,
+   "ucCsuRate": 100
+  },
+  "19647330135996": {
+   "cdsCode": "19647330135996",
+   "cohort": 16,
+   "gradRate": 100,
+   "ucCsuRate": 81.3
+  },
+  "33751763332350": {
+   "cdsCode": "33751763332350",
+   "cohort": 493,
+   "gradRate": 94.9,
+   "ucCsuRate": 38.7
+  },
+  "30666470119404": {
+   "cdsCode": "30666470119404",
+   "cohort": 411,
+   "gradRate": 95.9,
+   "ucCsuRate": 69.8
+  },
+  "36677773638616": {
+   "cdsCode": "36677773638616",
+   "cohort": 312,
+   "gradRate": 83,
+   "ucCsuRate": 32
+  }
+ }
+}

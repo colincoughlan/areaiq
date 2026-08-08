@@ -1,0 +1,1328 @@
+{
+ "generatedAt": "2026-08-07",
+ "baselinePeriod": "ACS 2013-2017 5-year",
+ "currentPeriod": "ACS 2020-2024 5-year",
+ "blsSource": "U.S. Bureau of Labor Statistics, Local Area Unemployment Statistics",
+ "medianIncomeChangePct": 0.45949321375906593,
+ "counties": {
+  "06037": {
+   "latestRate": 5.3,
+   "latestPeriod": "June 2026",
+   "yearAgoRate": 5.7
+  },
+  "06059": {
+   "latestRate": 4.1,
+   "latestPeriod": "June 2026",
+   "yearAgoRate": 4.3
+  },
+  "06065": {
+   "latestRate": 5.4,
+   "latestPeriod": "June 2026",
+   "yearAgoRate": 5.8
+  },
+  "06071": {
+   "latestRate": 5.2,
+   "latestPeriod": "June 2026",
+   "yearAgoRate": 5.7
+  },
+  "06111": {
+   "latestRate": 4.4,
+   "latestPeriod": "June 2026",
+   "yearAgoRate": 4.8
+  }
+ },
+ "areas": {
+  "acton": {
+   "incomeChangePct": 0.24368527058409173,
+   "popChangePct": 0.0827150316020886
+  },
+  "adelanto": {
+   "incomeChangePct": 0.9939905939731755,
+   "popChangePct": 0.1550795630875954
+  },
+  "agoura-hills": {
+   "incomeChangePct": 0.468487466995851,
+   "popChangePct": -0.04894868827160492
+  },
+  "agua-dulce": {
+   "incomeChangePct": 0.38247622652221214,
+   "popChangePct": -0.21400778210116733
+  },
+  "aguanga": {
+   "incomeChangePct": 0.37304086021505367,
+   "popChangePct": 0.15783132530120492
+  },
+  "alhambra": {
+   "incomeChangePct": 0.588852186783632,
+   "popChangePct": -0.04868025549502164
+  },
+  "aliso-viejo": {
+   "incomeChangePct": 0.3393040158716727,
+   "popChangePct": 0.008324949202027865
+  },
+  "alondra-park": {
+   "incomeChangePct": 0.4135437105745374,
+   "popChangePct": 0.12525198226044876
+  },
+  "altadena": {
+   "incomeChangePct": 0.4499740915132808,
+   "popChangePct": -0.07805729949597662
+  },
+  "anaheim": {
+   "incomeChangePct": 0.4580098908333716,
+   "popChangePct": -0.01285361038603805
+  },
+  "anza": {
+   "incomeChangePct": 0.988387311710254,
+   "popChangePct": -0.42204628501827035
+  },
+  "apple-valley": {
+   "incomeChangePct": 0.3727385231893452,
+   "popChangePct": 0.04946048167306305
+  },
+  "arcadia": {
+   "incomeChangePct": 0.252023911940529,
+   "popChangePct": -0.05134465919251663
+  },
+  "artesia": {
+   "incomeChangePct": 0.6108577078881057,
+   "popChangePct": -0.05720049842757968
+  },
+  "avalon": {
+   "incomeChangePct": 0.6692439589750103,
+   "popChangePct": -0.11646373742721017
+  },
+  "avocado-heights": {
+   "incomeChangePct": 0.31586086757860476,
+   "popChangePct": -0.2232776167273176
+  },
+  "azusa": {
+   "incomeChangePct": 0.5715250831485588,
+   "popChangePct": 0.00004079218421759734
+  },
+  "baker": {
+   "incomeChangePct": null,
+   "popChangePct": -0.4584664536741214
+  },
+  "baldwin-park": {
+   "incomeChangePct": 0.4099704591934836,
+   "popChangePct": -0.08402549234707202
+  },
+  "banning": {
+   "incomeChangePct": 0.5557682619647355,
+   "popChangePct": 0.008726966000519143
+  },
+  "barstow": {
+   "incomeChangePct": 0.4582308911107469,
+   "popChangePct": 0.06315388199415484
+  },
+  "beaumont": {
+   "incomeChangePct": 0.4947253851306095,
+   "popChangePct": 0.2892921793726084
+  },
+  "bell": {
+   "incomeChangePct": 0.5375699239026357,
+   "popChangePct": -0.09643314228479216
+  },
+  "bell-canyon": {
+   "incomeChangePct": 0.2461109034267912,
+   "popChangePct": 0.012558139534883717
+  },
+  "bell-gardens": {
+   "incomeChangePct": 0.5970570139458573,
+   "popChangePct": -0.10773719220445788
+  },
+  "bellflower": {
+   "incomeChangePct": 0.4868918102145663,
+   "popChangePct": -0.013268766377228625
+  },
+  "bermuda-dunes": {
+   "incomeChangePct": 0.5619227792587498,
+   "popChangePct": 0.10051083805053151
+  },
+  "beverly-hills": {
+   "incomeChangePct": 0.282348743466605,
+   "popChangePct": -0.08352170636990663
+  },
+  "big-bear-city": {
+   "incomeChangePct": 0.5410524954745282,
+   "popChangePct": -0.13309570756863343
+  },
+  "big-bear-lake": {
+   "incomeChangePct": 0.5398130010702962,
+   "popChangePct": -0.02870905587668593
+  },
+  "big-river": {
+   "incomeChangePct": 0.38340869565217384,
+   "popChangePct": 0.10572259941804063
+  },
+  "bloomington": {
+   "incomeChangePct": 0.6076879147712728,
+   "popChangePct": 0.14841131518970374
+  },
+  "bluewater": {
+   "incomeChangePct": 0.7512858540279574,
+   "popChangePct": null
+  },
+  "blythe": {
+   "incomeChangePct": 0.4213102409638554,
+   "popChangePct": -0.10725649184029562
+  },
+  "bradbury": {
+   "incomeChangePct": 0.14373263877323983,
+   "popChangePct": -0.20564516129032262
+  },
+  "brea": {
+   "incomeChangePct": 0.4535327111091405,
+   "popChangePct": 0.13234417117912267
+  },
+  "buena-park": {
+   "incomeChangePct": 0.5569326103795507,
+   "popChangePct": -0.001794748253432954
+  },
+  "burbank": {
+   "incomeChangePct": 0.40458346595676953,
+   "popChangePct": -0.002090392783849593
+  },
+  "cabazon": {
+   "incomeChangePct": 0.4114237690903295,
+   "popChangePct": -0.5196028513238289
+  },
+  "calabasas": {
+   "incomeChangePct": 0.44807828776184255,
+   "popChangePct": -0.06206297323017085
+  },
+  "calimesa": {
+   "incomeChangePct": 0.7375732451070276,
+   "popChangePct": 0.2800281789362451
+  },
+  "camarillo": {
+   "incomeChangePct": 0.2225479629230438,
+   "popChangePct": 0.04574170093569352
+  },
+  "canyon-lake": {
+   "incomeChangePct": 0.41902376853073364,
+   "popChangePct": 0.006882187811283247
+  },
+  "carson": {
+   "incomeChangePct": 0.4394507197054969,
+   "popChangePct": -0.0006026235647336176
+  },
+  "casa-conejo": {
+   "incomeChangePct": 0.46821694632040667,
+   "popChangePct": -0.21279104037724728
+  },
+  "castaic": {
+   "incomeChangePct": 0.18361785320415258,
+   "popChangePct": -0.06736100316078553
+  },
+  "cathedral-city": {
+   "incomeChangePct": 0.695832565000922,
+   "popChangePct": -0.027283047661585957
+  },
+  "cerritos": {
+   "incomeChangePct": 0.3687205036734611,
+   "popChangePct": -0.04542825805165018
+  },
+  "channel-islands-beach": {
+   "incomeChangePct": 0.027874564459930307,
+   "popChangePct": 0.025197442647611812
+  },
+  "charter-oak": {
+   "incomeChangePct": 0.4044902758357696,
+   "popChangePct": -0.004113490138171083
+  },
+  "cherry-valley": {
+   "incomeChangePct": 0.42116546842367897,
+   "popChangePct": -0.15850580514891466
+  },
+  "chino": {
+   "incomeChangePct": 0.3859658413875282,
+   "popChangePct": 0.08226938756439162
+  },
+  "chino-hills": {
+   "incomeChangePct": 0.22957584723492874,
+   "popChangePct": -0.0012560076898430195
+  },
+  "citrus": {
+   "incomeChangePct": 0.5718669765887303,
+   "popChangePct": -0.05091826964922974
+  },
+  "claremont": {
+   "incomeChangePct": 0.2963589653642582,
+   "popChangePct": 0.01796990180533542
+  },
+  "coachella": {
+   "incomeChangePct": 0.9998833819241983,
+   "popChangePct": -0.024221531251408246
+  },
+  "colton": {
+   "incomeChangePct": 0.5068562722194008,
+   "popChangePct": -0.007896678966789694
+  },
+  "commerce": {
+   "incomeChangePct": 0.8033416015350774,
+   "popChangePct": -0.07731958762886593
+  },
+  "compton": {
+   "incomeChangePct": 0.630712637945009,
+   "popChangePct": -0.052622972600079754
+  },
+  "corona": {
+   "incomeChangePct": 0.48438731418322156,
+   "popChangePct": -0.02393251214964698
+  },
+  "coronita": {
+   "incomeChangePct": 0.12132717564440343,
+   "popChangePct": -0.06686930091185406
+  },
+  "costa-mesa": {
+   "incomeChangePct": 0.48457574991013064,
+   "popChangePct": -0.02302311166209159
+  },
+  "coto-de-caza": {
+   "incomeChangePct": 0.3936882298805897,
+   "popChangePct": 0.026420704101628445
+  },
+  "covina": {
+   "incomeChangePct": 0.44443793825298994,
+   "popChangePct": 0.026480936606242622
+  },
+  "crestline": {
+   "incomeChangePct": 0.37208071685599386,
+   "popChangePct": 0.026510802630205665
+  },
+  "cudahy": {
+   "incomeChangePct": 0.42234448799115665,
+   "popChangePct": -0.08527292305143708
+  },
+  "culver-city": {
+   "incomeChangePct": 0.34934537972573776,
+   "popChangePct": 0.0126546966930412
+  },
+  "cypress": {
+   "incomeChangePct": 0.4413083181138968,
+   "popChangePct": 0.007941679563411297
+  },
+  "dana-point": {
+   "incomeChangePct": 0.5670468386668144,
+   "popChangePct": -0.03638180322087692
+  },
+  "del-aire": {
+   "incomeChangePct": 0.6832134149967295,
+   "popChangePct": 0.047201808931599754
+  },
+  "desert-center": {
+   "incomeChangePct": 0.3718317757009346,
+   "popChangePct": null
+  },
+  "desert-edge": {
+   "incomeChangePct": 0.5435912240184757,
+   "popChangePct": 0.1970849176172369
+  },
+  "desert-hot-springs": {
+   "incomeChangePct": 0.5404221774546729,
+   "popChangePct": 0.1732277899498198
+  },
+  "desert-palms": {
+   "incomeChangePct": 0.4911047989236059,
+   "popChangePct": -0.053245071233270935
+  },
+  "desert-view-highlands": {
+   "incomeChangePct": 0.526980113579355,
+   "popChangePct": 0.039379474940334225
+  },
+  "diamond-bar": {
+   "incomeChangePct": 0.1454549301287409,
+   "popChangePct": -0.057332155477031854
+  },
+  "downey": {
+   "incomeChangePct": 0.3306387723364925,
+   "popChangePct": -0.021339473173485723
+  },
+  "duarte": {
+   "incomeChangePct": 0.48025540275049106,
+   "popChangePct": 0.016123122022718928
+  },
+  "east-hemet": {
+   "incomeChangePct": 0.649905542827284,
+   "popChangePct": 0.01533757706380623
+  },
+  "east-los-angeles": {
+   "incomeChangePct": 0.6157625047010153,
+   "popChangePct": -0.09893063233929222
+  },
+  "east-pasadena": {
+   "incomeChangePct": 0.1751100965835064,
+   "popChangePct": -0.1286577608142494
+  },
+  "east-rancho-dominguez": {
+   "incomeChangePct": 0.4692425525053412,
+   "popChangePct": -0.08885006551444441
+  },
+  "east-san-gabriel": {
+   "incomeChangePct": 0.5077902798396159,
+   "popChangePct": 0.4786508337544215
+  },
+  "east-whittier": {
+   "incomeChangePct": 0.5503400526093416,
+   "popChangePct": -0.052182163187855735
+  },
+  "eastvale": {
+   "incomeChangePct": 0.44616705063920126,
+   "popChangePct": 0.1824786968677281
+  },
+  "el-cerrito": {
+   "incomeChangePct": 0.6977001637171591,
+   "popChangePct": -0.033224400871459725
+  },
+  "el-monte": {
+   "incomeChangePct": 0.5637642515630747,
+   "popChangePct": -0.08493592507632075
+  },
+  "el-rio": {
+   "incomeChangePct": 0.24010112397936534,
+   "popChangePct": -0.11910361045787798
+  },
+  "el-segundo": {
+   "incomeChangePct": 0.6218394267392569,
+   "popChangePct": -0.00945123752141297
+  },
+  "el-sobrante": {
+   "incomeChangePct": 0.46136273428886443,
+   "popChangePct": -0.09148155836966299
+  },
+  "elizabeth-lake": {
+   "incomeChangePct": 1.0181176470588236,
+   "popChangePct": -0.023354564755838636
+  },
+  "fillmore": {
+   "incomeChangePct": 0.48224767130279433,
+   "popChangePct": 0.08287719750144884
+  },
+  "florence-graham": {
+   "incomeChangePct": 0.7948138554382871,
+   "popChangePct": -0.04905908713432883
+  },
+  "fontana": {
+   "incomeChangePct": 0.5053437573202155,
+   "popChangePct": 0.034203181287001616
+  },
+  "fort-irwin": {
+   "incomeChangePct": 0.5034669405977756,
+   "popChangePct": -0.07003203358002874
+  },
+  "fountain-valley": {
+   "incomeChangePct": 0.330650562342671,
+   "popChangePct": -0.006744350282485878
+  },
+  "french-valley": {
+   "incomeChangePct": 0.42042846212700846,
+   "popChangePct": 0.443849073453896
+  },
+  "fullerton": {
+   "incomeChangePct": 0.4552888640803796,
+   "popChangePct": 0.007086929187860802
+  },
+  "garden-grove": {
+   "incomeChangePct": 0.470666134822497,
+   "popChangePct": -0.022012218840811837
+  },
+  "gardena": {
+   "incomeChangePct": 0.6691203967957171,
+   "popChangePct": -0.011215388711395047
+  },
+  "garnet": {
+   "incomeChangePct": 0.9716835281672951,
+   "popChangePct": 0.2659921111301664
+  },
+  "glendale": {
+   "incomeChangePct": 0.5069471674309971,
+   "popChangePct": -0.045066332916145146
+  },
+  "glendora": {
+   "incomeChangePct": 0.31381735730316285,
+   "popChangePct": -0.018596673796997587
+  },
+  "good-hope": {
+   "incomeChangePct": 0.27992542509939566,
+   "popChangePct": -0.05902444230974491
+  },
+  "grand-terrace": {
+   "incomeChangePct": 0.2782855920026903,
+   "popChangePct": 0.05137068896213526
+  },
+  "green-acres": {
+   "incomeChangePct": 0.6164979757085021,
+   "popChangePct": 0.21829971181556207
+  },
+  "green-valley": {
+   "incomeChangePct": 0.08548518619189993,
+   "popChangePct": -0.1456310679611651
+  },
+  "hacienda-heights": {
+   "incomeChangePct": 0.34178350680150893,
+   "popChangePct": 0.0025113101283353867
+  },
+  "hasley-canyon": {
+   "incomeChangePct": 0.1984430641821946,
+   "popChangePct": 0.13857677902621712
+  },
+  "hawaiian-gardens": {
+   "incomeChangePct": 0.9801571862111897,
+   "popChangePct": -0.05350846871759418
+  },
+  "hawthorne": {
+   "incomeChangePct": 0.592241162146276,
+   "popChangePct": -0.025553331426937387
+  },
+  "hemet": {
+   "incomeChangePct": 0.5527965349331467,
+   "popChangePct": 0.09236400172240566
+  },
+  "hermosa-beach": {
+   "incomeChangePct": 0.33314644090060797,
+   "popChangePct": -0.0347848101265823
+  },
+  "hesperia": {
+   "incomeChangePct": 0.4511523146844709,
+   "popChangePct": 0.0813928533104411
+  },
+  "hidden-hills": {
+   "incomeChangePct": 0.2476656269494697,
+   "popChangePct": 0.28281622911694515
+  },
+  "highgrove": {
+   "incomeChangePct": 1.674282366725249,
+   "popChangePct": 0.9446768944676895
+  },
+  "highland": {
+   "incomeChangePct": 0.3988753854525666,
+   "popChangePct": 0.03603027200935949
+  },
+  "home-gardens": {
+   "incomeChangePct": 0.5529263850158772,
+   "popChangePct": -0.12428107026756685
+  },
+  "homeland": {
+   "incomeChangePct": 0.5530016711659596,
+   "popChangePct": 0.01512515058225139
+  },
+  "homestead-valley": {
+   "incomeChangePct": 0.6525559687887406,
+   "popChangePct": -0.09976565115500502
+  },
+  "huntington-beach": {
+   "incomeChangePct": 0.37284710316874614,
+   "popChangePct": -0.025821420552353813
+  },
+  "huntington-park": {
+   "incomeChangePct": 0.5744502178134676,
+   "popChangePct": -0.09975759835912734
+  },
+  "idyllwild-pine-cove": {
+   "incomeChangePct": 0.14451262135922338,
+   "popChangePct": 0.5277992277992278
+  },
+  "indian-wells": {
+   "incomeChangePct": 0.5745392016693072,
+   "popChangePct": -0.07518511486614776
+  },
+  "indio": {
+   "incomeChangePct": 0.5448539568777402,
+   "popChangePct": 0.058514740925783126
+  },
+  "indio-hills": {
+   "incomeChangePct": 1.119011529098342,
+   "popChangePct": 0.14799588900308325
+  },
+  "industry": {
+   "incomeChangePct": -0.20542812634293084,
+   "popChangePct": null
+  },
+  "inglewood": {
+   "incomeChangePct": 0.5682597167431935,
+   "popChangePct": -0.05798785651226057
+  },
+  "irvine": {
+   "incomeChangePct": 0.43051907965638825,
+   "popChangePct": 0.2133822802352876
+  },
+  "irwindale": {
+   "incomeChangePct": 1.0948073394495412,
+   "popChangePct": 0.004376367614879584
+  },
+  "joshua-tree": {
+   "incomeChangePct": 0.6751149744781928,
+   "popChangePct": -0.11196581196581201
+  },
+  "jurupa-valley": {
+   "incomeChangePct": 0.5414151629112285,
+   "popChangePct": 0.0470538737011017
+  },
+  "la-canada-flintridge": {
+   "incomeChangePct": 0.5071877667761293,
+   "popChangePct": -0.026326072091433006
+  },
+  "la-crescenta-montrose": {
+   "incomeChangePct": 0.40202538744432337,
+   "popChangePct": 0.00010173974972027544
+  },
+  "la-habra": {
+   "incomeChangePct": 0.38693230624289954,
+   "popChangePct": 0.00008069071249905413
+  },
+  "la-habra-heights": {
+   "incomeChangePct": 0.5995208108806214,
+   "popChangePct": 0.009769585253456281
+  },
+  "la-mirada": {
+   "incomeChangePct": 0.25043478260869567,
+   "popChangePct": -0.04031569098083887
+  },
+  "la-palma": {
+   "incomeChangePct": 0.2962405519423448,
+   "popChangePct": -0.034273428607562884
+  },
+  "la-puente": {
+   "incomeChangePct": 0.4429097452473383,
+   "popChangePct": -0.08180267484116588
+  },
+  "la-quinta": {
+   "incomeChangePct": 0.3036739304619669,
+   "popChangePct": -0.03964768639126659
+  },
+  "la-verne": {
+   "incomeChangePct": 0.2527134216276907,
+   "popChangePct": -0.053217821782178265
+  },
+  "ladera-heights": {
+   "incomeChangePct": 0.6495685143861452,
+   "popChangePct": 0.03572941674904673
+  },
+  "ladera-ranch": {
+   "incomeChangePct": 0.20621489246221958,
+   "popChangePct": -0.1729639542563176
+  },
+  "laguna-beach": {
+   "incomeChangePct": 0.22330039290391723,
+   "popChangePct": -0.022132276954874297
+  },
+  "laguna-hills": {
+   "incomeChangePct": 0.2911309959217212,
+   "popChangePct": -0.01584760685128861
+  },
+  "laguna-niguel": {
+   "incomeChangePct": 0.415761143479225,
+   "popChangePct": -0.019716028060951518
+  },
+  "laguna-woods": {
+   "incomeChangePct": 0.4513553884957269,
+   "popChangePct": 0.0597646193453476
+  },
+  "lake-arrowhead": {
+   "incomeChangePct": 0.4015805972126154,
+   "popChangePct": 0.0025442894836034124
+  },
+  "lake-elsinore": {
+   "incomeChangePct": 0.543009449963654,
+   "popChangePct": 0.1644249465683203
+  },
+  "lake-forest": {
+   "incomeChangePct": 0.39408846673473397,
+   "popChangePct": 0.05462523835134214
+  },
+  "lake-hughes": {
+   "incomeChangePct": null,
+   "popChangePct": 0.42307692307692313
+  },
+  "lake-los-angeles": {
+   "incomeChangePct": 0.43604420250917,
+   "popChangePct": 0.10414551607445
+  },
+  "lake-mathews": {
+   "incomeChangePct": 0.42312096920016873,
+   "popChangePct": 0.019525148391127845
+  },
+  "lake-riverside": {
+   "incomeChangePct": 0.4566578717910972,
+   "popChangePct": 0.282520325203252
+  },
+  "lake-sherwood": {
+   "incomeChangePct": -0.06392374430502279,
+   "popChangePct": -0.10862445414847166
+  },
+  "lakeland-village": {
+   "incomeChangePct": 1.001867675211281,
+   "popChangePct": -0.08296485048339952
+  },
+  "lakeview": {
+   "incomeChangePct": 0.3041997979176734,
+   "popChangePct": -0.1404751979991663
+  },
+  "lakewood": {
+   "incomeChangePct": 0.41784545833085485,
+   "popChangePct": -0.015485907331146853
+  },
+  "lancaster": {
+   "incomeChangePct": 0.6528977572291843,
+   "popChangePct": 0.05656005446153656
+  },
+  "las-flores": {
+   "incomeChangePct": 0.6367345992441631,
+   "popChangePct": -0.026831421006178302
+  },
+  "lawndale": {
+   "incomeChangePct": 0.557380336116073,
+   "popChangePct": -0.07261004489168754
+  },
+  "lennox": {
+   "incomeChangePct": 0.40800058505192327,
+   "popChangePct": -0.09694943585457583
+  },
+  "lenwood": {
+   "incomeChangePct": 0.7377467702533178,
+   "popChangePct": -0.20493537015276142
+  },
+  "leona-valley": {
+   "incomeChangePct": 0.6064003708945391,
+   "popChangePct": -0.09287925696594423
+  },
+  "littlerock": {
+   "incomeChangePct": 0.5249859026341934,
+   "popChangePct": -0.3003003003003003
+  },
+  "loma-linda": {
+   "incomeChangePct": 0.5743261326706175,
+   "popChangePct": 0.04845373732315017
+  },
+  "lomita": {
+   "incomeChangePct": 0.5044985806617164,
+   "popChangePct": -0.023277152653692013
+  },
+  "long-beach": {
+   "incomeChangePct": 0.49929690983297315,
+   "popChangePct": -0.031756321614320404
+  },
+  "los-alamitos": {
+   "incomeChangePct": 0.2227060496608313,
+   "popChangePct": 0.013317295300283583
+  },
+  "los-angeles": {
+   "incomeChangePct": 0.5034403038476358,
+   "popChangePct": -0.023422340912497286
+  },
+  "lucerne-valley": {
+   "incomeChangePct": 0.8225607930541232,
+   "popChangePct": 0.08863304093567259
+  },
+  "lynwood": {
+   "incomeChangePct": 0.6327581317218962,
+   "popChangePct": -0.09491240364400844
+  },
+  "lytle-creek": {
+   "incomeChangePct": 0.9937230286386818,
+   "popChangePct": -0.25416204217536076
+  },
+  "manhattan-beach": {
+   "incomeChangePct": 0.37211129691938827,
+   "popChangePct": -0.04168300745139786
+  },
+  "march-arb": {
+   "incomeChangePct": 0.07490536628813182,
+   "popChangePct": 0.19530516431924894
+  },
+  "marina-del-rey": {
+   "incomeChangePct": 0.3752954639252617,
+   "popChangePct": -0.05314209059952535
+  },
+  "mayflower-village": {
+   "incomeChangePct": 0.2907110794966763,
+   "popChangePct": -0.15065202470830474
+  },
+  "maywood": {
+   "incomeChangePct": 0.6248000426575664,
+   "popChangePct": -0.12212996389891695
+  },
+  "mead-valley": {
+   "incomeChangePct": 0.9715382518626203,
+   "popChangePct": -0.054700519556906135
+  },
+  "meadowbrook": {
+   "incomeChangePct": 0.34237611940298507,
+   "popChangePct": -0.01091867469879515
+  },
+  "mecca": {
+   "incomeChangePct": 0.8679967521169238,
+   "popChangePct": -0.08982642848093247
+  },
+  "meiners-oaks": {
+   "incomeChangePct": -0.022477230315015473,
+   "popChangePct": 0.23632935260842247
+  },
+  "menifee": {
+   "incomeChangePct": 0.5368701486646494,
+   "popChangePct": 0.2705021884358443
+  },
+  "mentone": {
+   "incomeChangePct": 0.26385951853292955,
+   "popChangePct": -0.0607167538750123
+  },
+  "mesa-verde": {
+   "incomeChangePct": 0.5677794793261868,
+   "popChangePct": 0.5776397515527951
+  },
+  "midway-city": {
+   "incomeChangePct": 0.6153939393939394,
+   "popChangePct": -0.09298106361265446
+  },
+  "mira-monte": {
+   "incomeChangePct": 0.08005690827985834,
+   "popChangePct": -0.004048582995951455
+  },
+  "mission-viejo": {
+   "incomeChangePct": 0.26053820794903126,
+   "popChangePct": -0.045413580566633915
+  },
+  "monrovia": {
+   "incomeChangePct": 0.34534067504518506,
+   "popChangePct": 0.011659216974527542
+  },
+  "montclair": {
+   "incomeChangePct": 0.4330343962208445,
+   "popChangePct": -0.02079610493875117
+  },
+  "montebello": {
+   "incomeChangePct": 0.5895015105740182,
+   "popChangePct": -0.03817671897649211
+  },
+  "monterey-park": {
+   "incomeChangePct": 0.48511348585735803,
+   "popChangePct": -0.03151205450733752
+  },
+  "moorpark": {
+   "incomeChangePct": 0.45361985412893446,
+   "popChangePct": -0.005712701053799174
+  },
+  "moreno-valley": {
+   "incomeChangePct": 0.5581927892088856,
+   "popChangePct": 0.039152441688636186
+  },
+  "morongo-valley": {
+   "incomeChangePct": 0.06018367346938769,
+   "popChangePct": 0.3026926648096564
+  },
+  "mountain-view-acres": {
+   "incomeChangePct": 0.820919322409928,
+   "popChangePct": -0.09227190488498316
+  },
+  "murrieta": {
+   "incomeChangePct": 0.41939457280430004,
+   "popChangePct": 0.01836554801304935
+  },
+  "muscoy": {
+   "incomeChangePct": 0.8282249398761705,
+   "popChangePct": -0.07271745835903765
+  },
+  "needles": {
+   "incomeChangePct": 0.10296195887289827,
+   "popChangePct": -0.022471910112359605
+  },
+  "newport-beach": {
+   "incomeChangePct": 0.3140250797879025,
+   "popChangePct": -0.03396587282384522
+  },
+  "norco": {
+   "incomeChangePct": 0.3878692270032096,
+   "popChangePct": -0.06203436786342709
+  },
+  "north-el-monte": {
+   "incomeChangePct": 0.6574500000000001,
+   "popChangePct": 0.06628392484342371
+  },
+  "north-shore": {
+   "incomeChangePct": 0.8226765668437908,
+   "popChangePct": 0.049567034935801724
+  },
+  "north-tustin": {
+   "incomeChangePct": 0.318408551951769,
+   "popChangePct": 0.017465699416495895
+  },
+  "norwalk": {
+   "incomeChangePct": 0.5719580957765946,
+   "popChangePct": -0.062168715461824786
+  },
+  "nuevo": {
+   "incomeChangePct": 0.6870767620898424,
+   "popChangePct": -0.030497363545674783
+  },
+  "oak-hills": {
+   "incomeChangePct": 0.1460581382196584,
+   "popChangePct": -0.1449577838914714
+  },
+  "oak-park": {
+   "incomeChangePct": 0.25719814062487956,
+   "popChangePct": -0.04729916897506925
+  },
+  "oak-view": {
+   "incomeChangePct": 0.5617840880165172,
+   "popChangePct": 0.37321109123434715
+  },
+  "oasis": {
+   "incomeChangePct": 0.6991278432747512,
+   "popChangePct": 0.25030864197530867
+  },
+  "ojai": {
+   "incomeChangePct": 0.18012564249000573,
+   "popChangePct": -0.0022386094284961855
+  },
+  "ontario": {
+   "incomeChangePct": 0.5456172667871542,
+   "popChangePct": 0.055577317719143426
+  },
+  "orange": {
+   "incomeChangePct": 0.4025508982035928,
+   "popChangePct": -0.014420232520012233
+  },
+  "oxnard": {
+   "incomeChangePct": 0.48390579453090066,
+   "popChangePct": -0.028074995646537593
+  },
+  "palm-desert": {
+   "incomeChangePct": 0.3777149763605987,
+   "popChangePct": 0.006095791001451412
+  },
+  "palm-springs": {
+   "incomeChangePct": 0.519324273781324,
+   "popChangePct": -0.04391175222740773
+  },
+  "palmdale": {
+   "incomeChangePct": 0.44217711070741994,
+   "popChangePct": 0.046238513453399355
+  },
+  "palos-verdes-estates": {
+   "incomeChangePct": 0.33846196388573957,
+   "popChangePct": -0.049003016702229396
+  },
+  "paramount": {
+   "incomeChangePct": 0.5337110712538724,
+   "popChangePct": -0.053980370774263875
+  },
+  "pasadena": {
+   "incomeChangePct": 0.37931396202664436,
+   "popChangePct": -0.030177510603196178
+  },
+  "perris": {
+   "incomeChangePct": 0.6267083813601186,
+   "popChangePct": 0.07332257935502784
+  },
+  "phelan": {
+   "incomeChangePct": 0.4593232409926773,
+   "popChangePct": 0.2230377570587847
+  },
+  "pico-rivera": {
+   "incomeChangePct": 0.4321599064722501,
+   "popChangePct": -0.05455686274509808
+  },
+  "pinon-hills": {
+   "incomeChangePct": 0.39226080042406575,
+   "popChangePct": -0.06831069497560327
+  },
+  "piru": {
+   "incomeChangePct": 0.6657658329295113,
+   "popChangePct": 0.20851769911504414
+  },
+  "placentia": {
+   "incomeChangePct": 0.3099174020632536,
+   "popChangePct": 0.010173251233411174
+  },
+  "pomona": {
+   "incomeChangePct": 0.4916949756949007,
+   "popChangePct": -0.029028785949621327
+  },
+  "port-hueneme": {
+   "incomeChangePct": 0.4178602032072469,
+   "popChangePct": -0.0305453238702722
+  },
+  "quartz-hill": {
+   "incomeChangePct": 0.8052526151791677,
+   "popChangePct": 0.13982966924143403
+  },
+  "rancho-cucamonga": {
+   "incomeChangePct": 0.33628308015668296,
+   "popChangePct": 0.004800284121828646
+  },
+  "rancho-mirage": {
+   "incomeChangePct": 0.6580288476387559,
+   "popChangePct": -0.0229207232267038
+  },
+  "rancho-santa-margarita": {
+   "incomeChangePct": 0.42660769223576067,
+   "popChangePct": -0.04254452096662453
+  },
+  "redlands": {
+   "incomeChangePct": 0.5233047160508151,
+   "popChangePct": 0.036882639723026855
+  },
+  "rialto": {
+   "incomeChangePct": 0.6166988100869693,
+   "popChangePct": 0.013971647778167284
+  },
+  "ripley": {
+   "incomeChangePct": 0.3393688326196238,
+   "popChangePct": null
+  },
+  "riverside": {
+   "incomeChangePct": 0.45765289785462704,
+   "popChangePct": -0.0077774668034953365
+  },
+  "rolling-hills": {
+   "incomeChangePct": 0.20813117352560262,
+   "popChangePct": -0.10391923990498808
+  },
+  "rolling-hills-estates": {
+   "incomeChangePct": 0.45959945539320457,
+   "popChangePct": -0.011909101956495305
+  },
+  "romoland": {
+   "incomeChangePct": 1.5749638554216867,
+   "popChangePct": 0.08986064392119175
+  },
+  "rose-hills": {
+   "incomeChangePct": 0.28893438320209963,
+   "popChangePct": -0.17855875044373448
+  },
+  "rosemead": {
+   "incomeChangePct": 0.4691456644166634,
+   "popChangePct": -0.08426256522933262
+  },
+  "rossmoor": {
+   "incomeChangePct": 0.8857904211895977,
+   "popChangePct": 0.05604395604395607
+  },
+  "rowland-heights": {
+   "incomeChangePct": 0.29241010778009247,
+   "popChangePct": -0.09216562524717231
+  },
+  "running-springs": {
+   "incomeChangePct": 0.38906686660759315,
+   "popChangePct": 0.1106844364129207
+  },
+  "san-antonio-heights": {
+   "incomeChangePct": 0.5616558616963803,
+   "popChangePct": 0.11836998706338941
+  },
+  "san-bernardino": {
+   "incomeChangePct": 0.6431861944573085,
+   "popChangePct": 0.03471280173935676
+  },
+  "san-buenaventura-ventura": {
+   "incomeChangePct": 0.41463648965810673,
+   "popChangePct": -0.002687171479669237
+  },
+  "san-clemente": {
+   "incomeChangePct": 0.3752737056056872,
+   "popChangePct": -0.0299420476497102
+  },
+  "san-dimas": {
+   "incomeChangePct": 0.2963861057088697,
+   "popChangePct": -0.0158734781848896
+  },
+  "san-fernando": {
+   "incomeChangePct": 0.5290434270138864,
+   "popChangePct": -0.038607054228876
+  },
+  "san-gabriel": {
+   "incomeChangePct": 0.6176191923345071,
+   "popChangePct": -0.047699367481086496
+  },
+  "san-jacinto": {
+   "incomeChangePct": 0.6792712129099427,
+   "popChangePct": 0.17574362908037156
+  },
+  "san-juan-capistrano": {
+   "incomeChangePct": 0.5839593784412089,
+   "popChangePct": -0.02372871926115505
+  },
+  "san-marino": {
+   "incomeChangePct": 0.4041251712811502,
+   "popChangePct": -0.08363963693646392
+  },
+  "san-pasqual": {
+   "incomeChangePct": 0.36018398005779706,
+   "popChangePct": -0.024415055951169884
+  },
+  "santa-ana": {
+   "incomeChangePct": 0.6447481233924166,
+   "popChangePct": -0.06564860849105958
+  },
+  "santa-clarita": {
+   "incomeChangePct": 0.35914030747481895,
+   "popChangePct": 0.098964623440849
+  },
+  "santa-fe-springs": {
+   "incomeChangePct": 0.38870003147623544,
+   "popChangePct": 0.06802875091968996
+  },
+  "santa-paula": {
+   "incomeChangePct": 0.43935378471591946,
+   "popChangePct": 0.034010018455048696
+  },
+  "santa-rosa-valley": {
+   "incomeChangePct": 0.09094199942896775,
+   "popChangePct": -0.19560185185185186
+  },
+  "santa-susana": {
+   "incomeChangePct": 0.46161508151576847,
+   "popChangePct": 0.1852207293666026
+  },
+  "saticoy": {
+   "incomeChangePct": 0.711248190094611,
+   "popChangePct": 0.5104477611940299
+  },
+  "seal-beach": {
+   "incomeChangePct": 0.3144141526887969,
+   "popChangePct": 0.008649530803753525
+  },
+  "searles-valley": {
+   "incomeChangePct": 0.941717410214987,
+   "popChangePct": 0.07600502512562812
+  },
+  "sierra-madre": {
+   "incomeChangePct": 0.45663490517215144,
+   "popChangePct": -0.010939336407196465
+  },
+  "signal-hill": {
+   "incomeChangePct": 0.49384913571456823,
+   "popChangePct": -0.003475842891901282
+  },
+  "silver-lakes": {
+   "incomeChangePct": 0.580247755736855,
+   "popChangePct": 0.083890010874631
+  },
+  "simi-valley": {
+   "incomeChangePct": 0.3054557508875486,
+   "popChangePct": -0.007206865487648706
+  },
+  "sky-valley": {
+   "incomeChangePct": 0.36002550545976253,
+   "popChangePct": -0.07201646090534974
+  },
+  "south-el-monte": {
+   "incomeChangePct": 0.6346778347629392,
+   "popChangePct": -0.0688006952491309
+  },
+  "south-gate": {
+   "incomeChangePct": 0.577187453734058,
+   "popChangePct": -0.04125969398448959
+  },
+  "south-monrovia-island": {
+   "incomeChangePct": 0.7113831129463042,
+   "popChangePct": -0.0227500357704965
+  },
+  "south-pasadena": {
+   "incomeChangePct": 0.37107033507266385,
+   "popChangePct": 0.00361900361900358
+  },
+  "south-san-gabriel": {
+   "incomeChangePct": 0.1115677959969319,
+   "popChangePct": -0.11613119143239625
+  },
+  "south-san-jose-hills": {
+   "incomeChangePct": 0.5372865690519044,
+   "popChangePct": -0.17196298291142342
+  },
+  "south-whittier": {
+   "incomeChangePct": 0.5997460720520553,
+   "popChangePct": -0.07250000000000001
+  },
+  "spring-valley-lake": {
+   "incomeChangePct": 0.013020609835342034,
+   "popChangePct": 0.2891517128874388
+  },
+  "stanton": {
+   "incomeChangePct": 0.6740183000335962,
+   "popChangePct": 0.019509418339888285
+  },
+  "stevenson-ranch": {
+   "incomeChangePct": 0.246922713678577,
+   "popChangePct": 0.06732431607851108
+  },
+  "sun-village": {
+   "incomeChangePct": 0.7924945360619908,
+   "popChangePct": -0.1374081600750352
+  },
+  "temecula": {
+   "incomeChangePct": 0.3896917867187051,
+   "popChangePct": 0.00401907479994934
+  },
+  "temescal-valley": {
+   "incomeChangePct": 0.2588287470605224,
+   "popChangePct": 0.18330644209200742
+  },
+  "temple-city": {
+   "incomeChangePct": 0.49492505690521527,
+   "popChangePct": -0.021649085988844075
+  },
+  "thermal": {
+   "incomeChangePct": null,
+   "popChangePct": -0.16897506925207761
+  },
+  "thousand-oaks": {
+   "incomeChangePct": 0.3064753885136762,
+   "popChangePct": -0.02873344762584462
+  },
+  "thousand-palms": {
+   "incomeChangePct": 0.854974704890388,
+   "popChangePct": 0.04948341489940189
+  },
+  "topanga": {
+   "incomeChangePct": 0.3043171323211853,
+   "popChangePct": 0.15314730694354317
+  },
+  "torrance": {
+   "incomeChangePct": 0.3661337721876101,
+   "popChangePct": -0.03437733541680821
+  },
+  "tustin": {
+   "incomeChangePct": 0.5292590427773323,
+   "popChangePct": -0.012823877910682846
+  },
+  "twentynine-palms": {
+   "incomeChangePct": 0.5069984822568601,
+   "popChangePct": 0.05231775341411815
+  },
+  "upland": {
+   "incomeChangePct": 0.6194585992134538,
+   "popChangePct": 0.04073271617096719
+  },
+  "val-verde": {
+   "incomeChangePct": 0.6280019643776875,
+   "popChangePct": 0.12397540983606548
+  },
+  "valinda": {
+   "incomeChangePct": 0.38627084630821407,
+   "popChangePct": -0.16419457735247212
+  },
+  "valle-vista": {
+   "incomeChangePct": 0.49309589775672547,
+   "popChangePct": 0.11576295585412666
+  },
+  "vernon": {
+   "incomeChangePct": 0.06667169811320761,
+   "popChangePct": null
+  },
+  "victorville": {
+   "incomeChangePct": 0.5536068483140202,
+   "popChangePct": 0.1306758899450382
+  },
+  "view-park-windsor-hills": {
+   "incomeChangePct": 0.48278095281378897,
+   "popChangePct": -0.006897771489211224
+  },
+  "villa-park": {
+   "incomeChangePct": 0.417989455085958,
+   "popChangePct": -0.03150800336983994
+  },
+  "vincent": {
+   "incomeChangePct": 0.33924,
+   "popChangePct": -0.12267657992565051
+  },
+  "vista-santa-rosa": {
+   "incomeChangePct": 0.3608697331325068,
+   "popChangePct": -0.2968655816757083
+  },
+  "walnut": {
+   "incomeChangePct": 0.3164885232230572,
+   "popChangePct": -0.08153150156343558
+  },
+  "walnut-park": {
+   "incomeChangePct": 0.6785632195917002,
+   "popChangePct": -0.06013195098963242
+  },
+  "warm-springs": {
+   "incomeChangePct": 0.5931554629461859,
+   "popChangePct": 0.1806633733239238
+  },
+  "west-athens": {
+   "incomeChangePct": 0.4897140323653293,
+   "popChangePct": -0.0022867596615595565
+  },
+  "west-carson": {
+   "incomeChangePct": 0.35445865451997194,
+   "popChangePct": -0.005256064690026929
+  },
+  "west-covina": {
+   "incomeChangePct": 0.35564915292886745,
+   "popChangePct": -0.006948954409663588
+  },
+  "west-hollywood": {
+   "incomeChangePct": 0.45949321375906593,
+   "popChangePct": -0.034967356423591944
+  },
+  "west-puente-valley": {
+   "incomeChangePct": 0.2846187427240978,
+   "popChangePct": -0.042236130625452395
+  },
+  "west-rancho-dominguez": {
+   "incomeChangePct": 0.553742373002666,
+   "popChangePct": -0.010069252666015216
+  },
+  "west-whittier-los-nietos": {
+   "incomeChangePct": 0.6431156222418359,
+   "popChangePct": -0.051366565439597056
+  },
+  "westlake-village": {
+   "incomeChangePct": 0.32191785853332444,
+   "popChangePct": -0.08366863905325439
+  },
+  "westminster": {
+   "incomeChangePct": 0.4857316543638732,
+   "popChangePct": -0.02097292585934518
+  },
+  "westmont": {
+   "incomeChangePct": 0.6365020736132712,
+   "popChangePct": 0.01762495526661101
+  },
+  "whitewater": {
+   "incomeChangePct": 1.1908538643266957,
+   "popChangePct": 0.19413549039433775
+  },
+  "whittier": {
+   "incomeChangePct": 0.4075270062845724,
+   "popChangePct": -0.007910007829410981
+  },
+  "wildomar": {
+   "incomeChangePct": 0.5331950822100429,
+   "popChangePct": 0.050293023780006774
+  },
+  "willowbrook": {
+   "incomeChangePct": 0.5537128528513617,
+   "popChangePct": -0.04295047232276861
+  },
+  "winchester": {
+   "incomeChangePct": 0.4294475207878645,
+   "popChangePct": 0.6740169055494303
+  },
+  "woodcrest": {
+   "incomeChangePct": 0.6884424870124879,
+   "popChangePct": 0.050886428268893225
+  },
+  "wrightwood": {
+   "incomeChangePct": 0.22538740520936362,
+   "popChangePct": 0.1822211852543163
+  },
+  "yorba-linda": {
+   "incomeChangePct": 0.27121214565754026,
+   "popChangePct": -0.008414526129318034
+  },
+  "yucaipa": {
+   "incomeChangePct": 0.5609462572636936,
+   "popChangePct": 0.023894188256100568
+  },
+  "yucca-valley": {
+   "incomeChangePct": 0.3406635455118394,
+   "popChangePct": 0.013359400456174564
+  }
+ }
+}

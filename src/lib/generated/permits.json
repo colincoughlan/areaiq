@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-07",
+  "areas": {
+    "highland-park": {
+      "source": "LA Dept. of Building & Safety permits (data.lacity.org)",
+      "datasetId": "pi9x-tg5x",
+      "periodMonths": 24,
+      "since": "2024-08-07",
+      "retrievedAt": "2026-08-07",
+      "confidence": "high",
+      "summary": {
+        "total": 708,
+        "byType": {
+          "Bldg-Alter/Repair": 538,
+          "Nonbldg-Alter/Repair": 3,
+          "Grading": 26,
+          "Bldg-Addition": 40,
+          "Bldg-New": 40,
+          "Bldg-Demolition": 23,
+          "Sign": 11,
+          "Nonbldg-New": 21,
+          "Swimming-Pool/Spa": 6
+        },
+        "newBuildings": 40,
+        "demolitions": 23,
+        "valuationTotal": 21828973.299999997,
+        "valuationCounted": 708,
+        "newestIssueDate": "2026-07-31",
+        "notable": [
+          {
+            "permitNbr": "25014-10000-01389",
+            "address": "5217 E IRVINGTON PL",
+            "ct": "1835.10",
+            "type": "Bldg-Addition",
+            "subType": "1 or 2 Family Dwelling",
+            "useDesc": "Dwelling - Single Family",
+            "workDesc": "EPLAN. ADDITION AND MAJOR REMODEL TO (E) SFD IN BHO AREA",
+            "issueDate": "2025-06-23",
+            "status": "Issued",
+            "valuation": 685000,
+            "lat": 34.11606,
+            "lon": -118.20324
+          },
+          {
+            "permitNbr": "25010-10000-01116",
+            "address": "503 1/4 N AVENUE 50 1-8",
+            "ct": "1835.20",
+            "type": "Bldg-New",
+            "subType": "Apartment",
+            "useDesc": "Accessory Dwelling Unit",
+            "workDesc": "EPLAN: 8 New detached ADU's, per SB 1211.  1 Unit to be accessible at ground floor per Chapter 11A.",
+            "issueDate": "2025-07-31",
+            "status": "Issued",
+            "valuation": 650000,
+            "lat": 34.10883972,
+            "lon": -118.20442258
+          },
+          {
+            "permitNbr": "21010-10000-06881",
+            "address": "255-255 1/2 S AVENUE 54",
+            "ct": "1838.20",
+            "type": "Bldg-New",
+            "subType": "1 or 2 Family Dwelling",
+            "useDesc": "Duplex",
+            "workDesc": "NEW 3 STORY DUPLEX AT FRONT OF LOT WITH ATTACHED GARAGE. BUILDING 1*** BUILDING TO BE EQUIPPED WITH NFPA-13D FIRE SPRINKLERS THROUGHOUT***",
+            "issueDate": "2026-02-27",
+            "status": "Issued",
+            "valuation": 502000,
+            "lat": 34.10437,
+            "lon": -118.19567
+          },
+          {
+            "permitNbr": "22010-10000-06030",
+            "address": "353-353 1/2 N AVENUE 53",
+            "ct": "1835.20",
+            "type": "Bldg-New",
+            "subType": "1 or 2 Family Dwelling",
+            "useDesc": "Duplex",
+            "workDesc": "1. NEW 3 STORY DUPLEX W ATTACHED GARAGE",
+            "issueDate": "2026-07-22",
+            "status": "Issued",
+            "valuation": 500000,
+            "lat": 34.1106,
+            "lon": -118.2006
+          },
+          {
+            "permitNbr": "21010-10000-06883",
+            "address": "257 S AVENUE 54",
+            "ct": "1838.20",
+            "type": "Bldg-New",
+            "subType": "1 or 2 Family Dwelling",
+            "useDesc": "Duplex",
+            "workDesc": "NEW 3 STORY DUPLEX WITH ATTACHED STORAGR AND GARAGE BUILDING 2BUILDING TO BE EQUIPPED WITH NFPA-13D FIRE SPRINKLERS THROUGHOUT",
+            "issueDate": "2026-02-27",
+            "status": "Issued",
+            "valuation": 462000,
+            "lat": 34.10429,
+            "lon": -118.19567
+          }
+        ]
+      }
+    }
+  }
+}

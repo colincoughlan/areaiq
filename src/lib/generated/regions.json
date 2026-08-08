@@ -1,0 +1,3345 @@
+{
+ "generatedAt": "2026-08-07",
+ "regions": [
+  {
+   "id": "acton",
+   "name": "Acton",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "00212",
+   "lat": 34.49607,
+   "lng": -118.183897
+  },
+  {
+   "id": "adelanto",
+   "name": "Adelanto",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "00296",
+   "lat": 34.580902,
+   "lng": -117.439458
+  },
+  {
+   "id": "agoura-hills",
+   "name": "Agoura Hills",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "00394",
+   "lat": 34.148942,
+   "lng": -118.76393
+  },
+  {
+   "id": "agua-dulce",
+   "name": "Agua Dulce",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "00450",
+   "lat": 34.501678,
+   "lng": -118.32068
+  },
+  {
+   "id": "aguanga",
+   "name": "Aguanga",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "00464",
+   "lat": 33.452246,
+   "lng": -116.85547
+  },
+  {
+   "id": "alhambra",
+   "name": "Alhambra",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "00884",
+   "lat": 34.083571,
+   "lng": -118.136444
+  },
+  {
+   "id": "aliso-viejo",
+   "name": "Aliso Viejo",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "00947",
+   "lat": 33.57921,
+   "lng": -117.728898
+  },
+  {
+   "id": "alondra-park",
+   "name": "Alondra Park",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "01150",
+   "lat": 33.890155,
+   "lng": -118.335678
+  },
+  {
+   "id": "altadena",
+   "name": "Altadena",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "01290",
+   "lat": 34.192212,
+   "lng": -118.135589
+  },
+  {
+   "id": "anaheim",
+   "name": "Anaheim",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "02000",
+   "lat": 33.855502,
+   "lng": -117.758657
+  },
+  {
+   "id": "anza",
+   "name": "Anza",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "02294",
+   "lat": 33.56159,
+   "lng": -116.696066
+  },
+  {
+   "id": "apple-valley",
+   "name": "Apple Valley",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "02364",
+   "lat": 34.533376,
+   "lng": -117.210358
+  },
+  {
+   "id": "arcadia",
+   "name": "Arcadia",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "02462",
+   "lat": 34.132689,
+   "lng": -118.036347
+  },
+  {
+   "id": "artesia",
+   "name": "Artesia",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "02896",
+   "lat": 33.867591,
+   "lng": -118.080634
+  },
+  {
+   "id": "avalon",
+   "name": "Avalon",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "03274",
+   "lat": 33.343335,
+   "lng": -118.317615
+  },
+  {
+   "id": "avocado-heights",
+   "name": "Avocado Heights",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "03344",
+   "lat": 34.039039,
+   "lng": -117.998167
+  },
+  {
+   "id": "azusa",
+   "name": "Azusa",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "03386",
+   "lat": 34.138524,
+   "lng": -117.912253
+  },
+  {
+   "id": "baker",
+   "name": "Baker",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "03512",
+   "lat": 35.276918,
+   "lng": -116.071735
+  },
+  {
+   "id": "baldwin-park",
+   "name": "Baldwin Park",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "03666",
+   "lat": 34.082824,
+   "lng": -117.971286
+  },
+  {
+   "id": "banning",
+   "name": "Banning",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "03820",
+   "lat": 33.945903,
+   "lng": -116.899044
+  },
+  {
+   "id": "barstow",
+   "name": "Barstow",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "04030",
+   "lat": 34.866987,
+   "lng": -117.043035
+  },
+  {
+   "id": "beaumont",
+   "name": "Beaumont",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "04758",
+   "lat": 33.876722,
+   "lng": -116.953009
+  },
+  {
+   "id": "bell",
+   "name": "Bell",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "04870",
+   "lat": 33.979704,
+   "lng": -118.179249
+  },
+  {
+   "id": "bell-canyon",
+   "name": "Bell Canyon",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "04938",
+   "lat": 34.208148,
+   "lng": -118.687574
+  },
+  {
+   "id": "bell-gardens",
+   "name": "Bell Gardens",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "04996",
+   "lat": 33.964379,
+   "lng": -118.154437
+  },
+  {
+   "id": "bellflower",
+   "name": "Bellflower",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "04982",
+   "lat": 33.887821,
+   "lng": -118.12725
+  },
+  {
+   "id": "bermuda-dunes",
+   "name": "Bermuda Dunes",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "06028",
+   "lat": 33.74349,
+   "lng": -116.287335
+  },
+  {
+   "id": "beverly-hills",
+   "name": "Beverly Hills",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "06308",
+   "lat": 34.07923,
+   "lng": -118.402437
+  },
+  {
+   "id": "big-bear-city",
+   "name": "Big Bear City",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "06406",
+   "lat": 34.254118,
+   "lng": -116.796378
+  },
+  {
+   "id": "big-bear-lake",
+   "name": "Big Bear Lake",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "06434",
+   "lat": 34.242888,
+   "lng": -116.893893
+  },
+  {
+   "id": "big-river",
+   "name": "Big River",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "06635",
+   "lat": 34.139823,
+   "lng": -114.362099
+  },
+  {
+   "id": "bloomington",
+   "name": "Bloomington",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "07064",
+   "lat": 34.060071,
+   "lng": -117.401238
+  },
+  {
+   "id": "bluewater",
+   "name": "Bluewater",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "07172",
+   "lat": 34.175431,
+   "lng": -114.264962
+  },
+  {
+   "id": "blythe",
+   "name": "Blythe",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "07218",
+   "lat": 33.65352,
+   "lng": -114.621823
+  },
+  {
+   "id": "bradbury",
+   "name": "Bradbury",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "07946",
+   "lat": 34.153159,
+   "lng": -117.968818
+  },
+  {
+   "id": "brea",
+   "name": "Brea",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "08100",
+   "lat": 33.925178,
+   "lng": -117.865111
+  },
+  {
+   "id": "buena-park",
+   "name": "Buena Park",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "08786",
+   "lat": 33.857353,
+   "lng": -118.007373
+  },
+  {
+   "id": "burbank",
+   "name": "Burbank",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "08954",
+   "lat": 34.190079,
+   "lng": -118.326405
+  },
+  {
+   "id": "cabazon",
+   "name": "Cabazon",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "09360",
+   "lat": 33.912726,
+   "lng": -116.782831
+  },
+  {
+   "id": "calabasas",
+   "name": "Calabasas",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "09598",
+   "lat": 34.134252,
+   "lng": -118.666455
+  },
+  {
+   "id": "calimesa",
+   "name": "Calimesa",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "09864",
+   "lat": 33.987357,
+   "lng": -117.054214
+  },
+  {
+   "id": "camarillo",
+   "name": "Camarillo",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "10046",
+   "lat": 34.221823,
+   "lng": -119.032154
+  },
+  {
+   "id": "canyon-lake",
+   "name": "Canyon Lake",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "10928",
+   "lat": 33.688302,
+   "lng": -117.263547
+  },
+  {
+   "id": "carson",
+   "name": "Carson",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "11530",
+   "lat": 33.840367,
+   "lng": -118.249574
+  },
+  {
+   "id": "casa-conejo",
+   "name": "Casa Conejo",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "11656",
+   "lat": 34.184731,
+   "lng": -118.944517
+  },
+  {
+   "id": "castaic",
+   "name": "Castaic",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "11796",
+   "lat": 34.477444,
+   "lng": -118.632681
+  },
+  {
+   "id": "cathedral-city",
+   "name": "Cathedral City",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "12048",
+   "lat": 33.835487,
+   "lng": -116.463103
+  },
+  {
+   "id": "cerritos",
+   "name": "Cerritos",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "12552",
+   "lat": 33.867745,
+   "lng": -118.069471
+  },
+  {
+   "id": "channel-islands-beach",
+   "name": "Channel Islands Beach",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "12669",
+   "lat": 34.16896,
+   "lng": -119.228542
+  },
+  {
+   "id": "charter-oak",
+   "name": "Charter Oak",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "12734",
+   "lat": 34.102492,
+   "lng": -117.856282
+  },
+  {
+   "id": "cherry-valley",
+   "name": "Cherry Valley",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "12916",
+   "lat": 33.979642,
+   "lng": -116.969371
+  },
+  {
+   "id": "chino",
+   "name": "Chino",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "13210",
+   "lat": 33.978037,
+   "lng": -117.657719
+  },
+  {
+   "id": "chino-hills",
+   "name": "Chino Hills",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "13214",
+   "lat": 33.942969,
+   "lng": -117.725648
+  },
+  {
+   "id": "citrus",
+   "name": "Citrus",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "13560",
+   "lat": 34.113438,
+   "lng": -117.891301
+  },
+  {
+   "id": "claremont",
+   "name": "Claremont",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "13756",
+   "lat": 34.124925,
+   "lng": -117.713923
+  },
+  {
+   "id": "coachella",
+   "name": "Coachella",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "14260",
+   "lat": 33.69038,
+   "lng": -116.143128
+  },
+  {
+   "id": "colton",
+   "name": "Colton",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "14890",
+   "lat": 34.054525,
+   "lng": -117.325029
+  },
+  {
+   "id": "commerce",
+   "name": "Commerce",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "14974",
+   "lat": 33.994523,
+   "lng": -118.149952
+  },
+  {
+   "id": "compton",
+   "name": "Compton",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "15044",
+   "lat": 33.894047,
+   "lng": -118.227469
+  },
+  {
+   "id": "corona",
+   "name": "Corona",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "16350",
+   "lat": 33.861969,
+   "lng": -117.565495
+  },
+  {
+   "id": "coronita",
+   "name": "Coronita",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "16420",
+   "lat": 33.875877,
+   "lng": -117.610983
+  },
+  {
+   "id": "costa-mesa",
+   "name": "Costa Mesa",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "16532",
+   "lat": 33.665905,
+   "lng": -117.912336
+  },
+  {
+   "id": "coto-de-caza",
+   "name": "Coto de Caza",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "16580",
+   "lat": 33.597037,
+   "lng": -117.586484
+  },
+  {
+   "id": "covina",
+   "name": "Covina",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "16742",
+   "lat": 34.090475,
+   "lng": -117.882143
+  },
+  {
+   "id": "crestline",
+   "name": "Crestline",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "17162",
+   "lat": 34.254077,
+   "lng": -117.286709
+  },
+  {
+   "id": "cudahy",
+   "name": "Cudahy",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "17498",
+   "lat": 33.964003,
+   "lng": -118.182561
+  },
+  {
+   "id": "culver-city",
+   "name": "Culver City",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "17568",
+   "lat": 34.00582,
+   "lng": -118.396781
+  },
+  {
+   "id": "cypress",
+   "name": "Cypress",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "17750",
+   "lat": 33.818477,
+   "lng": -118.038307
+  },
+  {
+   "id": "dana-point",
+   "name": "Dana Point",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "17946",
+   "lat": 33.475452,
+   "lng": -117.693087
+  },
+  {
+   "id": "del-aire",
+   "name": "Del Aire",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "18352",
+   "lat": 33.916738,
+   "lng": -118.36929
+  },
+  {
+   "id": "desert-center",
+   "name": "Desert Center",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "18982",
+   "lat": 33.737799,
+   "lng": -115.366622
+  },
+  {
+   "id": "desert-edge",
+   "name": "Desert Edge",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "18986",
+   "lat": 33.922289,
+   "lng": -116.440092
+  },
+  {
+   "id": "desert-hot-springs",
+   "name": "Desert Hot Springs",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "18996",
+   "lat": 33.957591,
+   "lng": -116.542284
+  },
+  {
+   "id": "desert-palms",
+   "name": "Desert Palms",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "19022",
+   "lat": 33.779144,
+   "lng": -116.298219
+  },
+  {
+   "id": "desert-view-highlands",
+   "name": "Desert View Highlands",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "19052",
+   "lat": 34.590263,
+   "lng": -118.153537
+  },
+  {
+   "id": "diamond-bar",
+   "name": "Diamond Bar",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "19192",
+   "lat": 34.001573,
+   "lng": -117.817601
+  },
+  {
+   "id": "downey",
+   "name": "Downey",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "19766",
+   "lat": 33.938237,
+   "lng": -118.130856
+  },
+  {
+   "id": "duarte",
+   "name": "Duarte",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "19990",
+   "lat": 34.160967,
+   "lng": -117.950447
+  },
+  {
+   "id": "east-hemet",
+   "name": "East Hemet",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "20697",
+   "lat": 33.730114,
+   "lng": -116.941001
+  },
+  {
+   "id": "east-los-angeles",
+   "name": "East Los Angeles",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "20802",
+   "lat": 34.031506,
+   "lng": -118.168567
+  },
+  {
+   "id": "east-pasadena",
+   "name": "East Pasadena",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "20984",
+   "lat": 34.136798,
+   "lng": -118.077535
+  },
+  {
+   "id": "east-rancho-dominguez",
+   "name": "East Rancho Dominguez",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "21034",
+   "lat": 33.894841,
+   "lng": -118.195586
+  },
+  {
+   "id": "east-san-gabriel",
+   "name": "East San Gabriel",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "21096",
+   "lat": 34.116189,
+   "lng": -118.079886
+  },
+  {
+   "id": "east-whittier",
+   "name": "East Whittier",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "21292",
+   "lat": 33.924376,
+   "lng": -117.988732
+  },
+  {
+   "id": "eastvale",
+   "name": "Eastvale",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "21230",
+   "lat": 33.963274,
+   "lng": -117.582369
+  },
+  {
+   "id": "el-cerrito",
+   "name": "El Cerrito",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "21810",
+   "lat": 33.838186,
+   "lng": -117.522205
+  },
+  {
+   "id": "el-monte",
+   "name": "El Monte",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "22230",
+   "lat": 34.074633,
+   "lng": -118.029136
+  },
+  {
+   "id": "el-rio",
+   "name": "El Rio",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "22370",
+   "lat": 34.245364,
+   "lng": -119.156763
+  },
+  {
+   "id": "el-segundo",
+   "name": "El Segundo",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "22412",
+   "lat": 33.910367,
+   "lng": -118.425079
+  },
+  {
+   "id": "el-sobrante",
+   "name": "El Sobrante",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "22457",
+   "lat": 33.872465,
+   "lng": -117.462517
+  },
+  {
+   "id": "elizabeth-lake",
+   "name": "Elizabeth Lake",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "21964",
+   "lat": 34.656488,
+   "lng": -118.379847
+  },
+  {
+   "id": "fillmore",
+   "name": "Fillmore",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "24092",
+   "lat": 34.398958,
+   "lng": -118.91746
+  },
+  {
+   "id": "florence-graham",
+   "name": "Florence-Graham",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "24477",
+   "lat": 33.968159,
+   "lng": -118.244667
+  },
+  {
+   "id": "fontana",
+   "name": "Fontana",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "24680",
+   "lat": 34.109686,
+   "lng": -117.462888
+  },
+  {
+   "id": "fort-irwin",
+   "name": "Fort Irwin",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "25114",
+   "lat": 35.247701,
+   "lng": -116.683411
+  },
+  {
+   "id": "fountain-valley",
+   "name": "Fountain Valley",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "25380",
+   "lat": 33.710582,
+   "lng": -117.951129
+  },
+  {
+   "id": "french-valley",
+   "name": "French Valley",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "26067",
+   "lat": 33.599461,
+   "lng": -117.106495
+  },
+  {
+   "id": "fullerton",
+   "name": "Fullerton",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "28000",
+   "lat": 33.885716,
+   "lng": -117.928025
+  },
+  {
+   "id": "garden-grove",
+   "name": "Garden Grove",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "29000",
+   "lat": 33.778782,
+   "lng": -117.960472
+  },
+  {
+   "id": "gardena",
+   "name": "Gardena",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "28168",
+   "lat": 33.894417,
+   "lng": -118.307522
+  },
+  {
+   "id": "garnet",
+   "name": "Garnet",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "29112",
+   "lat": 33.917892,
+   "lng": -116.479609
+  },
+  {
+   "id": "glendale",
+   "name": "Glendale",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "30000",
+   "lat": 34.181393,
+   "lng": -118.24583
+  },
+  {
+   "id": "glendora",
+   "name": "Glendora",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "30014",
+   "lat": 34.144964,
+   "lng": -117.847804
+  },
+  {
+   "id": "good-hope",
+   "name": "Good Hope",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "30410",
+   "lat": 33.770627,
+   "lng": -117.277199
+  },
+  {
+   "id": "grand-terrace",
+   "name": "Grand Terrace",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "30658",
+   "lat": 34.031085,
+   "lng": -117.3131
+  },
+  {
+   "id": "green-acres",
+   "name": "Green Acres",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "30944",
+   "lat": 33.734972,
+   "lng": -117.078244
+  },
+  {
+   "id": "green-valley",
+   "name": "Green Valley",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "31092",
+   "lat": 34.617415,
+   "lng": -118.405023
+  },
+  {
+   "id": "hacienda-heights",
+   "name": "Hacienda Heights",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "31596",
+   "lat": 33.995853,
+   "lng": -117.973023
+  },
+  {
+   "id": "hasley-canyon",
+   "name": "Hasley Canyon",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "32385",
+   "lat": 34.481599,
+   "lng": -118.666689
+  },
+  {
+   "id": "hawaiian-gardens",
+   "name": "Hawaiian Gardens",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "32506",
+   "lat": 33.830482,
+   "lng": -118.073451
+  },
+  {
+   "id": "hawthorne",
+   "name": "Hawthorne",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "32548",
+   "lat": 33.914775,
+   "lng": -118.348083
+  },
+  {
+   "id": "hemet",
+   "name": "Hemet",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "33182",
+   "lat": 33.734068,
+   "lng": -116.996808
+  },
+  {
+   "id": "hermosa-beach",
+   "name": "Hermosa Beach",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "33364",
+   "lat": 33.869819,
+   "lng": -118.405296
+  },
+  {
+   "id": "hesperia",
+   "name": "Hesperia",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "33434",
+   "lat": 34.397038,
+   "lng": -117.315198
+  },
+  {
+   "id": "hidden-hills",
+   "name": "Hidden Hills",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "33518",
+   "lat": 34.163744,
+   "lng": -118.66121
+  },
+  {
+   "id": "highgrove",
+   "name": "Highgrove",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "33574",
+   "lat": 34.010577,
+   "lng": -117.309817
+  },
+  {
+   "id": "highland",
+   "name": "Highland",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "33588",
+   "lat": 34.113473,
+   "lng": -117.165729
+  },
+  {
+   "id": "home-gardens",
+   "name": "Home Gardens",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "34302",
+   "lat": 33.878328,
+   "lng": -117.511535
+  },
+  {
+   "id": "homeland",
+   "name": "Homeland",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "34316",
+   "lat": 33.745881,
+   "lng": -117.113241
+  },
+  {
+   "id": "homestead-valley",
+   "name": "Homestead Valley",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "34392",
+   "lat": 34.273004,
+   "lng": -116.414549
+  },
+  {
+   "id": "huntington-beach",
+   "name": "Huntington Beach",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "36000",
+   "lat": 33.698007,
+   "lng": -118.003834
+  },
+  {
+   "id": "huntington-park",
+   "name": "Huntington Park",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "36056",
+   "lat": 33.979248,
+   "lng": -118.217438
+  },
+  {
+   "id": "idyllwild-pine-cove",
+   "name": "Idyllwild-Pine Cove",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "36203",
+   "lat": 33.744209,
+   "lng": -116.73069
+  },
+  {
+   "id": "indian-wells",
+   "name": "Indian Wells",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "36434",
+   "lat": 33.699892,
+   "lng": -116.32955
+  },
+  {
+   "id": "indio",
+   "name": "Indio",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "36448",
+   "lat": 33.731639,
+   "lng": -116.235971
+  },
+  {
+   "id": "indio-hills",
+   "name": "Indio Hills",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "36452",
+   "lat": 33.84106,
+   "lng": -116.248473
+  },
+  {
+   "id": "industry",
+   "name": "Industry",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "36490",
+   "lat": 34.026232,
+   "lng": -117.940327
+  },
+  {
+   "id": "inglewood",
+   "name": "Inglewood",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "36546",
+   "lat": 33.956068,
+   "lng": -118.344274
+  },
+  {
+   "id": "irvine",
+   "name": "Irvine",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "36770",
+   "lat": 33.678399,
+   "lng": -117.771254
+  },
+  {
+   "id": "irwindale",
+   "name": "Irwindale",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "36826",
+   "lat": 34.111855,
+   "lng": -117.963614
+  },
+  {
+   "id": "joshua-tree",
+   "name": "Joshua Tree",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "37554",
+   "lat": 34.123633,
+   "lng": -116.312862
+  },
+  {
+   "id": "jurupa-valley",
+   "name": "Jurupa Valley",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "37692",
+   "lat": 34.002591,
+   "lng": -117.467612
+  },
+  {
+   "id": "la-canada-flintridge",
+   "name": "La Cañada Flintridge",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "39003",
+   "lat": 34.20969,
+   "lng": -118.200139
+  },
+  {
+   "id": "la-crescenta-montrose",
+   "name": "La Crescenta-Montrose",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "39045",
+   "lat": 34.233016,
+   "lng": -118.235774
+  },
+  {
+   "id": "la-habra",
+   "name": "La Habra",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "39290",
+   "lat": 33.927927,
+   "lng": -117.951554
+  },
+  {
+   "id": "la-habra-heights",
+   "name": "La Habra Heights",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "39304",
+   "lat": 33.958959,
+   "lng": -117.948973
+  },
+  {
+   "id": "la-mirada",
+   "name": "La Mirada",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "40032",
+   "lat": 33.902045,
+   "lng": -118.008961
+  },
+  {
+   "id": "la-palma",
+   "name": "La Palma",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "40256",
+   "lat": 33.850616,
+   "lng": -118.039565
+  },
+  {
+   "id": "la-puente",
+   "name": "La Puente",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "40340",
+   "lat": 34.032333,
+   "lng": -117.95352
+  },
+  {
+   "id": "la-quinta",
+   "name": "La Quinta",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "40354",
+   "lat": 33.646083,
+   "lng": -116.275297
+  },
+  {
+   "id": "la-verne",
+   "name": "La Verne",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "40830",
+   "lat": 34.120521,
+   "lng": -117.769928
+  },
+  {
+   "id": "ladera-heights",
+   "name": "Ladera Heights",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "39108",
+   "lat": 33.996776,
+   "lng": -118.370028
+  },
+  {
+   "id": "ladera-ranch",
+   "name": "Ladera Ranch",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "39114",
+   "lat": 33.549146,
+   "lng": -117.641741
+  },
+  {
+   "id": "laguna-beach",
+   "name": "Laguna Beach",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "39178",
+   "lat": 33.54337,
+   "lng": -117.761801
+  },
+  {
+   "id": "laguna-hills",
+   "name": "Laguna Hills",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "39220",
+   "lat": 33.591216,
+   "lng": -117.697621
+  },
+  {
+   "id": "laguna-niguel",
+   "name": "Laguna Niguel",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "39248",
+   "lat": 33.528654,
+   "lng": -117.701253
+  },
+  {
+   "id": "laguna-woods",
+   "name": "Laguna Woods",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "39259",
+   "lat": 33.612058,
+   "lng": -117.730319
+  },
+  {
+   "id": "lake-arrowhead",
+   "name": "Lake Arrowhead",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "39444",
+   "lat": 34.254027,
+   "lng": -117.178091
+  },
+  {
+   "id": "lake-elsinore",
+   "name": "Lake Elsinore",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "39486",
+   "lat": 33.685956,
+   "lng": -117.335404
+  },
+  {
+   "id": "lake-forest",
+   "name": "Lake Forest",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "39496",
+   "lat": 33.654946,
+   "lng": -117.675848
+  },
+  {
+   "id": "lake-hughes",
+   "name": "Lake Hughes",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "39556",
+   "lat": 34.682415,
+   "lng": -118.451938
+  },
+  {
+   "id": "lake-los-angeles",
+   "name": "Lake Los Angeles",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "39612",
+   "lat": 34.609839,
+   "lng": -117.830337
+  },
+  {
+   "id": "lake-mathews",
+   "name": "Lake Mathews",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "39645",
+   "lat": 33.824966,
+   "lng": -117.368343
+  },
+  {
+   "id": "lake-riverside",
+   "name": "Lake Riverside",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "39715",
+   "lat": 33.518735,
+   "lng": -116.812103
+  },
+  {
+   "id": "lake-sherwood",
+   "name": "Lake Sherwood",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "39735",
+   "lat": 34.131803,
+   "lng": -118.884714
+  },
+  {
+   "id": "lakeland-village",
+   "name": "Lakeland Village",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "39598",
+   "lat": 33.648956,
+   "lng": -117.366823
+  },
+  {
+   "id": "lakeview",
+   "name": "Lakeview",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "39836",
+   "lat": 33.828465,
+   "lng": -117.123334
+  },
+  {
+   "id": "lakewood",
+   "name": "Lakewood",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "39892",
+   "lat": 33.847135,
+   "lng": -118.121894
+  },
+  {
+   "id": "lancaster",
+   "name": "Lancaster",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "40130",
+   "lat": 34.693558,
+   "lng": -118.175305
+  },
+  {
+   "id": "las-flores",
+   "name": "Las Flores",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "40526",
+   "lat": 33.583836,
+   "lng": -117.623741
+  },
+  {
+   "id": "lawndale",
+   "name": "Lawndale",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "40886",
+   "lat": 33.888435,
+   "lng": -118.353143
+  },
+  {
+   "id": "lennox",
+   "name": "Lennox",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "41180",
+   "lat": 33.938068,
+   "lng": -118.35854
+  },
+  {
+   "id": "lenwood",
+   "name": "Lenwood",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "41194",
+   "lat": 34.886056,
+   "lng": -117.107773
+  },
+  {
+   "id": "leona-valley",
+   "name": "Leona Valley",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "41208",
+   "lat": 34.608144,
+   "lng": -118.301322
+  },
+  {
+   "id": "littlerock",
+   "name": "Littlerock",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "41880",
+   "lat": 34.525126,
+   "lng": -117.981631
+  },
+  {
+   "id": "loma-linda",
+   "name": "Loma Linda",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "42370",
+   "lat": 34.043287,
+   "lng": -117.246647
+  },
+  {
+   "id": "lomita",
+   "name": "Lomita",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "42468",
+   "lat": 33.793306,
+   "lng": -118.317455
+  },
+  {
+   "id": "long-beach",
+   "name": "Long Beach",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "43000",
+   "lat": 33.780791,
+   "lng": -118.16818
+  },
+  {
+   "id": "los-alamitos",
+   "name": "Los Alamitos",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "43224",
+   "lat": 33.796911,
+   "lng": -118.061244
+  },
+  {
+   "id": "los-angeles",
+   "name": "Los Angeles",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "44000",
+   "lat": 34.019394,
+   "lng": -118.410825
+  },
+  {
+   "id": "lucerne-valley",
+   "name": "Lucerne Valley",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "44420",
+   "lat": 34.442719,
+   "lng": -116.902093
+  },
+  {
+   "id": "lynwood",
+   "name": "Lynwood",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "44574",
+   "lat": 33.923959,
+   "lng": -118.201655
+  },
+  {
+   "id": "lytle-creek",
+   "name": "Lytle Creek",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "44644",
+   "lat": 34.249926,
+   "lng": -117.504431
+  },
+  {
+   "id": "manhattan-beach",
+   "name": "Manhattan Beach",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "45400",
+   "lat": 33.90087,
+   "lng": -118.420715
+  },
+  {
+   "id": "march-arb",
+   "name": "March ARB",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "45680",
+   "lat": 33.889184,
+   "lng": -117.277729
+  },
+  {
+   "id": "marina-del-rey",
+   "name": "Marina del Rey",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "45806",
+   "lat": 33.976373,
+   "lng": -118.450888
+  },
+  {
+   "id": "mayflower-village",
+   "name": "Mayflower Village",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "46436",
+   "lat": 34.115931,
+   "lng": -118.009581
+  },
+  {
+   "id": "maywood",
+   "name": "Maywood",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "46492",
+   "lat": 33.988548,
+   "lng": -118.187707
+  },
+  {
+   "id": "mead-valley",
+   "name": "Mead Valley",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "46646",
+   "lat": 33.833311,
+   "lng": -117.2852
+  },
+  {
+   "id": "meadowbrook",
+   "name": "Meadowbrook",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "46520",
+   "lat": 33.725782,
+   "lng": -117.285086
+  },
+  {
+   "id": "mecca",
+   "name": "Mecca",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "46660",
+   "lat": 33.576566,
+   "lng": -116.064661
+  },
+  {
+   "id": "meiners-oaks",
+   "name": "Meiners Oaks",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "46702",
+   "lat": 34.455349,
+   "lng": -119.270166
+  },
+  {
+   "id": "menifee",
+   "name": "Menifee",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "46842",
+   "lat": 33.689858,
+   "lng": -117.184383
+  },
+  {
+   "id": "mentone",
+   "name": "Mentone",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "46884",
+   "lat": 34.060639,
+   "lng": -117.11502
+  },
+  {
+   "id": "mesa-verde",
+   "name": "Mesa Verde",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "47066",
+   "lat": 33.5957,
+   "lng": -114.731604
+  },
+  {
+   "id": "midway-city",
+   "name": "Midway City",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "47430",
+   "lat": 33.745119,
+   "lng": -117.984843
+  },
+  {
+   "id": "mira-monte",
+   "name": "Mira Monte",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "48046",
+   "lat": 34.431119,
+   "lng": -119.287201
+  },
+  {
+   "id": "mission-viejo",
+   "name": "Mission Viejo",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "48256",
+   "lat": 33.609335,
+   "lng": -117.656471
+  },
+  {
+   "id": "modjeska",
+   "name": "Modjeska",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "48410",
+   "lat": 33.709133,
+   "lng": -117.629704
+  },
+  {
+   "id": "monrovia",
+   "name": "Monrovia",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "48648",
+   "lat": 34.163984,
+   "lng": -117.984646
+  },
+  {
+   "id": "montclair",
+   "name": "Montclair",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "48788",
+   "lat": 34.071493,
+   "lng": -117.69808
+  },
+  {
+   "id": "montebello",
+   "name": "Montebello",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "48816",
+   "lat": 34.015444,
+   "lng": -118.111012
+  },
+  {
+   "id": "monterey-park",
+   "name": "Monterey Park",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "48914",
+   "lat": 34.04838,
+   "lng": -118.133165
+  },
+  {
+   "id": "moorpark",
+   "name": "Moorpark",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "49138",
+   "lat": 34.285942,
+   "lng": -118.87704
+  },
+  {
+   "id": "moreno-valley",
+   "name": "Moreno Valley",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "49270",
+   "lat": 33.923253,
+   "lng": -117.205685
+  },
+  {
+   "id": "morongo-valley",
+   "name": "Morongo Valley",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "49348",
+   "lat": 34.072377,
+   "lng": -116.562727
+  },
+  {
+   "id": "mountain-center",
+   "name": "Mountain Center",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "49544",
+   "lat": 33.710749,
+   "lng": -116.723312
+  },
+  {
+   "id": "mountain-view-acres",
+   "name": "Mountain View Acres",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "49684",
+   "lat": 34.497558,
+   "lng": -117.347173
+  },
+  {
+   "id": "murrieta",
+   "name": "Murrieta",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "50076",
+   "lat": 33.573214,
+   "lng": -117.191007
+  },
+  {
+   "id": "muscoy",
+   "name": "Muscoy",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "50132",
+   "lat": 34.155176,
+   "lng": -117.347721
+  },
+  {
+   "id": "needles",
+   "name": "Needles",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "50734",
+   "lat": 34.813426,
+   "lng": -114.626639
+  },
+  {
+   "id": "newport-beach",
+   "name": "Newport Beach",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "51182",
+   "lat": 33.597332,
+   "lng": -117.890352
+  },
+  {
+   "id": "norco",
+   "name": "Norco",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "51560",
+   "lat": 33.925519,
+   "lng": -117.551958
+  },
+  {
+   "id": "north-el-monte",
+   "name": "North El Monte",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "51820",
+   "lat": 34.102927,
+   "lng": -118.023862
+  },
+  {
+   "id": "north-shore",
+   "name": "North Shore",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "52302",
+   "lat": 33.514576,
+   "lng": -115.910959
+  },
+  {
+   "id": "north-tustin",
+   "name": "North Tustin",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "52379",
+   "lat": 33.763544,
+   "lng": -117.794717
+  },
+  {
+   "id": "norwalk",
+   "name": "Norwalk",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "52526",
+   "lat": 33.9076,
+   "lng": -118.083453
+  },
+  {
+   "id": "nuevo",
+   "name": "Nuevo",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "52624",
+   "lat": 33.801137,
+   "lng": -117.141382
+  },
+  {
+   "id": "oak-glen",
+   "name": "Oak Glen",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "52715",
+   "lat": 34.041043,
+   "lng": -116.962307
+  },
+  {
+   "id": "oak-hills",
+   "name": "Oak Hills",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "52760",
+   "lat": 34.389944,
+   "lng": -117.403094
+  },
+  {
+   "id": "oak-park",
+   "name": "Oak Park",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "53116",
+   "lat": 34.184984,
+   "lng": -118.76694
+  },
+  {
+   "id": "oak-view",
+   "name": "Oak View",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "53182",
+   "lat": 34.403037,
+   "lng": -119.29895
+  },
+  {
+   "id": "oasis",
+   "name": "Oasis",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "53224",
+   "lat": 33.527529,
+   "lng": -116.126093
+  },
+  {
+   "id": "ojai",
+   "name": "Ojai",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "53476",
+   "lat": 34.449199,
+   "lng": -119.246664
+  },
+  {
+   "id": "ontario",
+   "name": "Ontario",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "53896",
+   "lat": 34.037648,
+   "lng": -117.604433
+  },
+  {
+   "id": "orange",
+   "name": "Orange",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "53980",
+   "lat": 33.786971,
+   "lng": -117.861265
+  },
+  {
+   "id": "oxnard",
+   "name": "Oxnard",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "54652",
+   "lat": 34.199436,
+   "lng": -119.207515
+  },
+  {
+   "id": "palm-desert",
+   "name": "Palm Desert",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "55184",
+   "lat": 33.737635,
+   "lng": -116.364145
+  },
+  {
+   "id": "palm-springs",
+   "name": "Palm Springs",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "55254",
+   "lat": 33.803361,
+   "lng": -116.53828
+  },
+  {
+   "id": "palmdale",
+   "name": "Palmdale",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "55156",
+   "lat": 34.591038,
+   "lng": -118.105403
+  },
+  {
+   "id": "palos-verdes-estates",
+   "name": "Palos Verdes Estates",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "55380",
+   "lat": 33.774271,
+   "lng": -118.425754
+  },
+  {
+   "id": "paramount",
+   "name": "Paramount",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "55618",
+   "lat": 33.898883,
+   "lng": -118.166629
+  },
+  {
+   "id": "pasadena",
+   "name": "Pasadena",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "56000",
+   "lat": 34.160602,
+   "lng": -118.137954
+  },
+  {
+   "id": "pepperdine-university",
+   "name": "Pepperdine University",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "56598",
+   "lat": 34.042278,
+   "lng": -118.709182
+  },
+  {
+   "id": "perris",
+   "name": "Perris",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "56700",
+   "lat": 33.789849,
+   "lng": -117.222171
+  },
+  {
+   "id": "phelan",
+   "name": "Phelan",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "56826",
+   "lat": 34.439816,
+   "lng": -117.524829
+  },
+  {
+   "id": "pico-rivera",
+   "name": "Pico Rivera",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "56924",
+   "lat": 33.989524,
+   "lng": -118.089295
+  },
+  {
+   "id": "pinon-hills",
+   "name": "Piñon Hills",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "57302",
+   "lat": 34.445607,
+   "lng": -117.623563
+  },
+  {
+   "id": "piru",
+   "name": "Piru",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "57372",
+   "lat": 34.405678,
+   "lng": -118.805097
+  },
+  {
+   "id": "placentia",
+   "name": "Placentia",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "57526",
+   "lat": 33.881158,
+   "lng": -117.854783
+  },
+  {
+   "id": "pomona",
+   "name": "Pomona",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "58072",
+   "lat": 34.058494,
+   "lng": -117.761091
+  },
+  {
+   "id": "port-hueneme",
+   "name": "Port Hueneme",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "58296",
+   "lat": 34.162143,
+   "lng": -119.204177
+  },
+  {
+   "id": "quartz-hill",
+   "name": "Quartz Hill",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "59052",
+   "lat": 34.651988,
+   "lng": -118.215945
+  },
+  {
+   "id": "rancho-cucamonga",
+   "name": "Rancho Cucamonga",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "59451",
+   "lat": 34.130306,
+   "lng": -117.566067
+  },
+  {
+   "id": "rancho-mirage",
+   "name": "Rancho Mirage",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "59500",
+   "lat": 33.763838,
+   "lng": -116.430388
+  },
+  {
+   "id": "rancho-mission-viejo",
+   "name": "Rancho Mission Viejo",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "59503",
+   "lat": 33.514003,
+   "lng": -117.561795
+  },
+  {
+   "id": "rancho-santa-margarita",
+   "name": "Rancho Santa Margarita",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "59587",
+   "lat": 33.632332,
+   "lng": -117.599008
+  },
+  {
+   "id": "redlands",
+   "name": "Redlands",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "59962",
+   "lat": 34.053506,
+   "lng": -117.170476
+  },
+  {
+   "id": "rialto",
+   "name": "Rialto",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "60466",
+   "lat": 34.117419,
+   "lng": -117.389215
+  },
+  {
+   "id": "ripley",
+   "name": "Ripley",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "61012",
+   "lat": 33.523788,
+   "lng": -114.652992
+  },
+  {
+   "id": "riverside",
+   "name": "Riverside",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "62000",
+   "lat": 33.938143,
+   "lng": -117.393168
+  },
+  {
+   "id": "rolling-hills",
+   "name": "Rolling Hills",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "62602",
+   "lat": 33.760016,
+   "lng": -118.347168
+  },
+  {
+   "id": "rolling-hills-estates",
+   "name": "Rolling Hills Estates",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "62644",
+   "lat": 33.778442,
+   "lng": -118.327432
+  },
+  {
+   "id": "romoland",
+   "name": "Romoland",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "62756",
+   "lat": 33.764806,
+   "lng": -117.157107
+  },
+  {
+   "id": "rose-hills",
+   "name": "Rose Hills",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "62860",
+   "lat": 34.009012,
+   "lng": -118.041909
+  },
+  {
+   "id": "rosemead",
+   "name": "Rosemead",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "62896",
+   "lat": 34.06888,
+   "lng": -118.08268
+  },
+  {
+   "id": "rossmoor",
+   "name": "Rossmoor",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "63050",
+   "lat": 33.788691,
+   "lng": -118.080326
+  },
+  {
+   "id": "rowland-heights",
+   "name": "Rowland Heights",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "63218",
+   "lat": 33.970313,
+   "lng": -117.890568
+  },
+  {
+   "id": "running-springs",
+   "name": "Running Springs",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "63316",
+   "lat": 34.211362,
+   "lng": -117.104572
+  },
+  {
+   "id": "sage",
+   "name": "Sage",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "64056",
+   "lat": 33.594066,
+   "lng": -116.910385
+  },
+  {
+   "id": "san-antonio-heights",
+   "name": "San Antonio Heights",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "64462",
+   "lat": 34.15642,
+   "lng": -117.658705
+  },
+  {
+   "id": "san-bernardino",
+   "name": "San Bernardino",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "65000",
+   "lat": 34.14114,
+   "lng": -117.294635
+  },
+  {
+   "id": "san-buenaventura-ventura",
+   "name": "San Buenaventura (Ventura)",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "65042",
+   "lat": 34.26778,
+   "lng": -119.254206
+  },
+  {
+   "id": "san-clemente",
+   "name": "San Clemente",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "65084",
+   "lat": 33.449143,
+   "lng": -117.61312
+  },
+  {
+   "id": "san-dimas",
+   "name": "San Dimas",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "66070",
+   "lat": 34.107957,
+   "lng": -117.808529
+  },
+  {
+   "id": "san-fernando",
+   "name": "San Fernando",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "66140",
+   "lat": 34.288652,
+   "lng": -118.436243
+  },
+  {
+   "id": "san-gabriel",
+   "name": "San Gabriel",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "67042",
+   "lat": 34.094636,
+   "lng": -118.098469
+  },
+  {
+   "id": "san-jacinto",
+   "name": "San Jacinto",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "67112",
+   "lat": 33.798864,
+   "lng": -116.995914
+  },
+  {
+   "id": "san-juan-capistrano",
+   "name": "San Juan Capistrano",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "68028",
+   "lat": 33.500889,
+   "lng": -117.654388
+  },
+  {
+   "id": "san-marino",
+   "name": "San Marino",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "68224",
+   "lat": 34.122671,
+   "lng": -118.112911
+  },
+  {
+   "id": "san-pasqual",
+   "name": "San Pasqual",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "68308",
+   "lat": 34.139222,
+   "lng": -118.102524
+  },
+  {
+   "id": "santa-ana",
+   "name": "Santa Ana",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "69000",
+   "lat": 33.736332,
+   "lng": -117.8829
+  },
+  {
+   "id": "santa-clarita",
+   "name": "Santa Clarita",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "69088",
+   "lat": 34.416504,
+   "lng": -118.500693
+  },
+  {
+   "id": "santa-fe-springs",
+   "name": "Santa Fe Springs",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "69154",
+   "lat": 33.933565,
+   "lng": -118.062611
+  },
+  {
+   "id": "santa-paula",
+   "name": "Santa Paula",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "70042",
+   "lat": 34.354941,
+   "lng": -119.066271
+  },
+  {
+   "id": "santa-rosa-valley",
+   "name": "Santa Rosa Valley",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "70130",
+   "lat": 34.245903,
+   "lng": -118.901784
+  },
+  {
+   "id": "santa-susana",
+   "name": "Santa Susana",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "70140",
+   "lat": 34.258582,
+   "lng": -118.664319
+  },
+  {
+   "id": "saticoy",
+   "name": "Saticoy",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "70322",
+   "lat": 34.282469,
+   "lng": -119.142844
+  },
+  {
+   "id": "seal-beach",
+   "name": "Seal Beach",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "70686",
+   "lat": 33.754399,
+   "lng": -118.07132
+  },
+  {
+   "id": "searles-valley",
+   "name": "Searles Valley",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "70728",
+   "lat": 35.770048,
+   "lng": -117.396676
+  },
+  {
+   "id": "sierra-madre",
+   "name": "Sierra Madre",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "71806",
+   "lat": 34.168771,
+   "lng": -118.050216
+  },
+  {
+   "id": "signal-hill",
+   "name": "Signal Hill",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "71876",
+   "lat": 33.803461,
+   "lng": -118.169735
+  },
+  {
+   "id": "silver-lakes",
+   "name": "Silver Lakes",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "71964",
+   "lat": 34.74782,
+   "lng": -117.344966
+  },
+  {
+   "id": "silverado",
+   "name": "Silverado",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "71918",
+   "lat": 33.748176,
+   "lng": -117.628479
+  },
+  {
+   "id": "simi-valley",
+   "name": "Simi Valley",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "72016",
+   "lat": 34.266887,
+   "lng": -118.748458
+  },
+  {
+   "id": "sky-valley",
+   "name": "Sky Valley",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "72156",
+   "lat": 33.891237,
+   "lng": -116.35504
+  },
+  {
+   "id": "somis",
+   "name": "Somis",
+   "kind": "cdp",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "72632",
+   "lat": 34.265263,
+   "lng": -118.998406
+  },
+  {
+   "id": "south-el-monte",
+   "name": "South El Monte",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "72996",
+   "lat": 34.050377,
+   "lng": -118.048384
+  },
+  {
+   "id": "south-gate",
+   "name": "South Gate",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "73080",
+   "lat": 33.944159,
+   "lng": -118.192761
+  },
+  {
+   "id": "south-monrovia-island",
+   "name": "South Monrovia Island",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "73167",
+   "lat": 34.123421,
+   "lng": -117.995864
+  },
+  {
+   "id": "south-pasadena",
+   "name": "South Pasadena",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "73220",
+   "lat": 34.108957,
+   "lng": -118.156615
+  },
+  {
+   "id": "south-san-gabriel",
+   "name": "South San Gabriel",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "73276",
+   "lat": 34.047794,
+   "lng": -118.095678
+  },
+  {
+   "id": "south-san-jose-hills",
+   "name": "South San Jose Hills",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "73290",
+   "lat": 34.012332,
+   "lng": -117.904363
+  },
+  {
+   "id": "south-whittier",
+   "name": "South Whittier",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "73430",
+   "lat": 33.93308,
+   "lng": -118.030771
+  },
+  {
+   "id": "spring-valley-lake",
+   "name": "Spring Valley Lake",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "73700",
+   "lat": 34.496818,
+   "lng": -117.267587
+  },
+  {
+   "id": "stanton",
+   "name": "Stanton",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "73962",
+   "lat": 33.800233,
+   "lng": -117.993449
+  },
+  {
+   "id": "stevenson-ranch",
+   "name": "Stevenson Ranch",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "74130",
+   "lat": 34.38772,
+   "lng": -118.584359
+  },
+  {
+   "id": "sun-village",
+   "name": "Sun Village",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "77308",
+   "lat": 34.559524,
+   "lng": -117.956758
+  },
+  {
+   "id": "temecula",
+   "name": "Temecula",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "78120",
+   "lat": 33.493073,
+   "lng": -117.131734
+  },
+  {
+   "id": "temescal-valley",
+   "name": "Temescal Valley",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "78138",
+   "lat": 33.758003,
+   "lng": -117.467159
+  },
+  {
+   "id": "temple-city",
+   "name": "Temple City",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "78148",
+   "lat": 34.102156,
+   "lng": -118.057971
+  },
+  {
+   "id": "thermal",
+   "name": "Thermal",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "78456",
+   "lat": 33.626195,
+   "lng": -116.130834
+  },
+  {
+   "id": "thousand-oaks",
+   "name": "Thousand Oaks",
+   "kind": "city",
+   "county": "Ventura County",
+   "countyFips": "06111",
+   "placeFips": "78582",
+   "lat": 34.19329,
+   "lng": -118.874235
+  },
+  {
+   "id": "thousand-palms",
+   "name": "Thousand Palms",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "78596",
+   "lat": 33.815006,
+   "lng": -116.354481
+  },
+  {
+   "id": "topanga",
+   "name": "Topanga",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "78960",
+   "lat": 34.096777,
+   "lng": -118.606021
+  },
+  {
+   "id": "torrance",
+   "name": "Torrance",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "80000",
+   "lat": 33.830453,
+   "lng": -118.356618
+  },
+  {
+   "id": "trabuco-canyon",
+   "name": "Trabuco Canyon",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "80210",
+   "lat": 33.678228,
+   "lng": -117.594009
+  },
+  {
+   "id": "tustin",
+   "name": "Tustin",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "80854",
+   "lat": 33.73092,
+   "lng": -117.810599
+  },
+  {
+   "id": "twentynine-palms",
+   "name": "Twentynine Palms",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "80994",
+   "lat": 34.147817,
+   "lng": -116.065959
+  },
+  {
+   "id": "upland",
+   "name": "Upland",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "81344",
+   "lat": 34.116073,
+   "lng": -117.659922
+  },
+  {
+   "id": "val-verde",
+   "name": "Val Verde",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "81967",
+   "lat": 34.450423,
+   "lng": -118.671784
+  },
+  {
+   "id": "valinda",
+   "name": "Valinda",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "81638",
+   "lat": 34.040033,
+   "lng": -117.930057
+  },
+  {
+   "id": "valle-vista",
+   "name": "Valle Vista",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "81708",
+   "lat": 33.743363,
+   "lng": -116.888783
+  },
+  {
+   "id": "vernon",
+   "name": "Vernon",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "82422",
+   "lat": 34.001123,
+   "lng": -118.210869
+  },
+  {
+   "id": "victorville",
+   "name": "Victorville",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "82590",
+   "lat": 34.527735,
+   "lng": -117.353579
+  },
+  {
+   "id": "view-park-windsor-hills",
+   "name": "View Park-Windsor Hills",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "82667",
+   "lat": 33.994472,
+   "lng": -118.347762
+  },
+  {
+   "id": "villa-park",
+   "name": "Villa Park",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "82744",
+   "lat": 33.817985,
+   "lng": -117.811293
+  },
+  {
+   "id": "vincent",
+   "name": "Vincent",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "82815",
+   "lat": 34.098268,
+   "lng": -117.923801
+  },
+  {
+   "id": "vista-santa-rosa",
+   "name": "Vista Santa Rosa",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "83085",
+   "lat": 33.621451,
+   "lng": -116.208816
+  },
+  {
+   "id": "walnut",
+   "name": "Walnut",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "83332",
+   "lat": 34.037195,
+   "lng": -117.855606
+  },
+  {
+   "id": "walnut-park",
+   "name": "Walnut Park",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "83402",
+   "lat": 33.968233,
+   "lng": -118.221948
+  },
+  {
+   "id": "warm-springs",
+   "name": "Warm Springs",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "83460",
+   "lat": 33.706681,
+   "lng": -117.334347
+  },
+  {
+   "id": "west-athens",
+   "name": "West Athens",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84116",
+   "lat": 33.923453,
+   "lng": -118.303301
+  },
+  {
+   "id": "west-carson",
+   "name": "West Carson",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84144",
+   "lat": 33.823139,
+   "lng": -118.293685
+  },
+  {
+   "id": "west-covina",
+   "name": "West Covina",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84200",
+   "lat": 34.055941,
+   "lng": -117.909937
+  },
+  {
+   "id": "west-hollywood",
+   "name": "West Hollywood",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84410",
+   "lat": 34.088268,
+   "lng": -118.371831
+  },
+  {
+   "id": "west-puente-valley",
+   "name": "West Puente Valley",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84774",
+   "lat": 34.05228,
+   "lng": -117.966717
+  },
+  {
+   "id": "west-rancho-dominguez",
+   "name": "West Rancho Dominguez",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84780",
+   "lat": 33.904332,
+   "lng": -118.267777
+  },
+  {
+   "id": "west-whittier-los-nietos",
+   "name": "West Whittier-Los Nietos",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84921",
+   "lat": 33.975998,
+   "lng": -118.068929
+  },
+  {
+   "id": "westlake-village",
+   "name": "Westlake Village",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84438",
+   "lat": 34.136675,
+   "lng": -118.817367
+  },
+  {
+   "id": "westminster",
+   "name": "Westminster",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "84550",
+   "lat": 33.752292,
+   "lng": -117.993868
+  },
+  {
+   "id": "westmont",
+   "name": "Westmont",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "84592",
+   "lat": 33.941682,
+   "lng": -118.301834
+  },
+  {
+   "id": "whitewater",
+   "name": "Whitewater",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "85208",
+   "lat": 33.93559,
+   "lng": -116.687212
+  },
+  {
+   "id": "whittier",
+   "name": "Whittier",
+   "kind": "city",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "85292",
+   "lat": 33.966827,
+   "lng": -118.020122
+  },
+  {
+   "id": "wildomar",
+   "name": "Wildomar",
+   "kind": "city",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "85446",
+   "lat": 33.617278,
+   "lng": -117.258312
+  },
+  {
+   "id": "williams-canyon",
+   "name": "Williams Canyon",
+   "kind": "cdp",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "85587",
+   "lat": 33.728913,
+   "lng": -117.639438
+  },
+  {
+   "id": "willowbrook",
+   "name": "Willowbrook",
+   "kind": "cdp",
+   "county": "Los Angeles County",
+   "countyFips": "06037",
+   "placeFips": "85614",
+   "lat": 33.920834,
+   "lng": -118.236915
+  },
+  {
+   "id": "winchester",
+   "name": "Winchester",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "85894",
+   "lat": 33.71463,
+   "lng": -117.077398
+  },
+  {
+   "id": "woodcrest",
+   "name": "Woodcrest",
+   "kind": "cdp",
+   "county": "Riverside County",
+   "countyFips": "06065",
+   "placeFips": "86244",
+   "lat": 33.878946,
+   "lng": -117.368671
+  },
+  {
+   "id": "wrightwood",
+   "name": "Wrightwood",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "86594",
+   "lat": 34.345988,
+   "lng": -117.627579
+  },
+  {
+   "id": "yermo",
+   "name": "Yermo",
+   "kind": "cdp",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "86720",
+   "lat": 34.906656,
+   "lng": -116.823274
+  },
+  {
+   "id": "yorba-linda",
+   "name": "Yorba Linda",
+   "kind": "city",
+   "county": "Orange County",
+   "countyFips": "06059",
+   "placeFips": "86832",
+   "lat": 33.889038,
+   "lng": -117.77207
+  },
+  {
+   "id": "yucaipa",
+   "name": "Yucaipa",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "87042",
+   "lat": 34.033582,
+   "lng": -117.042898
+  },
+  {
+   "id": "yucca-valley",
+   "name": "Yucca Valley",
+   "kind": "city",
+   "county": "San Bernardino County",
+   "countyFips": "06071",
+   "placeFips": "87056",
+   "lat": 34.123347,
+   "lng": -116.421557
+  }
+ ]
+}

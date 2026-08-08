@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-08-07",
+  "vintage": 2024,
+  "areas": {
+    "eastvale": {
+      "geographyName": "Eastvale city, California",
+      "period": "ACS 2020-2024 5-year",
+      "retrievedAt": "2026-08-07",
+      "ownerPct": {
+        "value": 0.7804381329810656,
+        "moe": 0.03220223031664591,
+        "confidence": "high"
+      },
+      "renterPct": {
+        "value": 0.2195618670189344,
+        "moe": 0.029984518005680232,
+        "confidence": "medium"
+      },
+      "vacancyPct": {
+        "value": 0.01709586669552045,
+        "moe": 0.011021277277454174,
+        "confidence": "limited"
+      },
+      "medianYearBuilt": {
+        "value": 2007,
+        "moe": 1,
+        "confidence": "high"
+      },
+      "medianIncome": {
+        "value": 160069,
+        "moe": 7106,
+        "confidence": "high"
+      },
+      "population": {
+        "value": 70633,
+        "moe": 47,
+        "confidence": "high"
+      },
+      "unemploymentRate": {
+        "value": 0.04680331206732727,
+        "moe": 0.010878540210437156,
+        "confidence": "medium"
+      },
+      "medianRent": {
+        "value": 3252,
+        "moe": 105,
+        "confidence": "high"
+      }
+    },
+    "claremont": {
+      "geographyName": "Claremont city, California",
+      "period": "ACS 2020-2024 5-year",
+      "retrievedAt": "2026-08-07",
+      "ownerPct": {
+        "value": 0.6323849372384938,
+        "moe": 0.026882456885918497,
+        "confidence": "high"
+      },
+      "renterPct": {
+        "value": 0.3676150627615063,
+        "moe": 0.03294628569707353,
+        "confidence": "high"
+      },
+      "vacancyPct": {
+        "value": 0.04628890662410216,
+        "moe": 0.015970533019753617,
+        "confidence": "limited"
+      },
+      "medianYearBuilt": {
+        "value": 1966,
+        "moe": 2,
+        "confidence": "high"
+      },
+      "medianIncome": {
+        "value": 125647,
+        "moe": 17110,
+        "confidence": "medium"
+      },
+      "population": {
+        "value": 36595,
+        "moe": 55,
+        "confidence": "high"
+      },
+      "unemploymentRate": {
+        "value": 0.050932606488162044,
+        "moe": 0.010197401118757906,
+        "confidence": "medium"
+      },
+      "medianRent": {
+        "value": 2237,
+        "moe": 186,
+        "confidence": "high"
+      }
+    },
+    "fontana-southridge": {
+      "geographyName": "Fontana city, California",
+      "scopeNote": "Fontana citywide",
+      "period": "ACS 2020-2024 5-year",
+      "retrievedAt": "2026-08-07",
+      "ownerPct": {
+        "value": 0.6681916315410712,
+        "moe": 0.013826348522166295,
+        "confidence": "high"
+      },
+      "renterPct": {
+        "value": 0.33180836845892875,
+        "moe": 0.014460329675617811,
+        "confidence": "high"
+      },
+      "vacancyPct": {
+        "value": 0.01948859245321058,
+        "moe": 0.004576658681895606,
+        "confidence": "medium"
+      },
+      "medianYearBuilt": {
+        "value": 1989,
+        "moe": 1,
+        "confidence": "high"
+      },
+      "medianIncome": {
+        "value": 102821,
+        "moe": 3349,
+        "confidence": "high"
+      },
+      "population": {
+        "value": 214169,
+        "moe": 89,
+        "confidence": "high"
+      },
+      "unemploymentRate": {
+        "value": 0.06504843640649748,
+        "moe": 0.006127339428060274,
+        "confidence": "high"
+      },
+      "medianRent": {
+        "value": 1839,
+        "moe": 51,
+        "confidence": "high"
+      }
+    },
+    "highland-park": {
+      "geographyName": "8 census tracts",
+      "provisional": true,
+      "period": "ACS 2020-2024 5-year",
+      "retrievedAt": "2026-08-07",
+      "ownerPct": {
+        "value": 0.3510480626720305,
+        "moe": 0.031121972872532214,
+        "confidence": "high"
+      },
+      "renterPct": {
+        "value": 0.6489519373279695,
+        "moe": 0.03540074014644281,
+        "confidence": "high"
+      },
+      "vacancyPct": {
+        "value": 0.041890658281773,
+        "moe": 0.01476014441377869,
+        "confidence": "limited"
+      },
+      "population": {
+        "value": 26009,
+        "moe": 1383.5309898950584,
+        "confidence": "high"
+      },
+      "unemploymentRate": {
+        "value": 0.09041720990873534,
+        "moe": 0.016526742570415823,
+        "confidence": "medium"
+      }
+    }
+  }
+}
