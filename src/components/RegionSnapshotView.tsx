@@ -27,6 +27,14 @@ export function RegionSnapshotView({ snapshot }: { snapshot: RegionSnapshot }) {
           </span>
         </div>
         <p className="mt-1 text-sm text-ink-3">{region.county}</p>
+        <div className="mt-3">
+          <Link
+            href={`/explore/${region.id}`}
+            className="rounded-lg bg-brand px-4 py-2 text-sm font-semibold text-white hover:bg-brand-dark"
+          >
+            Explore the map
+          </Link>
+        </div>
         <p className="mt-3 rounded-lg bg-canvas p-3 text-xs text-ink-3">
           {snapshot.disclaimer}{" "}
           <Link href="/methodology" className="underline">
