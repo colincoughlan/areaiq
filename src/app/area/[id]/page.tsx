@@ -6,7 +6,9 @@ import { permitHighlights, withPermits } from "@/lib/permits-overlay";
 import { schoolsMeta, withSchools } from "@/lib/schools-overlay";
 import { amenitiesMeta, withAmenities } from "@/lib/amenities-overlay";
 import { countyUnemploymentText } from "@/lib/trends-overlay";
+import { PILOT_SECTION_ORDER } from "@/lib/lens";
 import { AskAreaIQ } from "@/components/AskAreaIQ";
+import { LensLayout } from "@/components/LensLayout";
 import { LocalOffers } from "@/components/LocalOffers";
 import { NeighborhoodPulse } from "@/components/NeighborhoodPulse";
 import { PermitActivity } from "@/components/PermitActivity";
@@ -66,25 +68,26 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
   const permits = permitHighlights(area.id);
   const schoolSrc = schoolsMeta(area.id);
   const amenSrc = amenitiesMeta(area.id);
+  const jobs = countyUnemploymentText(area.county);
 
-  return (
-    <main className="mx-auto max-w-3xl px-4 pb-20 pt-8">
-      <SummaryCard area={area} />
-
+  const sections: Record<string, React.ReactNode> = {
+    narrative: (
       <Section title="What this area is like">
         <p>
           {area.narrative}
           <SourceTag name="AI summary" ai />
         </p>
       </Section>
-
+    ),
+    changing: (
       <Section title="What is changing">
         <p>
           {area.changing}
           <SourceTag name="AI summary" ai />
         </p>
       </Section>
-
+    ),
+    housing: (
       <Section title="Housing & ownership">
         <MetricRow label="Owner-occupied" m={area.housing.ownerOccupied} />
         <MetricRow label="Renter-occupied" m={area.housing.renterOccupied} />
@@ -95,20 +98,16 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
         {extras.map(({ label, metric }) => (
           <MetricRow key={label} label={label} m={metric} />
         ))}
-        {(() => {
-          const jobs = countyUnemploymentText(area.county);
-          return jobs ? (
-            <p className="mt-3 text-xs text-ink-3">
-              {jobs.text}. <SourceTag name={jobs.source} />
-            </p>
-          ) : null;
-        })()}
+        {jobs && (
+          <p className="mt-3 text-xs text-ink-3">
+            {jobs.text}. <SourceTag name={jobs.source} />
+          </p>
+        )}
       </Section>
-
-      <NeighborhoodPulse areaId={area.id} />
-
-      <LocalOffers areaId={area.id} />
-
+    ),
+    pulse: <NeighborhoodPulse areaId={area.id} />,
+    offers: <LocalOffers areaId={area.id} />,
+    amenities: (
       <Section title="Amenities & daily life">
         <p>{area.amenitiesSummary}</p>
         <div className="mt-3">
@@ -130,7 +129,8 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
           </p>
         )}
       </Section>
-
+    ),
+    schools: (
       <Section title="Schools & education">
         {area.schools.map((sch) => (
           <div
@@ -154,11 +154,13 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
           )}
         </p>
       </Section>
-
+    ),
+    mobility: (
       <Section title="Mobility & commute">
         <p>{area.mobility}</p>
       </Section>
-
+    ),
+    development: (
       <Section title="Development & investment">
         <div className="space-y-3">
           {area.projects.map((p) => (
@@ -185,7 +187,8 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
         </div>
         {permits && <PermitActivity data={permits} />}
       </Section>
-
+    ),
+    environment: (
       <Section title="Environment & risk">
         <p>{area.environment}</p>
         <p className="mt-3 rounded-lg bg-canvas p-3 text-xs text-ink-3">
@@ -193,7 +196,8 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
           CARB) before a purchase decision.
         </p>
       </Section>
-
+    ),
+    sources: (
       <Section title="Sources & methodology">
         <p>
           Every material claim carries a source label. Component scores (Daily Life, Housing,
@@ -207,6 +211,14 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
           .
         </p>
       </Section>
+    ),
+  };
+
+  return (
+    <main className="mx-auto max-w-3xl px-4 pb-20 pt-8">
+      <SummaryCard area={area} />
+
+      <LensLayout sections={sections} order={PILOT_SECTION_ORDER} />
 
       <AskAreaIQ areaId={area.id} />
 

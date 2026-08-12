@@ -24,11 +24,16 @@ Lens reorders and contextualizes the same sourced data for family priorities.
 6. **Parent-verified local knowledge** (with community phase): structured categories —
    playgrounds, story time, stroller-friendliness — not a forum.
 
-## UI shape (later slice)
+## UI shape ✅ (this build)
 
-A lens toggle on area pages: Everyone / Family / Investor. Same data, different
-ordering and derived comparisons. No lens ever filters areas by "fit" — lenses change
-presentation, never recommendations.
+A lens toggle on area pages: Everyone / Family / Investor (`src/lib/lens.ts`,
+`src/components/LensLayout.tsx`). Same data, different ordering — every lens renders
+the exact same set of report sections, only reordered; enforced by a test
+(`lens.test.ts`) that fails if a lens's section list ever drops a key. No lens ever
+filters areas by "fit" — lenses change presentation, never recommendations. Live on
+both pilot full reports and coverage-tier snapshots. Renter/retiree lenses are a
+natural fast-follow once there's renter- and retirement-specific data worth
+reordering around (currently would just duplicate Family or Investor).
 
 ## Hard lines (unchanged)
 

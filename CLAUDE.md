@@ -50,8 +50,10 @@ Next.js 14 (App Router) · TypeScript strict · React 18 · Tailwind CSS · Mapb
   - Redfin market data: ingestion script ready (`npm run ingest:market`), not yet run to completion — 1GB source file, run locally per DEPLOY.md; UI renders nothing until `market.json` is populated
   - Trajectory indicators live (`npm run ingest:trends`): non-overlapping ACS window comparison (income/population change vs regional median) + BLS county unemployment trend, both wired into pilot reports and coverage snapshots
   - Public methodology page live (`/methodology`): full source list, confidence-label explanation, fair-housing rules, two-tier report explanation — linked from nav and both report types
+  - `/explore/[id]` map view extended from 4 pilot areas to all 334 SoCal regions (`RegionMapView`, `RegionExploreSummary`) — every covered place now has its own map page, not just pilots
+  - Family/Investor persona lens live (`src/lib/lens.ts`, `LensLayout`): reorders report sections by priority on both pilot and coverage-tier pages; never filters, every lens shows every section (enforced by test)
   - Safety data: spec'd but GATED on fair-housing counsel review (docs/specs/crime-data.md) — legal-first, build-second
-  - Remaining: permit adapters for Eastvale/Fontana/Claremont; Supabase wiring (auth + saved areas + offers/pulse live mode); Family/Investor lens UI toggle; pre-generated AI narratives; run Redfin market ingestion to completion
+  - Remaining: permit adapters for Eastvale/Fontana/Claremont; Supabase wiring (auth + saved areas + offers/pulse live mode); pre-generated AI narratives; run Redfin market ingestion to completion; events/things-to-do data layer (concerts, festivals — scoped to LA first); community services directory (babysitters/dog walkers/handymen — needs trust & safety plan); iOS Capacitor wrapper for share-sheet-into-app flow (needs Xcode/Apple Developer account on a Mac)
 - [ ] Phase 3: private beta (6–10 pilot areas, feedback loop, willingness-to-pay test)
 - [ ] Phase 4: SoCal launch (Realtor Pro exports, alerts, community layer)
 
