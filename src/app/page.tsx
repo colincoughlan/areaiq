@@ -19,10 +19,19 @@ export default function HomePage() {
 
       <div className="mx-auto mt-8 max-w-xl">
         <SearchBar />
+        <p className="mt-2 text-sm text-ink-3">
+          Search covers all 334 places — try &quot;Torrance,&quot; &quot;Pasadena,&quot; or
+          &quot;Anaheim.&quot; Or{" "}
+          <Link href="/find" className="font-semibold text-brand underline">
+            browse by budget and must-haves
+          </Link>
+          .
+        </p>
       </div>
 
-      <p className="mt-5 text-sm text-ink-3">
-        Full reports live in these pilot areas (all other places get data snapshots):
+      <p className="mt-6 text-sm text-ink-3">
+        These 4 have full editorial reports (development pipeline, permits, component scores,
+        Ask AreaIQ) — every other searchable place gets a real-data snapshot instead:
       </p>
       <div className="mt-2 flex flex-wrap justify-center gap-2">
         {areas.map((a) => (
