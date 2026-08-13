@@ -24,6 +24,7 @@ const AMENITIES: AmenitiesFile = amenitiesJson as unknown as AmenitiesFile;
 const DISPLAY_ORDER: AmenityCategory[] = [
   "grocery",
   "food",
+  "nightlife",
   "park",
   "pharmacy",
   "healthcare",

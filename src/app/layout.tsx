@@ -35,6 +35,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             Phase 1 · Sample data
           </span>
           <nav className="ml-auto flex items-center gap-1 text-sm font-semibold text-ink-2">
+            <Link href="/find" className="rounded-md px-3 py-1.5 hover:bg-canvas">
+              Find an area
+            </Link>
             <Link href="/compare" className="rounded-md px-3 py-1.5 hover:bg-canvas">
               Compare
             </Link>

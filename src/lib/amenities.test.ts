@@ -18,6 +18,9 @@ describe("categorize", () => {
     expect(categorize({ leisure: "fitness_centre" })).toBe("fitness");
     expect(categorize({ amenity: "kindergarten" })).toBe("childcare");
     expect(categorize({ railway: "station" })).toBe("transit");
+    expect(categorize({ amenity: "bar" })).toBe("nightlife");
+    expect(categorize({ amenity: "pub" })).toBe("nightlife");
+    expect(categorize({ amenity: "nightclub" })).toBe("nightlife");
   });
   it("returns null for unmatched tags", () => {
     expect(categorize({ shop: "car_repair" })).toBeNull();

@@ -9,6 +9,7 @@ export type AmenityCategory =
   | "grocery"
   | "pharmacy"
   | "food"
+  | "nightlife"
   | "park"
   | "library"
   | "healthcare"
@@ -20,6 +21,7 @@ export const CATEGORY_LABELS: Record<AmenityCategory, string> = {
   grocery: "Grocery stores",
   pharmacy: "Pharmacies",
   food: "Restaurants & cafés",
+  nightlife: "Bars & nightlife",
   park: "Parks",
   library: "Libraries",
   healthcare: "Clinics & hospitals",
@@ -34,6 +36,7 @@ export function categorize(tags: Record<string, string>): AmenityCategory | null
   if (shop === "supermarket" || shop === "grocery" || shop === "greengrocer") return "grocery";
   if (amenity === "pharmacy") return "pharmacy";
   if (amenity === "restaurant" || amenity === "cafe" || amenity === "fast_food") return "food";
+  if (amenity === "bar" || amenity === "pub" || amenity === "nightclub") return "nightlife";
   if (leisure === "park") return "park";
   if (amenity === "library") return "library";
   if (amenity === "clinic" || amenity === "doctors" || amenity === "hospital")
@@ -114,7 +117,7 @@ export function buildOverpassQuery(lat: number, lng: number, radiusMeters: numbe
   return (
     `[out:json][timeout:60];(` +
     `nwr["shop"~"^(supermarket|grocery|greengrocer)$"](${around});` +
-    `nwr["amenity"~"^(pharmacy|restaurant|cafe|fast_food|library|clinic|doctors|hospital|childcare|kindergarten)$"](${around});` +
+    `nwr["amenity"~"^(pharmacy|restaurant|cafe|fast_food|bar|pub|nightclub|library|clinic|doctors|hospital|childcare|kindergarten)$"](${around});` +
     `nwr["leisure"~"^(park|fitness_centre)$"](${around});` +
     `nwr["railway"="station"](${around});` +
     `nwr["public_transport"="station"](${around});` +

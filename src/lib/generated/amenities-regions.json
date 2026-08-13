@@ -1,0 +1,60 @@
+{
+ "generatedAt": "2026-08-13",
+ "source": "© OpenStreetMap contributors (Overpass API)",
+ "radiusMiles": 2,
+ "areas": {
+  "acton": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "food": {
+     "count": 4,
+     "examples": [
+      {
+       "name": "Miso Sushi",
+       "distanceMiles": 0.7
+      },
+      {
+       "name": "McDonald's",
+       "distanceMiles": 0.8
+      },
+      {
+       "name": "Jack in the Box",
+       "distanceMiles": 0.9
+      }
+     ]
+    },
+    "pharmacy": {
+     "count": 1,
+     "examples": [
+      {
+       "name": "Crown Valley Pharmacy",
+       "distanceMiles": 0.7
+      }
+     ]
+    },
+    "park": {
+     "count": 1,
+     "examples": [
+      {
+       "name": "Acton Park",
+       "distanceMiles": 1.8
+      }
+     ]
+    },
+    "library": {
+     "count": 2,
+     "examples": [
+      {
+       "name": "Acton Agua Dulce Library",
+       "distanceMiles": 0.8
+      },
+      {
+       "name": "LA County Library",
+       "distanceMiles": 33.1
+      }
+     ]
+    }
+   }
+  }
+ }
+}

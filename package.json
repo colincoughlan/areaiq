@@ -14,6 +14,7 @@
     "ingest:permits-hcd": "tsx scripts/ingest-permits-hcd.ts",
     "ingest:schools": "tsx scripts/ingest-schools.ts",
     "ingest:amenities": "tsx scripts/ingest-amenities.ts",
+    "ingest:amenities-regions": "tsx scripts/ingest-amenities-regions.ts",
     "build:regions": "tsx scripts/build-regions.ts",
     "ingest:regions": "tsx scripts/ingest-regions-data.ts",
     "ingest:outcomes": "tsx scripts/ingest-school-outcomes.ts",
