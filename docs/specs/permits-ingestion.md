@@ -50,3 +50,34 @@ the response is older than 90 days, the metric's confidence drops to "medium"; o
 - Valuation strings parse (missing/invalid → excluded from sum, kept in count).
 - Staleness → confidence downgrade logic.
 - Live run: count matches an independent SoQL `count(*)` for the same filter.
+
+## Extension: Eastvale, Fontana, Claremont (no city-level open-data API)
+
+Probed each city's open-data availability before building anything (probe-first rule):
+
+- **Eastvale**: uses Accela for its permit portal. Accela's Construct API is gated behind
+  developer-portal partnership approval per agency tenant — not self-serve for a third
+  party, so no live adapter is possible without a partnership agreement.
+- **Fontana**: no discoverable Socrata/ArcGIS open-data portal.
+- **Claremont**: no discoverable open-data portal; permit status lookup is a citizen-facing
+  HTML tool only, not an API.
+
+Instead, all three (like every CA jurisdiction) file an **Annual Progress Report** with the
+state under Gov. Code §65400. HCD publishes the underlying project-level data — CSV
+`tablea2.csv` on data.ca.gov, statewide, public, no key required. Verified live: real
+street-address rows with lat/lon and entitlement/permit/certificate-of-occupancy dates
+through 2025 for all three cities (Fontana has a gap in 2020 — a real self-reporting gap in
+the source, not an ingestion bug).
+
+Tradeoffs vs. the LA Socrata feed, documented rather than hidden: no dollar valuation is
+reported (the "Stated valuation" stat and "largest permits" list simply don't render for
+these areas — `PermitActivity` already handles a source with zero valuation coverage
+gracefully); Table A2 only tracks *new housing unit* permits, not demolitions/additions/
+non-residential work, so `type` is normalized uniformly to `"Bldg-New"` with the real unit
+category (SFD/ADU/5+/etc.) kept in `subType`; data is annual self-reported filings, not a
+live feed, so it can lag — the existing freshness→confidence downgrade already handles
+this honestly.
+
+`npm run ingest:permits-hcd` streams the ~300MB statewide CSV and **merges** into the same
+`permits.json` that `ingest:permits` writes — it only touches its three mapped areas and
+never overwrites the Highland Park/LA entry.

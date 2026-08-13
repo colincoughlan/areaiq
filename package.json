@@ -11,6 +11,7 @@
     "test:watch": "vitest",
     "ingest:acs": "tsx scripts/ingest-acs.ts",
     "ingest:permits": "tsx scripts/ingest-permits.ts",
+    "ingest:permits-hcd": "tsx scripts/ingest-permits-hcd.ts",
     "ingest:schools": "tsx scripts/ingest-schools.ts",
     "ingest:amenities": "tsx scripts/ingest-amenities.ts",
     "build:regions": "tsx scripts/build-regions.ts",

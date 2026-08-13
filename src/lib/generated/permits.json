@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07",
+  "generatedAt": "2026-08-13",
   "areas": {
     "highland-park": {
       "source": "LA Dept. of Building & Safety permits (data.lacity.org)",
@@ -98,6 +98,66 @@
             "lon": -118.19567
           }
         ]
+      }
+    },
+    "claremont": {
+      "source": "CA Dept. of Housing & Community Development, Annual Progress Report (Table A2)",
+      "datasetId": "housing-element-annual-progress-report-apr-data-by-jurisdiction-and-year",
+      "periodMonths": 24,
+      "since": "2024-08-13",
+      "retrievedAt": "2026-08-13",
+      "confidence": "high",
+      "summary": {
+        "total": 88,
+        "byType": {
+          "Bldg-New": 88
+        },
+        "newBuildings": 88,
+        "demolitions": 0,
+        "valuationTotal": 0,
+        "valuationCounted": 0,
+        "newestIssueDate": "2026-08-26",
+        "notable": []
+      }
+    },
+    "fontana-southridge": {
+      "source": "CA Dept. of Housing & Community Development, Annual Progress Report (Table A2)",
+      "datasetId": "housing-element-annual-progress-report-apr-data-by-jurisdiction-and-year",
+      "periodMonths": 24,
+      "since": "2024-08-13",
+      "retrievedAt": "2026-08-13",
+      "confidence": "limited",
+      "summary": {
+        "total": 295,
+        "byType": {
+          "Bldg-New": 295
+        },
+        "newBuildings": 295,
+        "demolitions": 0,
+        "valuationTotal": 0,
+        "valuationCounted": 0,
+        "newestIssueDate": "2025-02-25",
+        "notable": []
+      }
+    },
+    "eastvale": {
+      "source": "CA Dept. of Housing & Community Development, Annual Progress Report (Table A2)",
+      "datasetId": "housing-element-annual-progress-report-apr-data-by-jurisdiction-and-year",
+      "periodMonths": 24,
+      "since": "2024-08-13",
+      "retrievedAt": "2026-08-13",
+      "confidence": "limited",
+      "summary": {
+        "total": 157,
+        "byType": {
+          "Bldg-New": 157
+        },
+        "newBuildings": 157,
+        "demolitions": 0,
+        "valuationTotal": 0,
+        "valuationCounted": 0,
+        "newestIssueDate": "2025-12-30",
+        "notable": []
       }
     }
   }

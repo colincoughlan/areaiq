@@ -8,15 +8,17 @@ export function PermitActivity({ data }: { data: PermitHighlights }) {
     ["New buildings", String(data.newBuildings)],
     ["Additions", String(data.additions)],
     ["Demolitions", String(data.demolitions)],
-    ["Stated valuation", formatUsdCompact(data.valuationTotal)],
   ];
+  if (data.valuationCounted > 0) {
+    stats.push(["Stated valuation", formatUsdCompact(data.valuationTotal)]);
+  }
   return (
     <div className="mt-4 rounded-lg border border-line bg-canvas p-4">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h3 className="text-sm font-bold text-ink">
           Recent permit activity (since {data.since})
         </h3>
-        <SourceTag name="LA Building & Safety" />
+        <SourceTag name={data.source} />
       </div>
       <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-5">
         {stats.map(([label, v]) => (

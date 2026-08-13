@@ -47,6 +47,7 @@ export interface PermitHighlights {
   additions: number;
   altersRepairs: number;
   valuationTotal: number;
+  valuationCounted: number;
   notable: PermitRecord[];
 }
 
@@ -63,6 +64,7 @@ export function permitHighlights(areaId: string): PermitHighlights | null {
     additions: d.summary.byType["Bldg-Addition"] ?? 0,
     altersRepairs: d.summary.byType["Bldg-Alter/Repair"] ?? 0,
     valuationTotal: d.summary.valuationTotal,
+    valuationCounted: d.summary.valuationCounted,
     notable: d.summary.notable,
   };
 }
