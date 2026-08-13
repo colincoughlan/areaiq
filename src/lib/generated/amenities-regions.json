@@ -6,54 +6,361 @@
   "acton": {
    "retrievedAt": "2026-08-13",
    "summary": {
-    "food": {
-     "count": 4,
-     "examples": [
-      {
-       "name": "Miso Sushi",
-       "distanceMiles": 0.7
-      },
-      {
-       "name": "McDonald's",
-       "distanceMiles": 0.8
-      },
-      {
-       "name": "Jack in the Box",
-       "distanceMiles": 0.9
-      }
-     ]
-    },
-    "pharmacy": {
-     "count": 1,
-     "examples": [
-      {
-       "name": "Crown Valley Pharmacy",
-       "distanceMiles": 0.7
-      }
-     ]
-    },
-    "park": {
-     "count": 1,
-     "examples": [
-      {
-       "name": "Acton Park",
-       "distanceMiles": 1.8
-      }
-     ]
-    },
-    "library": {
-     "count": 2,
-     "examples": [
-      {
-       "name": "Acton Agua Dulce Library",
-       "distanceMiles": 0.8
-      },
-      {
-       "name": "LA County Library",
-       "distanceMiles": 33.1
-      }
-     ]
-    }
+    "food": { "count": 4, "examples": [
+      { "name": "Miso Sushi", "distanceMiles": 0.7 },
+      { "name": "McDonald's", "distanceMiles": 0.8 },
+      { "name": "Jack in the Box", "distanceMiles": 0.9 }
+     ] },
+    "pharmacy": { "count": 1, "examples": [{ "name": "Crown Valley Pharmacy", "distanceMiles": 0.7 }] },
+    "park": { "count": 1, "examples": [{ "name": "Acton Park", "distanceMiles": 1.8 }] },
+    "library": { "count": 2, "examples": [
+      { "name": "Acton Agua Dulce Library", "distanceMiles": 0.8 },
+      { "name": "LA County Library", "distanceMiles": 33.1 }
+     ] }
+   }
+  },
+  "alhambra": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "food": { "count": 307, "examples": [
+      { "name": "Domino's", "distanceMiles": 0.1 },
+      { "name": "Donuts", "distanceMiles": 0.1 },
+      { "name": "Wendy's", "distanceMiles": 0.3 }
+     ] },
+    "grocery": { "count": 17, "examples": [
+      { "name": "Asia Supermarket", "distanceMiles": 0.4 },
+      { "name": "Hamilton Euromarket", "distanceMiles": 0.7 },
+      { "name": "Aldi", "distanceMiles": 0.8 }
+     ] },
+    "healthcare": { "count": 21, "examples": [
+      { "name": "Advanced Neurology Group", "distanceMiles": 0.3 },
+      { "name": "Alhambra Hospital Medical Center", "distanceMiles": 0.6 },
+      { "name": "ROS Medical Group", "distanceMiles": 0.7 }
+     ] },
+    "library": { "count": 5, "examples": [
+      { "name": "Jack Miller Memorial Library", "distanceMiles": 0.8 },
+      { "name": "Alhambra Library", "distanceMiles": 0.8 },
+      { "name": "Dorothy Hooper Library", "distanceMiles": 1.3 }
+     ] },
+    "pharmacy": { "count": 8, "examples": [
+      { "name": "Health Care 21", "distanceMiles": 0.5 },
+      { "name": "986 Pharmacy", "distanceMiles": 0.8 },
+      { "name": "CVS Pharmacy", "distanceMiles": 1 }
+     ] },
+    "childcare": { "count": 2, "examples": [{ "name": "My Asian Nanny", "distanceMiles": 1.6 }] },
+    "nightlife": { "count": 2, "examples": [
+      { "name": "Jay Dee Cafe", "distanceMiles": 0.7 },
+      { "name": "38 Degrees Ale House & Grill", "distanceMiles": 0.9 }
+     ] },
+    "fitness": { "count": 12, "examples": [
+      { "name": "Mission Fitness Center", "distanceMiles": 0.6 },
+      { "name": "Yoga Darsana", "distanceMiles": 0.7 },
+      { "name": "F45 Training", "distanceMiles": 0.7 }
+     ] },
+    "park": { "count": 23, "examples": [
+      { "name": "Moor Field", "distanceMiles": 0.4 },
+      { "name": "Gateway Plaza Park", "distanceMiles": 1 },
+      { "name": "Burke Park", "distanceMiles": 1 }
+     ] }
+   }
+  },
+  "alondra-park": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "library": { "count": 5, "examples": [
+      { "name": "Masao W Satow Branch County of Los Angeles Public Library", "distanceMiles": 0.8 },
+      { "name": "Lawndale Branch County of Los Angeles Public Library", "distanceMiles": 1.2 },
+      { "name": "Torrance Public Library, Northern branch", "distanceMiles": 1.2 }
+     ] },
+    "food": { "count": 196, "examples": [
+      { "name": "Classics on Crenshaw", "distanceMiles": 0.5 },
+      { "name": "Phở Hòa", "distanceMiles": 0.5 },
+      { "name": "Rio Verde Pupuseria", "distanceMiles": 0.6 }
+     ] },
+    "pharmacy": { "count": 13, "examples": [
+      { "name": "CVS Pharmacy", "distanceMiles": 0.9 },
+      { "name": "CVS Pharmacy", "distanceMiles": 0.9 },
+      { "name": "CVS Pharmacy", "distanceMiles": 1 }
+     ] },
+    "grocery": { "count": 23, "examples": [
+      { "name": "Superior Grocers", "distanceMiles": 0.6 },
+      { "name": "Superior", "distanceMiles": 0.7 },
+      { "name": "Northgate Market", "distanceMiles": 0.8 }
+     ] },
+    "nightlife": { "count": 6, "examples": [
+      { "name": "The Sly Fox", "distanceMiles": 1 },
+      { "name": "Brooklyn Bar", "distanceMiles": 1.2 },
+      { "name": "King Henry", "distanceMiles": 1.4 }
+     ] },
+    "fitness": { "count": 8, "examples": [
+      { "name": "Curves", "distanceMiles": 1.4 },
+      { "name": "Aerial Gymnastics Club", "distanceMiles": 1.5 },
+      { "name": "We Rock the Spectrum Kids Gym", "distanceMiles": 1.6 }
+     ] },
+    "transit": { "count": 2, "examples": [
+      { "name": "Redondo Beach", "distanceMiles": 1.9 },
+      { "name": "Redondo Beach Transit Center", "distanceMiles": 2 }
+     ] },
+    "healthcare": { "count": 11, "examples": [
+      { "name": "Da Vita HealthCare Partners", "distanceMiles": 1 },
+      { "name": "DaVita Hawthorne Dialysis", "distanceMiles": 1 },
+      { "name": "Do Medical", "distanceMiles": 1.1 }
+     ] },
+    "childcare": { "count": 2, "examples": [{ "name": "South Bay Universal Development Center", "distanceMiles": 1 }] },
+    "park": { "count": 34, "examples": [
+      { "name": "Alondra Community Regional Park", "distanceMiles": 0.5 },
+      { "name": "Bodger Park", "distanceMiles": 0.5 },
+      { "name": "Rogers-Anderson Park", "distanceMiles": 0.6 }
+     ] }
+   }
+  },
+  "altadena": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "healthcare": { "count": 2, "examples": [
+      { "name": "ChapCare Fair Oaks", "distanceMiles": 1.3 },
+      { "name": "Hathaway-Sycamores", "distanceMiles": 1.8 }
+     ] },
+    "library": { "count": 3, "examples": [
+      { "name": "Altadena Public Library", "distanceMiles": 0.2 },
+      { "name": "Santa Catalina Branch Pasadena Public Library", "distanceMiles": 1.6 },
+      { "name": "La Pintoresca Branch Pasadena Public Library", "distanceMiles": 1.8 }
+     ] },
+    "pharmacy": { "count": 1, "examples": [{ "name": "Rite Aid", "distanceMiles": 1.8 }] },
+    "food": { "count": 28, "examples": [
+      { "name": "Miya", "distanceMiles": 0.4 },
+      { "name": "Jack in the Box", "distanceMiles": 0.5 },
+      { "name": "Fox's Restaurant", "distanceMiles": 0.5 }
+     ] },
+    "grocery": { "count": 6, "examples": [
+      { "name": "Aldi", "distanceMiles": 0.6 },
+      { "name": "Grocery Outlet", "distanceMiles": 0.6 },
+      { "name": "Bo's Altadena Market", "distanceMiles": 0.9 }
+     ] },
+    "fitness": { "count": 1, "examples": [{ "name": "Be Pilates", "distanceMiles": 1.8 }] },
+    "park": { "count": 8, "examples": [
+      { "name": "Mount Lowe Park", "distanceMiles": 0.6 },
+      { "name": "Charles S. Farnsworth Park", "distanceMiles": 0.6 },
+      { "name": "Charles White Park", "distanceMiles": 1 }
+     ] }
+   }
+  },
+  "arcadia": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "food": { "count": 177, "examples": [
+      { "name": "Joker's Koffee", "distanceMiles": 0.3 },
+      { "name": "Tea Brick", "distanceMiles": 0.3 },
+      { "name": "El Pollo Loco", "distanceMiles": 0.3 }
+     ] },
+    "park": { "count": 21, "examples": [
+      { "name": "Arcadia County Park", "distanceMiles": 0.4 },
+      { "name": "Monsignor Gerald M. O'Keefe Rose Garden", "distanceMiles": 0.5 },
+      { "name": "Holly Avenue Park", "distanceMiles": 0.7 }
+     ] },
+    "library": { "count": 6, "examples": [
+      { "name": "Arcadia High School Library", "distanceMiles": 0.2 },
+      { "name": "Arcadia Public Library", "distanceMiles": 0.4 },
+      { "name": "Arboretum Library", "distanceMiles": 1.2 }
+     ] },
+    "pharmacy": { "count": 7, "examples": [
+      { "name": "CVS Pharmacy", "distanceMiles": 1.3 },
+      { "name": "986 Pharmacy", "distanceMiles": 1.4 },
+      { "name": "CVS Pharmacy", "distanceMiles": 1.5 }
+     ] },
+    "grocery": { "count": 13, "examples": [
+      { "name": "Claro's Italian Market", "distanceMiles": 0.6 },
+      { "name": "99 Ranch Market", "distanceMiles": 0.8 },
+      { "name": "Arcadia Supermarket", "distanceMiles": 1 }
+     ] },
+    "transit": { "count": 6, "examples": [
+      { "name": "Arcadia", "distanceMiles": 0.8 },
+      { "name": "Foothill Transit 187", "distanceMiles": 1.8 },
+      { "name": "Monrovia", "distanceMiles": 1.9 }
+     ] },
+    "healthcare": { "count": 4, "examples": [
+      { "name": "USC Arcadia Hospital", "distanceMiles": 0.3 },
+      { "name": "Foothill Allergy", "distanceMiles": 1 },
+      { "name": "DaVita Arcadia Oaks Dialysis", "distanceMiles": 1.1 }
+     ] },
+    "fitness": { "count": 5, "examples": [
+      { "name": "U+Fit", "distanceMiles": 0.3 },
+      { "name": "24 Hour Fitness", "distanceMiles": 0.8 },
+      { "name": "EōS Fitness", "distanceMiles": 0.8 }
+     ] }
+   }
+  },
+  "agoura-hills": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "library": { "count": 3, "examples": [
+      { "name": "Agoura Hills Library", "distanceMiles": 0.7 },
+      { "name": "Westlake Village", "distanceMiles": 2 },
+      { "name": "LA County Library", "distanceMiles": 30.3 }
+     ] },
+    "food": { "count": 54, "examples": [
+      { "name": "McDonald's", "distanceMiles": 0.2 },
+      { "name": "Lal Mirch", "distanceMiles": 0.2 },
+      { "name": "The Habit Burger Grill", "distanceMiles": 0.3 }
+     ] },
+    "nightlife": { "count": 4, "examples": [
+      { "name": "Ladyface Ale", "distanceMiles": 0.4 },
+      { "name": "cronies", "distanceMiles": 0.5 },
+      { "name": "Canyon Club", "distanceMiles": 0.6 }
+     ] },
+    "grocery": { "count": 5, "examples": [
+      { "name": "Vons", "distanceMiles": 0.4 },
+      { "name": "Trader Joe's", "distanceMiles": 0.5 },
+      { "name": "Ralphs", "distanceMiles": 0.5 }
+     ] },
+    "healthcare": { "count": 9, "examples": [
+      { "name": "Passport Health Agoura Hills Travel Clinic", "distanceMiles": 0.2 },
+      { "name": "True Simplicity Acne & Skin Care", "distanceMiles": 0.6 },
+      { "name": "Behavioral Neuroscience Institute", "distanceMiles": 1.6 }
+     ] },
+    "childcare": { "count": 1, "examples": [{ "name": "Tutor Time", "distanceMiles": 0.6 }] },
+    "park": { "count": 20, "examples": [
+      { "name": "Hillside Promontory Park", "distanceMiles": 0.1 },
+      { "name": "Chumash Park", "distanceMiles": 0.5 },
+      { "name": "Medea Creek Park", "distanceMiles": 0.7 }
+     ] },
+    "pharmacy": { "count": 1, "examples": [{ "name": "CVS Pharmacy", "distanceMiles": 0.4 }] },
+    "fitness": { "count": 1, "examples": [{ "name": "LA Fitness", "distanceMiles": 0.3 }] }
+   }
+  },
+  "agua-dulce": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "food": { "count": 4, "examples": [
+      { "name": "terra dulce", "distanceMiles": 0.5 },
+      { "name": "Maria Bonita Mexican", "distanceMiles": 0.6 }
+     ] },
+    "grocery": { "count": 1, "examples": [{ "name": "Mexican supermarket", "distanceMiles": 0.6 }] },
+    "park": { "count": 1, "examples": [{ "name": "Vasquez Rocks Park", "distanceMiles": 1.6 }] }
+   }
+  },
+  "avalon": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "transit": { "count": 2, "examples": [{ "name": "Cabrillo Mole Terminal", "distanceMiles": 0.2 }] },
+    "food": { "count": 27, "examples": [
+      { "name": "Eli's Island Deli", "distanceMiles": 0.2 },
+      { "name": "Toyon Grill", "distanceMiles": 0.3 },
+      { "name": "Eric's On the Pier", "distanceMiles": 0.4 }
+     ] },
+    "childcare": { "count": 1, "examples": [{ "name": "Preschool Learning For Avalon Youth", "distanceMiles": 1.1 }] },
+    "pharmacy": { "count": 1, "examples": [{ "name": "Leo's Drugstore", "distanceMiles": 0.5 }] },
+    "fitness": { "count": 1, "examples": [{ "name": "Catalina Spin Studio", "distanceMiles": 0.6 }] },
+    "library": { "count": 2, "examples": [
+      { "name": "Avalon Library", "distanceMiles": 0.5 },
+      { "name": "LA County Library", "distanceMiles": 47 }
+     ] },
+    "park": { "count": 4, "examples": [] },
+    "nightlife": { "count": 1, "examples": [{ "name": "Marlin Club", "distanceMiles": 0.4 }] },
+    "healthcare": { "count": 1, "examples": [{ "name": "Catalina Island Medical Center", "distanceMiles": 0.8 }] },
+    "grocery": { "count": 1, "examples": [{ "name": "Vons", "distanceMiles": 0.5 }] }
+   }
+  },
+  "avocado-heights": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "food": { "count": 27, "examples": [
+      { "name": "Juan Pollo", "distanceMiles": 0.1 },
+      { "name": "Jack in the Box", "distanceMiles": 0.1 },
+      { "name": "Alberto's", "distanceMiles": 0.1 }
+     ] },
+    "grocery": { "count": 3, "examples": [
+      { "name": "Grocery Outlet", "distanceMiles": 0.1 },
+      { "name": "American Precast Concrete Inc.", "distanceMiles": 1.7 },
+      { "name": "Superior Grocers", "distanceMiles": 1.9 }
+     ] },
+    "pharmacy": { "count": 1, "examples": [{ "name": "CVS Pharmacy", "distanceMiles": 1.9 }] },
+    "healthcare": { "count": 1, "examples": [{ "name": "Kaiser Permanente Baldwin Park Medical Center", "distanceMiles": 1.9 }] },
+    "park": { "count": 9, "examples": [
+      { "name": "Avenue Park", "distanceMiles": 0.4 },
+      { "name": "Avocado Heights Park", "distanceMiles": 0.6 },
+      { "name": "San Angelo Park", "distanceMiles": 0.8 }
+     ] },
+    "library": { "count": 2, "examples": [
+      { "name": "Sunkist Branch County of Los Angeles Public Library", "distanceMiles": 1.7 },
+      { "name": "LA County Library", "distanceMiles": 14.9 }
+     ] }
+   }
+  },
+  "baldwin-park": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "library": { "count": 4, "examples": [
+      { "name": "Baldwin Park Library", "distanceMiles": 0.5 },
+      { "name": "West Covina Branch County of Los Angeles Public Library", "distanceMiles": 1.9 },
+      { "name": "Sunkist Branch County of Los Angeles Public Library", "distanceMiles": 1.9 }
+     ] },
+    "healthcare": { "count": 6, "examples": [
+      { "name": "Kindred Hospital Baldwin Park", "distanceMiles": 1.4 },
+      { "name": "Kaiser Permanente Baldwin Park Medical Center", "distanceMiles": 1.5 },
+      { "name": "Samimi Orthopedic Group", "distanceMiles": 1.7 }
+     ] },
+    "food": { "count": 55, "examples": [
+      { "name": "McDonald's", "distanceMiles": 0.2 },
+      { "name": "Alfredo's Mexican Food", "distanceMiles": 0.2 },
+      { "name": "Pizzaroni", "distanceMiles": 0.3 }
+     ] },
+    "grocery": { "count": 5, "examples": [
+      { "name": "Vallarta", "distanceMiles": 0.2 },
+      { "name": "El Super", "distanceMiles": 0.4 },
+      { "name": "Superior Grocers", "distanceMiles": 0.8 }
+     ] },
+    "pharmacy": { "count": 2, "examples": [
+      { "name": "Walgreens", "distanceMiles": 0.3 },
+      { "name": "CVS Pharmacy", "distanceMiles": 0.8 }
+     ] },
+    "transit": { "count": 1, "examples": [{ "name": "Baldwin Park", "distanceMiles": 0.8 }] },
+    "park": { "count": 9, "examples": [
+      { "name": "Morgan Park", "distanceMiles": 0.5 },
+      { "name": "Teri G Muse Family Center", "distanceMiles": 0.6 },
+      { "name": "Central Park West", "distanceMiles": 1.1 }
+     ] }
+   }
+  },
+  "bell": {
+   "retrievedAt": "2026-08-13",
+   "summary": {
+    "park": { "count": 24, "examples": [
+      { "name": "Veterans Memorial Park", "distanceMiles": 0.3 },
+      { "name": "Riverfront Park", "distanceMiles": 0.5 },
+      { "name": "Treder Park", "distanceMiles": 0.5 }
+     ] },
+    "library": { "count": 6, "examples": [
+      { "name": "Bell Library", "distanceMiles": 0.5 },
+      { "name": "Maywood Library", "distanceMiles": 0.8 },
+      { "name": "Cudahy Library", "distanceMiles": 1.4 }
+     ] },
+    "food": { "count": 81, "examples": [
+      { "name": "Wingstop", "distanceMiles": 0.6 },
+      { "name": "McDonald's", "distanceMiles": 0.6 },
+      { "name": "Carl's Jr.", "distanceMiles": 0.7 }
+     ] },
+    "nightlife": { "count": 5, "examples": [
+      { "name": "Bricks Restaurant & Sports Bar", "distanceMiles": 1.6 },
+      { "name": "Magueys Sports Bar & Cantina", "distanceMiles": 1.7 },
+      { "name": "El Troquero Pub", "distanceMiles": 1.8 }
+     ] },
+    "grocery": { "count": 9, "examples": [
+      { "name": "Northgate González Market", "distanceMiles": 0.6 },
+      { "name": "Food 4 Less", "distanceMiles": 0.7 },
+      { "name": "Superior Grocers", "distanceMiles": 0.9 }
+     ] },
+    "childcare": { "count": 1, "examples": [{ "name": "Codela Pre-School", "distanceMiles": 0.9 }] },
+    "pharmacy": { "count": 2, "examples": [
+      { "name": "Walmart Pharmacy", "distanceMiles": 1.8 },
+      { "name": "CVS Pharmacy", "distanceMiles": 1.9 }
+     ] },
+    "fitness": { "count": 1, "examples": [{ "name": "Chuze Fitness", "distanceMiles": 1.3 }] },
+    "healthcare": { "count": 4, "examples": [
+      { "name": "Kaiser Permanente Cudahy Medical Offices", "distanceMiles": 1.2 },
+      { "name": "Medical Clinic", "distanceMiles": 1.5 },
+      { "name": "AltaMed Medical and Dental Group", "distanceMiles": 1.8 }
+     ] }
    }
   }
  }

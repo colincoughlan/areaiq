@@ -3,6 +3,7 @@
  * Usage:
  *   npm run ingest:amenities-regions            # full run, resumable
  *   npm run ingest:amenities-regions -- --limit 20   # partial run, for testing
+ *   npm run ingest:amenities-regions -- --county "Los Angeles County"  # prioritize one county
  *
  * One Overpass query per region, sequential, with a courtesy delay and
  * retry/backoff — same pattern as ingest-amenities.ts. This is a genuinely
@@ -67,13 +68,30 @@ function parseLimit(): number | null {
   return Number.isFinite(n) && n > 0 ? n : null;
 }
 
+function parseCounty(): string | null {
+  const i = process.argv.indexOf("--county");
+  if (i === -1) return null;
+  return process.argv[i + 1] ?? null;
+}
+
 async function main() {
   const retrievedAt = new Date().toISOString().slice(0, 10);
   const force = process.argv.includes("--force");
   const limit = parseLimit();
+  const county = parseCounty();
 
-  const { regions } = JSON.parse(readFileSync(REGIONS_PATH, "utf8")) as { regions: RegionEntry[] };
-  console.log(`${regions.length} regions in registry${limit ? ` (limiting this run to ${limit})` : ""}`);
+  const { regions: allRegions } = JSON.parse(readFileSync(REGIONS_PATH, "utf8")) as {
+    regions: RegionEntry[];
+  };
+  // County-first, not county-only: prioritized regions are fetched first, but
+  // the rest of the state is still reachable in the same resumable run.
+  const regions = county
+    ? [...allRegions.filter((r) => r.county === county), ...allRegions.filter((r) => r.county !== county)]
+    : allRegions;
+  console.log(
+    `${allRegions.length} regions in registry${county ? ` (prioritizing ${county})` : ""}` +
+      `${limit ? ` (limiting this run to ${limit})` : ""}`
+  );
 
   let out: Record<string, RegionAmenities> = {};
   if (existsSync(OUT_PATH) && !force) {

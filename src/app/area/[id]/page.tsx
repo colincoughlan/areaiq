@@ -8,6 +8,7 @@ import { amenitiesMeta, withAmenities } from "@/lib/amenities-overlay";
 import { countyUnemploymentText } from "@/lib/trends-overlay";
 import { PILOT_SECTION_ORDER } from "@/lib/lens";
 import { AskAreaIQ } from "@/components/AskAreaIQ";
+import { CommunityDirectory } from "@/components/CommunityDirectory";
 import { LensLayout } from "@/components/LensLayout";
 import { LocalOffers } from "@/components/LocalOffers";
 import { NearbyBusinessSearch } from "@/components/NearbyBusinessSearch";
@@ -119,6 +120,7 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
     ),
     pulse: <NeighborhoodPulse areaId={area.id} />,
     offers: <LocalOffers areaId={area.id} />,
+    community: <CommunityDirectory areaId={area.id} />,
     amenities: (
       <Section title="Amenities & daily life">
         <p>{area.amenitiesSummary}</p>

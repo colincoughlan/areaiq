@@ -3,6 +3,7 @@ import type { RegionSnapshot } from "@/lib/regions";
 import { marketRows } from "@/lib/market-overlay";
 import { schoolOutcomeText } from "@/lib/outcomes-overlay";
 import { SNAPSHOT_SECTION_ORDER } from "@/lib/lens";
+import { CommunityDirectory } from "./CommunityDirectory";
 import { LensLayout } from "./LensLayout";
 import { LocalOffers } from "./LocalOffers";
 import { NearbyBusinessSearch } from "./NearbyBusinessSearch";
@@ -137,6 +138,7 @@ export function RegionSnapshotView({ snapshot }: { snapshot: RegionSnapshot }) {
       </section>
     ),
     businessSearch: <NearbyBusinessSearch areaId={region.id} />,
+    community: <CommunityDirectory areaId={region.id} />,
     cta: (
       <section className="mt-4 rounded-xl border border-line bg-white p-6 text-sm text-ink-2">
         <h2 className="text-base font-bold text-ink">Want the full picture?</h2>

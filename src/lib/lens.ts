@@ -28,6 +28,7 @@ export const PILOT_SECTION_ORDER: Record<Lens, string[]> = {
     "demographics",
     "pulse",
     "offers",
+    "community",
     "amenities",
     "businessSearch",
     "schools",
@@ -41,6 +42,7 @@ export const PILOT_SECTION_ORDER: Record<Lens, string[]> = {
     "demographics",
     "amenities",
     "businessSearch",
+    "community",
     "environment",
     "housing",
     "mobility",
@@ -64,13 +66,14 @@ export const PILOT_SECTION_ORDER: Record<Lens, string[]> = {
     "businessSearch",
     "pulse",
     "offers",
+    "community",
     "sources",
   ],
 };
 
 /** Coverage-snapshot (330 non-pilot regions) section keys. */
 export const SNAPSHOT_SECTION_ORDER: Record<Lens, string[]> = {
-  everyone: ["offers", "highlights", "market", "metrics", "demographics", "schools", "businessSearch", "cta"],
-  family: ["schools", "demographics", "businessSearch", "highlights", "offers", "metrics", "market", "cta"],
-  investor: ["market", "metrics", "highlights", "offers", "demographics", "schools", "businessSearch", "cta"],
+  everyone: ["offers", "highlights", "market", "metrics", "demographics", "schools", "businessSearch", "community", "cta"],
+  family: ["schools", "demographics", "businessSearch", "community", "highlights", "offers", "metrics", "market", "cta"],
+  investor: ["market", "metrics", "highlights", "offers", "demographics", "schools", "businessSearch", "community", "cta"],
 };
