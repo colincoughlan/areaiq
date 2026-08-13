@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AREA_ORDER, getArea, STATUS_LABEL } from "@/lib/areas";
-import { acsExtras, withAcs } from "@/lib/acs-overlay";
+import { acsChildBrackets, acsExtras, withAcs } from "@/lib/acs-overlay";
 import { permitHighlights, withPermits } from "@/lib/permits-overlay";
 import { schoolsMeta, withSchools } from "@/lib/schools-overlay";
 import { amenitiesMeta, withAmenities } from "@/lib/amenities-overlay";
@@ -10,6 +10,7 @@ import { PILOT_SECTION_ORDER } from "@/lib/lens";
 import { AskAreaIQ } from "@/components/AskAreaIQ";
 import { LensLayout } from "@/components/LensLayout";
 import { LocalOffers } from "@/components/LocalOffers";
+import { NearbyBusinessSearch } from "@/components/NearbyBusinessSearch";
 import { NeighborhoodPulse } from "@/components/NeighborhoodPulse";
 import { PermitActivity } from "@/components/PermitActivity";
 import { RegionSnapshotView } from "@/components/RegionSnapshotView";
@@ -65,6 +66,7 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
   }
   const area = withAmenities(withSchools(withPermits(withAcs(base))));
   const extras = acsExtras(area.id);
+  const childBrackets = acsChildBrackets(area.id);
   const permits = permitHighlights(area.id);
   const schoolSrc = schoolsMeta(area.id);
   const amenSrc = amenitiesMeta(area.id);
@@ -105,6 +107,16 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
         )}
       </Section>
     ),
+    demographics: childBrackets.length > 0 && (
+      <Section title="Children by age">
+        {childBrackets.map(({ label, metric }) => (
+          <MetricRow key={label} label={label} m={metric} />
+        ))}
+        <p className="mt-3 text-xs text-ink-3">
+          Age brackets are the Census Bureau&apos;s own breakdown, not school-stage boundaries.
+        </p>
+      </Section>
+    ),
     pulse: <NeighborhoodPulse areaId={area.id} />,
     offers: <LocalOffers areaId={area.id} />,
     amenities: (
@@ -130,6 +142,7 @@ export default function AreaReportPage({ params }: { params: { id: string } }) {
         )}
       </Section>
     ),
+    businessSearch: <NearbyBusinessSearch areaId={area.id} />,
     schools: (
       <Section title="Schools & education">
         {area.schools.map((sch) => (

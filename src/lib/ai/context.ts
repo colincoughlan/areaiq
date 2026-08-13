@@ -4,7 +4,7 @@
  */
 
 import { getArea, STATUS_LABEL } from "../areas";
-import { withAcs, acsExtras } from "../acs-overlay";
+import { withAcs, acsExtras, acsChildBrackets } from "../acs-overlay";
 import { withPermits, permitHighlights, formatUsdCompact } from "../permits-overlay";
 import { withSchools, schoolsMeta } from "../schools-overlay";
 import { withAmenities, amenitiesMeta } from "../amenities-overlay";
@@ -80,6 +80,11 @@ export function buildAreaContext(areaId: string): AreaContext | null {
 
   for (const extra of acsExtras(areaId)) {
     lines.push(`${extra.label}: ${extra.metric.value} (confidence: ${extra.metric.confidence}) ${tag(reg, extra.metric)}`);
+  }
+  for (const bracket of acsChildBrackets(areaId)) {
+    lines.push(
+      `Children ages ${bracket.label}: ${bracket.metric.value} (confidence: ${bracket.metric.confidence}) ${tag(reg, bracket.metric)}`
+    );
   }
 
   const permits = permitHighlights(areaId);

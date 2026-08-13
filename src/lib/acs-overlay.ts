@@ -86,5 +86,29 @@ export function acsExtras(
       metric: sourced(m.medianRent, formatMoney(m.medianRent) + "/mo", m),
     });
   }
+  if (m.childrenUnder18) {
+    const pct = m.childrenPct ? ` (${formatPct(m.childrenPct)} of population)` : "";
+    out.push({
+      label: "Children under 18",
+      metric: sourced(
+        m.childrenUnder18,
+        `${Math.round(m.childrenUnder18.value).toLocaleString("en-US")}${pct}`,
+        m
+      ),
+    });
+  }
   return out;
+}
+
+/** Children by Census age bracket, for family-buyer questions ("how many kids
+ * ages 6-11 live here?"). Empty array if the ACS overlay has no data. */
+export function acsChildBrackets(
+  areaId: string
+): { label: string; metric: Sourced<string> }[] {
+  const m = ACS.areas[areaId];
+  if (!m || !m.childBrackets) return [];
+  return m.childBrackets.map((b) => ({
+    label: b.label,
+    metric: sourced(b.value, Math.round(b.value.value).toLocaleString("en-US"), m),
+  }));
 }

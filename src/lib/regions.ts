@@ -60,6 +60,7 @@ export const REGIONAL_MEDIANS = {
   ownerPct: median(collect((m) => m.ownerPct)),
   medianIncome: median(collect((m) => m.medianIncome)),
   medianYearBuilt: median(collect((m) => m.medianYearBuilt)),
+  childrenPct: median(collect((m) => m.childrenPct)),
 };
 
 // ---- snapshot ----
@@ -81,6 +82,7 @@ export interface RegionSnapshot {
   highlights: string[];
   schools: NearbySchool[];
   schoolsSource: { source: string; retrievedAt: string; radiusMiles: number } | null;
+  childBrackets: { label: string; value: string; confidence: Confidence }[];
   disclaimer: string;
 }
 
@@ -119,6 +121,16 @@ export function buildRegionSnapshot(id: string): RegionSnapshot | null {
     push("Population", m.population, (d) => Math.round(d.value).toLocaleString("en-US"));
     push("Unemployment", m.unemploymentRate, (d) => `${(d.value * 100).toFixed(1)}%`);
     push("Median gross rent", m.medianRent, (d) => `${formatMoney(d)}/mo`);
+    push("Children under 18", m.childrenUnder18, (d) => Math.round(d.value).toLocaleString("en-US"));
+
+    if (m.childrenPct && REGIONAL_MEDIANS.childrenPct != null) {
+      const diff = m.childrenPct.value - REGIONAL_MEDIANS.childrenPct;
+      if (Math.abs(diff) >= 0.03) {
+        highlights.push(
+          `Children under 18 are ${fmtPctPoint(m.childrenPct.value)} of the population, ${diff > 0 ? "above" : "below"} the five-county median of ${fmtPctPoint(REGIONAL_MEDIANS.childrenPct)}.`
+        );
+      }
+    }
 
     if (m.ownerPct && REGIONAL_MEDIANS.ownerPct != null) {
       const diff = m.ownerPct.value - REGIONAL_MEDIANS.ownerPct;
@@ -151,6 +163,12 @@ export function buildRegionSnapshot(id: string): RegionSnapshot | null {
   const countyJobs = countyUnemploymentText(region.county);
   if (countyJobs) highlights.push(`${countyJobs.text}. (${countyJobs.source})`);
 
+  const childBrackets = (m?.childBrackets ?? []).map((b) => ({
+    label: b.label,
+    value: Math.round(b.value.value).toLocaleString("en-US"),
+    confidence: b.value.confidence,
+  }));
+
   return {
     region,
     tier: "coverage",
@@ -161,6 +179,7 @@ export function buildRegionSnapshot(id: string): RegionSnapshot | null {
     schoolsSource: SCHOOLS.areas[id]
       ? { source: SCHOOLS.source, retrievedAt: SCHOOLS.generatedAt, radiusMiles: SCHOOLS.radiusMiles }
       : null,
+    childBrackets,
     disclaimer: COVERAGE_DISCLAIMER,
   };
 }

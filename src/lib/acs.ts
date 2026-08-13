@@ -64,6 +64,14 @@ export const ACS_VARIABLES = [
   "B23025_003E", // civilian labor force
   "B23025_005E", // unemployed
   "B25064_001E", // median gross rent (places only)
+  "B09001_001E", // population under 18, total
+  "B09001_002E", // under 3 years
+  "B09001_003E", // 3 and 4 years
+  "B09001_004E", // 5 years
+  "B09001_005E", // 6 to 8 years
+  "B09001_006E", // 9 to 11 years
+  "B09001_007E", // 12 to 14 years
+  "B09001_008E", // 15 to 17 years
 ] as const;
 
 export type AcsVariable = (typeof ACS_VARIABLES)[number];
@@ -189,7 +197,22 @@ export interface AreaAcsMetrics {
   population?: DerivedValue;
   unemploymentRate?: DerivedValue;
   medianRent?: DerivedValue;
+  childrenUnder18?: DerivedValue;
+  childrenPct?: DerivedValue;
+  childBrackets?: { label: string; value: DerivedValue }[];
 }
+
+/** Census B09001 age brackets, in display order. Boundaries are the Census
+ * Bureau's own, not rounded to school-stage lines — honest over tidy. */
+export const CHILD_BRACKETS: { variable: AcsVariable; label: string }[] = [
+  { variable: "B09001_002E", label: "Under 3" },
+  { variable: "B09001_003E", label: "3–4 (preschool age)" },
+  { variable: "B09001_004E", label: "5 (kindergarten age)" },
+  { variable: "B09001_005E", label: "6–8" },
+  { variable: "B09001_006E", label: "9–11" },
+  { variable: "B09001_007E", label: "12–14" },
+  { variable: "B09001_008E", label: "15–17 (high school age)" },
+];
 
 export function deriveMetrics(
   g: GeoValues,
@@ -222,6 +245,10 @@ export function deriveMetrics(
     unemploymentRate:
       deriveRatio(e.B23025_005E, m.B23025_005E, e.B23025_003E, m.B23025_003E) ?? undefined,
     medianRent: single("B25064_001E"),
+    childrenUnder18: single("B09001_001E"),
+    childrenPct: deriveRatio(e.B09001_001E, m.B09001_001E, e.B01003_001E, m.B01003_001E) ?? undefined,
+    childBrackets: CHILD_BRACKETS.map((b) => ({ label: b.label, value: single(b.variable) }))
+      .filter((b): b is { label: string; value: DerivedValue } => b.value != null),
   };
 }
 

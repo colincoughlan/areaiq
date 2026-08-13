@@ -5,6 +5,7 @@ import { schoolOutcomeText } from "@/lib/outcomes-overlay";
 import { SNAPSHOT_SECTION_ORDER } from "@/lib/lens";
 import { LensLayout } from "./LensLayout";
 import { LocalOffers } from "./LocalOffers";
+import { NearbyBusinessSearch } from "./NearbyBusinessSearch";
 import { SourceTag } from "./Badges";
 
 const CONF_STYLE: Record<string, string> = {
@@ -14,7 +15,7 @@ const CONF_STYLE: Record<string, string> = {
 };
 
 export function RegionSnapshotView({ snapshot }: { snapshot: RegionSnapshot }) {
-  const { region, metrics, highlights, schools, schoolsSource } = snapshot;
+  const { region, metrics, highlights, schools, schoolsSource, childBrackets } = snapshot;
   const market = marketRows(region.id);
 
   const sections: Record<string, React.ReactNode> = {
@@ -79,6 +80,31 @@ export function RegionSnapshotView({ snapshot }: { snapshot: RegionSnapshot }) {
         </p>
       </section>
     ),
+    demographics: childBrackets.length > 0 && (
+      <section className="mt-4 rounded-xl border border-line bg-white p-6">
+        <h2 className="text-base font-bold">Children by age</h2>
+        <div className="mt-2">
+          {childBrackets.map((b) => (
+            <div
+              key={b.label}
+              className="flex items-baseline justify-between gap-3 border-b border-canvas py-2 text-sm"
+            >
+              <span className="text-ink-2">{b.label}</span>
+              <span className="flex items-baseline gap-2 font-semibold">
+                {b.value}
+                <span className={`rounded px-1.5 py-0.5 text-[10px] font-bold ${CONF_STYLE[b.confidence]}`}>
+                  {b.confidence}
+                </span>
+              </span>
+            </div>
+          ))}
+        </div>
+        <p className="mt-3 text-xs text-ink-3">
+          Source: U.S. Census {snapshot.period}. Age brackets are the Census Bureau&apos;s own
+          breakdown, not school-stage boundaries.
+        </p>
+      </section>
+    ),
     schools: schools.length > 0 && (
       <section className="mt-4 rounded-xl border border-line bg-white p-6">
         <h2 className="text-base font-bold">Schools nearby</h2>
@@ -110,6 +136,7 @@ export function RegionSnapshotView({ snapshot }: { snapshot: RegionSnapshot }) {
         )}
       </section>
     ),
+    businessSearch: <NearbyBusinessSearch areaId={region.id} />,
     cta: (
       <section className="mt-4 rounded-xl border border-line bg-white p-6 text-sm text-ink-2">
         <h2 className="text-base font-bold text-ink">Want the full picture?</h2>

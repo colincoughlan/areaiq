@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   aggregateTracts,
+  CHILD_BRACKETS,
   deriveMetrics,
   deriveRatio,
   moeToConfidence,
@@ -138,5 +139,52 @@ describe("response guards", () => {
   it("throws on empty or malformed responses", () => {
     expect(() => normalizeResponse([])).toThrow();
     expect(() => normalizeResponse([["FOO"], ["1"]])).toThrow(/NAME/);
+  });
+});
+
+const CHILD_FIXTURE: string[][] = [
+  [
+    "NAME",
+    "B01003_001E", "B01003_001M",
+    "B09001_001E", "B09001_002E", "B09001_003E", "B09001_004E",
+    "B09001_005E", "B09001_006E", "B09001_007E", "B09001_008E",
+    "B09001_001M", "B09001_002M", "B09001_003M", "B09001_004M",
+    "B09001_005M", "B09001_006M", "B09001_007M", "B09001_008M",
+    "state", "place",
+  ],
+  [
+    "Eastvale city, California",
+    "70000", "1200",
+    "21000", "3200", "2900", "1500", "4300", "4100", "2800", "2200",
+    "900", "300", "280", "200", "350", "340", "260", "220",
+    "06", "21290",
+  ],
+];
+
+describe("children by age bracket", () => {
+  it("derives total, percent of population, and all seven brackets", () => {
+    const geos = normalizeResponse(CHILD_FIXTURE);
+    const m = deriveMetrics(geos[0], { period: "ACS 2020-2024 5-year", retrievedAt: "2026-08-12" });
+
+    expect(m.childrenUnder18!.value).toBe(21000);
+    expect(m.childrenPct!.value).toBeCloseTo(21000 / 70000, 4);
+    expect(m.childBrackets).toHaveLength(CHILD_BRACKETS.length);
+    expect(m.childBrackets![0]).toMatchObject({ label: "Under 3", value: { value: 3200 } });
+    const sum = m.childBrackets!.reduce((s, b) => s + b.value.value, 0);
+    expect(sum).toBe(21000); // brackets should sum to the reported total
+  });
+
+  it("sums child-bracket counts across aggregated tracts", () => {
+    const tractFixture: string[][] = [
+      [
+        "NAME", "B09001_002E", "B09001_002M", "state", "county", "tract",
+      ],
+      ["Census Tract A", "500", "80", "06", "037", "183510"],
+      ["Census Tract B", "300", "60", "06", "037", "183620"],
+    ];
+    const geos = normalizeResponse(tractFixture);
+    const agg = aggregateTracts(geos);
+    expect(agg.estimates.B09001_002E).toBe(800);
+    expect(agg.moes.B09001_002E).toBeCloseTo(Math.sqrt(80 * 80 + 60 * 60), 5);
   });
 });
